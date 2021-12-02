@@ -1,0 +1,1644 @@
+﻿[
+  {
+    "IdMarca": "41",
+    "Modelos": [
+      {
+        "IdModelo": "131",
+        "NombreModelo": "IBIZA",
+        "Anios": [
+          {
+            "Anio": "2021",
+            "Motor": "1.6 MPI/1.0 TDI",
+            "Potencia": "100/115 HP",
+            "Aceleracion": "10.4/9.3 Seg.",
+            "VelocidadMax": "190/195 km/h",
+            "Versiones": [
+              {
+                "Nombre": "REFERENCE",
+                "RutaVideo": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/REFERENCE/Ibiza_Reference.mp4",
+                "RutaFichaTecnica": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Fichas_Tecnicas/seat-ibiza-2021.pdf",
+                "Ruta360": "https://my.matterport.com/show/?m=jLBwewdhWLZ&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "27267",
+                    "Transmision": "STD.",
+                    "PrecioContado": "$258,300.00 MXN",
+                    "PrecioLista": "$278,900.00 MXN",
+                    "Iva": "35627.58",
+                    "SubTotal": "222672.41",
+                    "Total": "258300.00"
+                  },
+                  {
+                    "IdVersion": "28174",
+                    "Transmision": "TIPTRONIC.",
+                    "PrecioContado": "$279,900.00 MXN",
+                    "PrecioLista": "$299,900.00 MXN",
+                    "Iva": "38524.1379",
+                    "SubTotal": "240775.86",
+                    "Total": "279900.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "7705",
+                    "Nombre": "Gris Mágnetico",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/REFERENCE/ibiza-reference-gris-magnetico.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ibiza/grismagnetico_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/REFERENCE/ibiza-reference-gris-magnetico.png"
+                  },
+                  {
+                    "IdColor": "4354",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/REFERENCE/ibiza-reference-blanco-nevada.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ibiza/blanconevada_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/REFERENCE/ibiza-reference-blanco-nevada.png"
+                  },
+                  {
+                    "IdColor": "7170",
+                    "Nombre": "Negro Medianoche",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/REFERENCE/Ibiza-Reference-Negro-Medianoche.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ibiza/nmedianoche_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/REFERENCE/Ibiza-Reference-Negro-Medianoche.png"
+                  },
+                  {
+                    "IdColor": "7180",
+                    "Nombre": "Plata Urbano",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/REFERENCE/Ibiza-Reference-Plata-Urbano.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ibiza/plataurbano_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/REFERENCE/Ibiza-Reference-Plata-Urbano.png"
+                  },
+                  {
+                    "IdColor": "7449",
+                    "Nombre": "Naranja Eclipse",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/REFERENCE/Ibiza-Reference-Naranja-Eclipse.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ibiza/naranjaeclipse_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/REFERENCE/Ibiza-Reference-Naranja-Eclipse.png"
+                  },
+                  {
+                    "IdColor": "8913",
+                    "Nombre": "Rojo Deseo",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/REFERENCE/Ibiza-Reference-Rojo-Deseo.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ibiza/rojodeseo_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/REFERENCE/Ibiza-Reference-Rojo-Deseo.png"
+                  },
+                  {
+                    "IdColor": "6966",
+                    "Nombre": "Azul Misterio",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/REFERENCE/Ibiza-Reference-Azul-Misterio.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ibiza/azulmisterio_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/REFERENCE/Ibiza-Reference-Azul-Misterio.png"
+                  }
+                ]
+              },
+              {
+                "Nombre": "STYLE",
+                "RutaVideo": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/STYLE/Ibiza_Style.mp4",
+                "RutaFichaTecnica": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Fichas_Tecnicas/seat-ibiza-2021.pdf",
+                "Ruta360": "https://my.matterport.com/show/?m=ZGSDDEemVdu&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "37180",
+                    "Transmision": "STD.",
+                    "PrecioContado": "$299,900.00 MXN",
+                    "PrecioLista": "$319,900.00 MXN",
+                    "Iva": "41337.931",
+                    "SubTotal": "258362.069",
+                    "Total": "299900.00"
+                  },
+                  {
+                    "IdVersion": "37292",
+                    "Transmision": "TIPTRONIC.",
+                    "PrecioContado": "$316,900.00 MXN",
+                    "PrecioLista": "$336,900.00 MXN",
+                    "Iva": "43641.3793",
+                    "SubTotal": "272758.621",
+                    "Total": "316900.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "7705",
+                    "Nombre": "Gris Mágnetico",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/STYLE/ibiza-style-gris-magnetico.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ibiza/grismagnetico_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/STYLE/ibiza-style-gris-magnetico.png"
+                  },
+                  {
+                    "IdColor": "4354",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/STYLE/ibiza-style-blanco-nevada.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ibiza/blanconevada_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/STYLE/ibiza-style-blanco-nevada.png"
+                  },
+                  {
+                    "IdColor": "289",
+                    "Nombre": "Blanco Candy",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/STYLE/ibiza-style-blanco-candy.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ibiza/blancocandy_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/STYLE/ibiza-style-blanco-candy.png"
+                  },
+                  {
+                    "IdColor": "7180",
+                    "Nombre": "Plata Urbano",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/STYLE/ibiza-style-plata-urbano.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ibiza/plataurbano_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/STYLE/ibiza-style-plata-urbano.png"
+                  },
+                  {
+                    "IdColor": "7170",
+                    "Nombre": "Negro Medianoche",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/STYLE/ibiza-style-negro-medianoche.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ibiza/nmedianoche_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/STYLE/ibiza-style-negro-medianoche.png"
+                  },
+                  {
+                    "IdColor": "7449",
+                    "Nombre": "Naranja Eclipse",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/STYLE/ibiza-style-naranja-eclipse.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ibiza/naranjaeclipse_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/STYLE/ibiza-style-naranja-eclipse.png"
+                  },
+                  {
+                    "IdColor": "6915",
+                    "Nombre": "Rojo Deseo",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/STYLE/ibiza-style-rojo-deseo.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ibiza/rojodeseo_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/STYLE/ibiza-style-rojo-deseo.png"
+                  },
+                  {
+                    "IdColor": "6966",
+                    "Nombre": "Azul Misterio",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/STYLE/ibiza-style-azul-misterio.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ibiza/azulmisterio_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/STYLE/ibiza-style-azul-misterio.png"
+                  }
+                ]
+              },
+              {
+                "Nombre": "XCELLENCE",
+                "RutaVideo": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/XCELLENCE/Ibiza_Xcellence.mp4",
+                "RutaFichaTecnica": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Fichas_Tecnicas/seat-ibiza-2021.pdf",
+                "Ruta360": "https://my.matterport.com/show/?m=5WX1L5jgbDK&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "37181",
+                    "Transmision": "STD.",
+                    "PrecioContado": "$307,990.00 MXN",
+                    "PrecioLista": "$337,990.00 MXN",
+                    "Iva": "42400",
+                    "SubTotal": "265000",
+                    "Total": "307990.00"
+                  },
+                  {
+                    "IdVersion": "37192",
+                    "Transmision": "TIPTRONIC.",
+                    "PrecioContado": "$331,900.00 MXN",
+                    "PrecioLista": "$361,900.00 MXN",
+                    "Iva": "45668.965",
+                    "SubTotal": "285431.034",
+                    "Total": "331900.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "7705",
+                    "Nombre": "Gris Mágnetico",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/XCELLENCE/ibiza-xcellence-gris-magnetico.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/grismagnetico_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/XCELLENCE/ibiza-xcellence-gris-magnetico.png"
+                  },
+                  {
+                    "IdColor": "4354",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/XCELLENCE/ibiza-xcellence-blanco-nevada.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/blanconevada_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/XCELLENCE/ibiza-xcellence-blanco-nevada.png"
+                  },
+                  {
+                    "IdColor": "7180",
+                    "Nombre": "Plata Urbano",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/XCELLENCE/ibiza-xcellence-plata-urbano.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/plataurbano_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/XCELLENCE/ibiza-xcellence-plata-urbano.png"
+                  },
+                  {
+                    "IdColor": "7170",
+                    "Nombre": "Negro Medianoche",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/XCELLENCE/ibiza-xcellence-negro-medianoche.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/nmedianoche_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/XCELLENCE/ibiza-xcellence-negro-medianoche.png"
+                  },
+                  {
+                    "IdColor": "1129",
+                    "Nombre": "Rojo Emoción",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/XCELLENCE/ibiza-xcellence-rojo-emocion.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/rojoemocion_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/XCELLENCE/ibiza-xcellence-rojo-emocion.png"
+                  }
+                ]
+              },
+              {
+                "Nombre": "FR",
+                "RutaVideo": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/FR/Ibiza_FR.mp4",
+                "RutaFichaTecnica": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Fichas_Tecnicas/seat-ibiza-2021.pdf",
+                "Ruta360": "https://my.matterport.com/show/?m=BuiAsBFXaNJ&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "37237",
+                    "Transmision": "1.6 STD.",
+                    "PrecioContado": "$341,900.00 MXN",
+                    "PrecioLista": "$371,900.00 MXN",
+                    "Iva": "47075.862",
+                    "SubTotal": "294224.138",
+                    "Total": "341900.00"
+                  },
+                  {
+                    "IdVersion": "0",
+                    "Transmision": "1.0 TSI. STD.",
+                    "PrecioContado": "$380,200.00 MXN",
+                    "PrecioLista": "$410,200.00 MXN",
+                    "Iva": "52068.9655",
+                    "SubTotal": "325431.034",
+                    "Total": "380200.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "7705",
+                    "Nombre": "Gris Mágnetico",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/FR/ibiza-fr-gris-magnetico.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/grismagnetico_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "ibiza-fr-gris-magnetico"
+                  },
+                  {
+                    "IdColor": "4354",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/FR/ibiza-fr-blanco-nevada.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/blanconevada_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "ibiza-fr-blanco-nevada"
+                  },
+                  {
+                    "IdColor": "7170",
+                    "Nombre": "Negro Medianoche",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/FR/ibiza-fr-negro-medianoche.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/nmedianoche_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "ibiza-fr-negro-medianoche"
+                  },
+                  {
+                    "IdColor": "7449",
+                    "Nombre": "Naranja Eclipse",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/FR/ibiza-fr-naranja-eclipse.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/naranjaeclipse_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "ibiza-fr-naranja-eclipse"
+                  },
+                  {
+                    "IdColor": "1129",
+                    "Nombre": "Rojo Emoción",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/FR/ibiza-fr-rojo-emocion.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/rojoemocion_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "ibiza-fr-rojo-emocion"
+                  },
+                  {
+                    "IdColor": "6966",
+                    "Nombre": "Azul Misterio",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/FR/ibiza-fr-azul-misterio.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/azulmisterio_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "ibiza-fr-azul-misterio"
+                  }
+                ]
+              }
+            ],
+            "GamaColores": [
+              {
+                "IdColor": null,
+                "Nombre": "Gris Mágnetico",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/FR/ibiza-fr-gris-magnetico.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ibiza/grismagnetico_ibiza.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "ibiza-fr-gris-magnetico"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Blanco Nevada",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/FR/ibiza-fr-blanco-nevada.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ibiza/blanconevada_ibiza.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/FR/ibiza-fr-blanco-nevada.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Negro Medianoche",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/FR/ibiza-fr-negro-medianoche.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ibiza/nmedianoche_ibiza.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/FR/ibiza-fr-negro-medianoche.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Naranja Eclipse",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/FR/ibiza-fr-naranja-eclipse.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ibiza/naranjaeclipse_ibiza.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/FR/ibiza-fr-naranja-eclipse.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Rojo Emoción",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/FR/ibiza-fr-rojo-emocion.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/rojoemocion_ibiza.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/FR/ibiza-fr-rojo-emocion.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Azul Misterio",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/FR/ibiza-fr-azul-misterio.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ibiza/azulmisterio_ibiza.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/IBIZA/FR/ibiza-fr-azul-misterio.png"
+              }
+            ],
+            "ConsumoGasolina": [
+              {
+                "Tipo": "STD. 18.5 TM 22.8 TM km/l"
+              },
+              {
+                "Tipo": "TIP. 17.3 TA"
+              }
+            ],
+            "Transmision": [
+              {
+                "Tipo": "STD. 5/6 Vel."
+              },
+              {
+                "Tipo": "TIP. 6 Vel."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "IdModelo": "1344",
+        "NombreModelo": "ARONA",
+        "Anios": [
+          {
+            "Anio": "2021",
+            "Motor": "1.6 MPI",
+            "Potencia": "110 HP",
+            "Aceleracion": "110 HP",
+            "VelocidadMax": "181 km/h",
+            "Versiones": [
+              {
+                "Nombre": "REFERENCE",
+                "RutaVideo": "",
+                "RutaFichaTecnica": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Fichas_Tecnicas/seat-arona-2021.pdf",
+                "Ruta360": "",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "37391",
+                    "Transmision": "AUT.",
+                    "PrecioContado": "$313,300.00 MXN",
+                    "PrecioLista": "$346,600.00 MXN",
+                    "Iva": "43813.7931",
+                    "SubTotal": "273836.207",
+                    "Total": "313300.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "6966",
+                    "Nombre": "Azul Misterio",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/reference/arona-reference-azul-misterio.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/azulmisterio_arona.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/reference/arona-reference-azul-misterio.png"
+                  },
+                  {
+                    "IdColor": "4354",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/REFERENCE/arona-reference-blanco-nevada.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/blanconevada_arona.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/REFERENCE/arona-reference-blanco-nevada.png"
+                  },
+                  {
+                    "IdColor": "7705",
+                    "Nombre": "Gris Mágnetico",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/reference/arona-reference-gris-magnetico.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/grismagnetico_arona.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/reference/arona-reference-gris-magnetico.png"
+                  },
+                  {
+                    "IdColor": "7180",
+                    "Nombre": "Plata Urbano",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/reference/arona-reference-plata-urbano.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/plataurbano_arona.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/reference/arona-reference-plata-urbano.png"
+                  },
+                  {
+                    "IdColor": "7170",
+                    "Nombre": "Negro Medianoche",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/reference/arona-reference-negro-medianoche.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/nmedianoche_arona.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/reference/arona-reference-negro-medianoche.png"
+                  },
+                  {
+                    "IdColor": "7449",
+                    "Nombre": "Naranja Eclipse",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/reference/arona-reference-naranja-eclipse.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/naranjaeclipse_arona.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/reference/arona-reference-naranja-eclipse.png"
+                  },
+                  {
+                    "IdColor": "8913",
+                    "Nombre": "Rojo Deseo",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/reference/Arona-Reference-Rojo-Deseo.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/rojodeseo_arona.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/reference/Arona-Reference-Rojo-Deseo.png"
+                  }
+                ]
+              },
+              {
+                "Nombre": "XCELLENCE",
+                "RutaVideo": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/Arona_Xcellence.mp4",
+                "RutaFichaTecnica": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Fichas_Tecnicas/seat-arona-2021.pdf",
+                "Ruta360": "https://my.matterport.com/show/?m=ZE1qp6kmVqo&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "37178",
+                    "Transmision": "AUT.",
+                    "PrecioContado": "$370,900.00 MXN",
+                    "PrecioLista": "$404.200.00 MXN",
+                    "Iva": "51758.6206",
+                    "SubTotal": "323491.3793",
+                    "Total": "370900.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "7599",
+                    "Nombre": "Azul Misterio con Techo Negro",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-azul-misterio-con-techo-negro.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/arona_x_amtn.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-azul-misterio-con-techo-negro.png"
+                  },
+                  {
+                    "IdColor": "8163",
+                    "Nombre": "Naranja Eclipse con Techo Gris",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-naranja-eclipse-con-techo-gris.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/arona_x_netg.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-naranja-eclipse-con-techo-gris.png"
+                  },
+                  {
+                    "IdColor": "7612",
+                    "Nombre": "Blanco Nevada con Techo Gris",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-blanco-nevada-con-techo-gris.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/arona_x_bntg.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-blanco-nevada-con-techo-gris.png"
+                  },
+                  {
+                    "IdColor": "8059",
+                    "Nombre": "Gris Mágnetico con Techo Naranja",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-gris-magnetico-con-techo-naranja.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/arona_x_gmto.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-gris-magnetico-con-techo-naranja.png"
+                  },
+                  {
+                    "IdColor": "8684",
+                    "Nombre": "Blanco Nevada con Techo Naranja",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-blanco-nevada-con-techo-naranja.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/arona_x_bnto.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-blanco-nevada-con-techo-naranja.png"
+                  },
+                  {
+                    "IdColor": "7841",
+                    "Nombre": "Blanco Nevada con Techo Negro",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-blanco-nevada-con-techo-negro.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/arona_x_bntn.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-blanco-nevada-con-techo-negro.png"
+                  },
+                  {
+                    "IdColor": "7803",
+                    "Nombre": "Gris Mágnetico con Techo Negro",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-gris-magnetico-con-techo-negro.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/arona_x_gmtn.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-gris-magnetico-con-techo-negro.png"
+                  },
+                  {
+                    "IdColor": "7802",
+                    "Nombre": "Plata Urbano con Techo Negro",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-plata-urbano-con-techo-negro.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/arona_x_putn.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-plata-urbano-con-techo-negro.png"
+                  },
+                  {
+                    "IdColor": "7856",
+                    "Nombre": "Negro Medianoche con Techo Gris",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-negro-medianoche-con-techo-gris.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/arona_x_nmtg.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-negro-medianoche-con-techo-gris.png"
+                  },
+                  {
+                    "IdColor": "7904",
+                    "Nombre": "Rojo Deseo con Techo Gris",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-rojo-deseo-con-techo-gris.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/arona_x_rdtg.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-rojo-deseo-con-techo-gris.png"
+                  },
+                  {
+                    "IdColor": "7796",
+                    "Nombre": "Rojo Deseo con Techo Negro",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-rojo-deseo-con-techo-negro.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/arona_x_rdtn.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-rojo-deseo-con-techo-negro.png"
+                  }
+                ]
+              },
+              {
+                "Nombre": "STYLE",
+                "RutaVideo": "",
+                "RutaFichaTecnica": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Fichas_Tecnicas/seat-arona-2021.pdf",
+                "Ruta360": "",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "37179",
+                    "Transmision": "AUT.",
+                    "PrecioContado": "$340,800 MXN",
+                    "PrecioLista": "$374,100.00 MXN",
+                    "Iva": "47606.8965",
+                    "SubTotal": "297543.1034",
+                    "Total": "340800.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "6966",
+                    "Nombre": "Azul Misterio",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/style/arona-style-azul-misterio.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/azulmisterio_arona.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/style/arona-style-azul-misterio.png"
+                  },
+                  {
+                    "IdColor": "4354",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/style/arona-style-blanco-nevada.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/blanconevada_arona.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/style/arona-style-blanco-nevada.png"
+                  },
+                  {
+                    "IdColor": "7180",
+                    "Nombre": "Plata Urbano",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/style/arona-style-plata-urbano.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/plataurbano_arona.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/style/arona-style-plata-urbano.png"
+                  },
+                  {
+                    "IdColor": "7705",
+                    "Nombre": "Gris Mágnetico",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/style/arona-style-gris-magnetico.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/grismagnetico_arona.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/style/arona-style-gris-magnetico.png"
+                  },
+                  {
+                    "IdColor": "7170",
+                    "Nombre": "Negro Medianoche",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/style/arona-style-negro-medianoche.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/nmedianoche_arona.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/style/arona-style-negro-medianoche.png"
+                  },
+                  {
+                    "IdColor": "7449",
+                    "Nombre": "Naranja Eclipse",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/style/arona-style-naranja-eclipse.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/naranjaeclipse_arona.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/style/arona-style-naranja-eclipse.png"
+                  },
+                  {
+                    "IdColor": "8913",
+                    "Nombre": "Rojo Deseo",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/style/arona-style-rojo-deseo.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/rojodeseo_arona.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/style/arona-style-rojo-deseo.png"
+                  }
+                ]
+              }
+            ],
+            "GamaColores": [
+              {
+                "IdColor": null,
+                "Nombre": "Azul Misterio con Techo Negro",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-azul-misterio-con-techo-negro.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/arona_x_amtn.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-azul-misterio-con-techo-negro.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Gris Mágnetico con Techo Negro",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-gris-magnetico-con-techo-negro.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/arona_x_gmtn.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-gris-magnetico-con-techo-negro.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Rojo Deseo con Techo Gris",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-rojo-deseo-con-techo-gris.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/arona_x_rdtg.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-rojo-deseo-con-techo-gris.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Gris Mágnetico con Techo Naranja",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-gris-magnetico-con-techo-naranja.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/arona_x_gmto.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-gris-magnetico-con-techo-naranja.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Blanco Nevada con Techo Gris",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-blanco-nevada-con-techo-gris.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/arona_x_bntg.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-blanco-nevada-con-techo-gris.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Blanco Nevada con Techo Naranja",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-blanco-nevada-con-techo-naranja.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/arona_x_bnto.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-blanco-nevada-con-techo-naranja.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Blanco Nevada con Techo Negro",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-blanco-nevada-con-techo-negro.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/arona_x_bntn.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-blanco-nevada-con-techo-negro.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Plata Urano con Techo Negro",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-plata-urbano-con-techo-negro.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/arona_x_putn.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-plata-urbano-con-techo-negro.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Negro Medianoche con Techo Gris",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-negro-medianoche-con-techo-gris.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/arona_x_nmtg.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-negro-medianoche-con-techo-gris.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Naranja Eclipse con Techo Gris",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-naranja-eclipse-con-techo-gris.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/arona_x_netg.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-naranja-eclipse-con-techo-gris.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Rojo Deseo con Techo Negro",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-rojo-deseo-con-techo-negro.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ARONA/arona_x_rdtn.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/arona/xcellence/arona-xcellence-rojo-deseo-con-techo-negro.png"
+              }
+            ],
+            "ConsumoGasolina": [
+              {
+                "Tipo": "AUT. 18.9 km/l"
+              }
+            ],
+            "Transmision": [
+              {
+                "Tipo": "TIP. 6 Vel."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "IdModelo": "1236",
+        "NombreModelo": "ATECA",
+        "Anios": [
+          {
+            "Anio": "2021",
+            "Motor": "1.4 MPI",
+            "Potencia": "150 HP",
+            "Aceleracion": "9 Seg.",
+            "VelocidadMax": "197 km/h",
+            "Versiones": [
+              {
+                "Nombre": "FR",
+                "RutaVideo": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/Ateca_FR.mp4",
+                "RutaFichaTecnica": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Fichas_Tecnicas/seat-ateca-2021.pdf",
+                "Ruta360": "",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "37301",
+                    "Transmision": "AUT.",
+                    "PrecioContado": "$560,900.00 MXN",
+                    "PrecioLista": "$595,900.00 MXN",
+                    "Iva": "78331.0",
+                    "SubTotal": "489568.96",
+                    "Total": "595900.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "7221",
+                    "Nombre": "Rojo Velvet",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-rojo-velvet.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/rv_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-rojo-velvet.png"
+                  },
+                  {
+                    "IdColor": "4354",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-blanco-nevada.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/bn_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-blanco-nevada.png"
+                  },
+                  {
+                    "IdColor": "7190",
+                    "Nombre": "Gris Rodio",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-gris-rodio.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/gr_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-gris-rodio.png"
+                  },
+                  {
+                    "IdColor": "8384",
+                    "Nombre": "Negro Cristal",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-negro-cristal.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/nc_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-negro-cristal.png"
+                  },
+                  {
+                    "IdColor": "7474",
+                    "Nombre": "Azul Energía",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-azul-energia.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/ae_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-azul-energia.png"
+                  }
+                ]
+              },
+              {
+                "Nombre": "STYLE",
+                "RutaVideo": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/STYLE/Ateca_Style.mp4",
+                "RutaFichaTecnica": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Fichas_Tecnicas/seat-ateca-2021.pdf",
+                "Ruta360": "https://my.matterport.com/show/?m=oaYbyx3UQ1T&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "37238",
+                    "Transmision": "AUT.",
+                    "PrecioContado": "$454,900.00 MXN",
+                    "PrecioLista": "$489,900.00 MXN",
+                    "Iva": "63710.3",
+                    "SubTotal": "398189.6",
+                    "Total": "454900.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "7221",
+                    "Nombre": "Rojo Velvet",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/STYLE/ateca-style-rojo-velvet.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/rv_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/STYLE/ateca-style-rojo-velvet.png"
+                  },
+                  {
+                    "IdColor": "4354",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/STYLE/ateca-style-blanco-nevada.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/bn_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/STYLE/ateca-style-blanco-nevada.png"
+                  },
+                  {
+                    "IdColor": "5007",
+                    "Nombre": "Plata Brillante",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/STYLE/ateca-style-plata-brillante.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/pb_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/STYLE/ateca-style-plata-brillante.png"
+                  },
+                  {
+                    "IdColor": "7190",
+                    "Nombre": "Gris Rodio",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/STYLE/ateca-style-gris-rodio.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/gr_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/STYLE/ateca-style-gris-rodio.png"
+                  },
+                  {
+                    "IdColor": "8384",
+                    "Nombre": "Negro Cristal",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/STYLE/ateca-style-negro-cristal.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/nc_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/STYLE/ateca-style-negro-cristal.png"
+                  },
+                  {
+                    "IdColor": "5010",
+                    "Nombre": "Azul Lava",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/STYLE/ateca-style-azul-lava.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/al_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/STYLE/ateca-style-azul-lava.png"
+                  }
+                ]
+              },
+              {
+                "Nombre": "XPERIENCE",
+                "RutaVideo": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/Ateca_Xperience.mp4",
+                "RutaFichaTecnica": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Fichas_Tecnicas/seat-ateca-2021.pdf",
+                "Ruta360": "https://my.matterport.com/show/?m=3DrUYeXuVc7&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "37239",
+                    "Transmision": "AUT.",
+                    "PrecioContado": "$560,900.00 MXN",
+                    "PrecioLista": "$595,900.00 MXN",
+                    "Iva": "78331.0",
+                    "SubTotal": "489569",
+                    "Total": "560900.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "7221",
+                    "Nombre": "Rojo Velvet",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-rojo-velvet.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/rv_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-rojo-velvet.png"
+                  },
+                  {
+                    "IdColor": "4354",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-blanco-nevada.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/bn_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-blanco-nevada.png"
+                  },
+                  {
+                    "IdColor": "5007",
+                    "Nombre": "Plata Brillante",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-plata-brillante.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/pb_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-plata-brillante.png"
+                  },
+                  {
+                    "IdColor": "7190",
+                    "Nombre": "Gris Rodio",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-gris-rodio.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/gr_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-gris-rodio.png"
+                  },
+                  {
+                    "IdColor": "8384",
+                    "Nombre": "Negro Cristal",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-negro-cristal.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/nc_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-negro-cristal.png"
+                  },
+                  {
+                    "IdColor": "5010",
+                    "Nombre": "Azul Lava",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-azul-lava.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/al_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-azul-lava.png"
+                  },
+                  {
+                    "IdColor": "8190",
+                    "Nombre": "Camuflaje",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-camuflaje.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/c_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-camuflaje.png"
+                  }
+                ]
+              }
+            ],
+            "GamaColores": [
+              {
+                "IdColor": null,
+                "Nombre": "Rojo Velvet",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-rojo-velvet.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/rv_ateca.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-rojo-velvet.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Blanco Nevada",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-blanco-nevada.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/bn_ateca.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-blanco-nevada.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Gris Rodio",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-gris-rodio.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/gr_ateca.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-gris-rodio.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Negro Cristal",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-negro-cristal.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/nc_ateca.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-negro-cristal.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Azul Energía",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-azul-energia.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/ae_ateca.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-azul-energia.png"
+              }
+            ],
+            "ConsumoGasolina": [
+              {
+                "Tipo": "AUT. 16.8 km/l"
+              }
+            ],
+            "Transmision": [
+              {
+                "Tipo": "AUT. 8 Vel."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "IdModelo": "1454",
+        "NombreModelo": "TARRACO",
+        "Anios": [
+          {
+            "Anio": "2021",
+            "Motor": "1.4 MPI",
+            "Potencia": "150 HP",
+            "Aceleracion": "9.4 Seg.",
+            "VelocidadMax": "199 km/h",
+            "Versiones": [
+              {
+                "Nombre": "FR",
+                "RutaVideo": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/Tarraco_FR.mp4",
+                "RutaFichaTecnica": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Fichas_Tecnicas/seat-tarraco-2021.pdf",
+                "Ruta360": "https://my.matterport.com/show/?m=zjEWUuvsZkk&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "37086",
+                    "Transmision": "DSG.",
+                    "PrecioContado": "$641,000.00 MXN",
+                    "PrecioLista": "$641,000.00 MXN",
+                    "Iva": "88413.8",
+                    "SubTotal": "552586.2",
+                    "Total": "641000.00"
+                  },
+                  {
+                    "IdVersion": "37093",
+                    "Transmision": "DSG. 3RA FILA",
+                    "PrecioContado": "$653,000.00 MXN",
+                    "PrecioLista": "$653,000.00 MXN",
+                    "Iva": "90069",
+                    "SubTotal": "562931.0",
+                    "Total": "653000.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "8478",
+                    "Nombre": "Blanco Onix",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-blanco-onyx.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_bo.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-blanco-onyx.png"
+                  },
+                  {
+                    "IdColor": "469",
+                    "Nombre": "Gris Urano",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-gris-urano.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_gu.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-gris-urano.png"
+                  },
+                  {
+                    "IdColor": "8179",
+                    "Nombre": "Negro Profundo",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-negro-profundo.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_np.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-negro-profundo.png"
+                  },
+                  {
+                    "IdColor": "8190",
+                    "Nombre": "Camuflaje",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-camuflaje.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_c.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-camuflaje.png"
+                  }
+                ]
+              },
+              {
+                "Nombre": "STYLE",
+                "RutaVideo": "",
+                "RutaFichaTecnica": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Fichas_Tecnicas/seat-tarraco-2021.pdf",
+                "Ruta360": "",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "37023",
+                    "Transmision": "DSG.",
+                    "PrecioContado": "$536,400.00 MXN",
+                    "PrecioLista": "$536,400.00 MXN",
+                    "Iva": "73986.2",
+                    "SubTotal": "462414",
+                    "Total": "536400.00"
+                  },
+                  {
+                    "IdVersion": "37043",
+                    "Transmision": "DSG. 3RA FILA",
+                    "PrecioContado": "$548,400.00 MXN",
+                    "PrecioLista": "$548,400.00 MXN",
+                    "Iva": "75641.3",
+                    "SubTotal": "472758.6",
+                    "Total": "548400.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "8478",
+                    "Nombre": "Blanco Onix",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/STYLE/tarraco-style--blanco-onyx.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_bo.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/STYLE/tarraco-style--blanco-onyx.png"
+                  },
+                  {
+                    "IdColor": "8180",
+                    "Nombre": "Gris Indio",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/STYLE/tarraco-style-gris-indio.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_gi.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/STYLE/tarraco-style-gris-indio.png"
+                  },
+                  {
+                    "IdColor": "469",
+                    "Nombre": "Gris Urano",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/STYLE/tarraco-style-gris-urano.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_gu.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/STYLE/tarraco-style-gris-urano.png"
+                  },
+                  {
+                    "IdColor": "5007",
+                    "Nombre": "Plata Brillante",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/STYLE/tarraco-style-plata-brillante.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_pb.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/STYLE/tarraco-style-plata-brillante.png"
+                  },
+                  {
+                    "IdColor": "8179",
+                    "Nombre": "Negro Profundo",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/STYLE/tarraco-style-negro-profundo.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_np.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/STYLE/tarraco-style-negro-profundo.png"
+                  },
+                  {
+                    "IdColor": "8219",
+                    "Nombre": "Azul Atlántico",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/STYLE/tarraco-style-azul-atlantico.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_aa.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/STYLE/tarraco-style-azul-atlantico.png"
+                  }
+                ]
+              },
+              {
+                "Nombre": "XCELLENCE",
+                "RutaVideo": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/Tarraco_Xcellence.mp4",
+                "RutaFichaTecnica": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Fichas_Tecnicas/seat-tarraco-2021.pdf",
+                "Ruta360": "https://my.matterport.com/show/?m=5WDakTiZyL8&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "0",
+                    "Transmision": "DSG.",
+                    "PrecioContado": "$611,000.00 MXN",
+                    "PrecioLista": "$611,000.00 MXN",
+                    "Iva": "84275.8",
+                    "SubTotal": "526724.13",
+                    "Total": "611000.00"
+                  },
+                  {
+                    "IdVersion": "37020",
+                    "Transmision": "DSG. PLUS",
+                    "PrecioContado": "$646,000.00 MXN",
+                    "PrecioLista": "$646,000.00 MXN",
+                    "Iva": "89103.44",
+                    "SubTotal": "556896.55",
+                    "Total": "646000.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "8478",
+                    "Nombre": "Blanco Onix",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-blanco-onyx.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_bo.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-blanco-onyx.png"
+                  },
+                  {
+                    "IdColor": "8261",
+                    "Nombre": "Beige Titanio",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-beige-titanio.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_bt.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-beige-titanio.png"
+                  },
+                  {
+                    "IdColor": "8180",
+                    "Nombre": "Gris Indio",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-gris-indio.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_gi.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-gris-indio.png"
+                  },
+                  {
+                    "IdColor": "469",
+                    "Nombre": "Gris Urano",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-gris-urano.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_gu.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-gris-urano.png"
+                  },
+                  {
+                    "IdColor": "5007",
+                    "Nombre": "Plata Brillante",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-plata-brillante.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_pb.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-plata-brillante.png"
+                  },
+                  {
+                    "IdColor": "8179",
+                    "Nombre": "Negro Profundo",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-negro-profundo.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_np.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-negro-profundo.png"
+                  },
+                  {
+                    "IdColor": "8219",
+                    "Nombre": "Azul Atlántico",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-azul-atlantico.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_aa.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-azul-atlantico.png"
+                  },
+                  {
+                    "IdColor": "8190",
+                    "Nombre": "Camuflaje",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-camuflaje.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_c.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-camuflaje.png"
+                  }
+                ]
+              }
+            ],
+            "GamaColores": [
+              {
+                "IdColor": null,
+                "Nombre": "Blanco Onix",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-blanco-onyx.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_bo.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-blanco-onyx.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Gris Urano",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-gris-urano.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_gu.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-gris-urano.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Negro Profundo",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-negro-profundo.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_np.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-negro-profundo.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Camuflaje",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-camuflaje.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_c.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-camuflaje.png"
+              }
+            ],
+            "ConsumoGasolina": [
+              {
+                "Tipo": "DSG. 15.6 km/l"
+              }
+            ],
+            "Transmision": [
+              {
+                "Tipo": "DSG. 6 Vel."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IdMarca": "0",
+    "Modelos": [
+      {
+        "IdModelo": "1236",
+        "NombreModelo": "ATECA",
+        "Anios": [
+          {
+            "Anio": "2020",
+            "Motor": "2.0 TSI",
+            "Potencia": "300 HP",
+            "Aceleracion": "",
+            "VelocidadMax": "247 KM/H",
+            "Versiones": [
+              {
+                "Nombre": "ATECA CUPRA",
+                "RutaVideo": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/ateca36034.mp4",
+                "RutaFichaTecnica": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/fichatecnica36034.jpg",
+                "Ruta360": "https://my.matterport.com/show/?m=33GkwyT4dtU&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "",
+                    "Transmision": "7 VELOCIDADES DSG",
+                    "PrecioContado": "",
+                    "PrecioLista": "$707,212.00 MXN",
+                    "Iva": "",
+                    "SubTotal": "",
+                    "Total": ""
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "",
+                    "Nombre": "Rojo Velvet",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/rojovelvet36034.jpg",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/rojovelvet36034.jpg",
+                    "RutaLocalMini": "rojovelvetmini36034",
+                    "RutaLocal": "rojovelvet36034"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Negro Cristal",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/negrocristal36034.jpg",
+                    "RutaMini": "",
+                    "RutaLocalMini": "negrocristalmini36034",
+                    "RutaLocal": "negrocristal36034"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/blanconevada36034.jpg",
+                    "RutaMini": "",
+                    "RutaLocalMini": "blanconevadamini36034",
+                    "RutaLocal": "blanconevada36034"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Gris Rodio",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/grisrodio36034.jpg",
+                    "RutaMini": "",
+                    "RutaLocalMini": "grisrodiomini36034",
+                    "RutaLocal": "grisrodio36034"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Azul Energía",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/azulenergia36034.jpg",
+                    "RutaMini": "",
+                    "RutaLocalMini": "azulenergiamini36034",
+                    "RutaLocal": "azulenergia36034"
+                  }
+                ],
+                "Accesorios": [
+                  {
+                    "Concepto": "Rin 19' Aluminio en Copper",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/rin36034.jpg",
+                    "RutaLocal": "rin36034",
+                    "SubTotal": "8275.86",
+                    "Iva": "1324.14",
+                    "Total": "9600.00"
+                  }
+                ]
+              },
+              {
+                "Nombre": "LIMITED EDITION",
+                "RutaVideo": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/ateca1.mp4",
+                "RutaFichaTecnica": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/fichatecnica1.jpg",
+                "Ruta360": "https://my.matterport.com/show/?m=33GkwyT4dtU&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "",
+                    "Transmision": "7 VELOCIDADES DSG",
+                    "PrecioContado": "",
+                    "PrecioLista": "",
+                    "Iva": "",
+                    "SubTotal": "",
+                    "Total": ""
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "",
+                    "Nombre": "Rojo Velvet",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/rojovelvet1.jpg",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/rojovelvet1.jpg",
+                    "RutaLocalMini": "rojovelvetmini1",
+                    "RutaLocal": "rojovelvet1"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Negro Cristal",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/negrocristal1.jpg",
+                    "RutaMini": "",
+                    "RutaLocalMini": "negrocristalmini1",
+                    "RutaLocal": "negrocristal1"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/blanconevada1.jpg",
+                    "RutaMini": "",
+                    "RutaLocalMini": "blanconevadamini1",
+                    "RutaLocal": "blanconevada1"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Gris Rodio",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/grisrodio1.jpg",
+                    "RutaMini": "",
+                    "RutaLocalMini": "grisrodiomini1",
+                    "RutaLocal": "grisrodio1"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Azul Energía",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/azulenergia1.jpg",
+                    "RutaMini": "",
+                    "RutaLocalMini": "azulenergiamini1",
+                    "RutaLocal": "azulenergia1"
+                  }
+                ],
+                "Accesorios": [
+                  {
+                    "Concepto": "Rin 19' Aluminio en Copper",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/rin36034.jpg",
+                    "RutaLocal": "rin36034",
+                    "SubTotal": "8275.86",
+                    "Iva": "1324.14",
+                    "Total": "9600.00"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "IdModelo": "141",
+        "NombreModelo": "LEÓN CUPRA",
+        "Anios": [
+          {
+            "Anio": "2020",
+            "Motor": "2.0 TSI",
+            "Potencia": "290 HP",
+            "Aceleracion": "",
+            "VelocidadMax": "250 KM/H",
+            "Versiones": [
+              {
+                "Nombre": "LEÓN CUPRA",
+                "RutaVideo": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/leon35731.mp4",
+                "RutaFichaTecnica": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/fichatecnica35731.jpg",
+                "Ruta360": "https://my.matterport.com/show/?m=3Kc7y7ebGRr&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "",
+                    "Transmision": "6 VELOCIDADES DSG",
+                    "PrecioContado": "",
+                    "PrecioLista": "$538,000.00 MXN",
+                    "Iva": "",
+                    "SubTotal": "",
+                    "Total": ""
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "",
+                    "Nombre": "Negro Medianoche",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/negromedianoche35731.jpg",
+                    "RutaMini": "",
+                    "RutaLocalMini": "negromedianochemini35731",
+                    "RutaLocal": "negromedianoche35731"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/blanconevada35731.jpg",
+                    "RutaMini": "",
+                    "RutaLocalMini": "blanconevadamini35731",
+                    "RutaLocal": "blanconevada35731"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Plata urbano",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/plataurbano35731.jpg",
+                    "RutaMini": "",
+                    "RutaLocalMini": "plataurbanomini35731",
+                    "RutaLocal": "plataurbano35731"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Gris Magnético",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/grismagnetico35731.jpg",
+                    "RutaMini": "",
+                    "RutaLocalMini": "grismagneticomini35731",
+                    "RutaLocal": "grismagnetico35731"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Rojo Emoción",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/rojoemocion35731.jpg",
+                    "RutaMini": "",
+                    "RutaLocalMini": "rojoemocionmini35731",
+                    "RutaLocal": "rojoemocion35731"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Azul Misterio",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/azulmisterio35731.jpg",
+                    "RutaMini": "",
+                    "RutaLocalMini": "azulmisteriomini35731",
+                    "RutaLocal": "azulmisterio35731"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Rojo Deseo",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/rojodeseo35731.jpg",
+                    "RutaMini": "",
+                    "RutaLocalMini": "rojodeseomini35731",
+                    "RutaLocal": "rojodeseo35731"
+                  }
+                ],
+                "Accesorios": [
+                  {
+                    "Concepto": "Rin 19' Aluminio en Copper",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/rin36034.jpg",
+                    "RutaLocal": "rin36034",
+                    "SubTotal": "8275.86",
+                    "Iva": "1324.14",
+                    "Total": "9600.00"
+                  }
+                ]
+              },
+              {
+                "Nombre": "SPECIAL EDITION",
+                "RutaVideo": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/leon36389.mp4",
+                "RutaFichaTecnica": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/fichatecnica36389.jpg",
+                "Ruta360": "https://my.matterport.com/show/?m=qvBWxF5WAPq&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "",
+                    "Transmision": "6 VELOCIDADES DSG",
+                    "PrecioContado": "",
+                    "PrecioLista": "$617,900.00 MXN",
+                    "Iva": "",
+                    "SubTotal": "",
+                    "Total": ""
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "",
+                    "Nombre": "Negro Medianoche",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/negromedianoche36389.jpg",
+                    "RutaMini": "",
+                    "RutaLocalMini": "negromedianochemini36389",
+                    "RutaLocal": "negromedianoche36389"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/blanconevada36389.jpg",
+                    "RutaMini": "",
+                    "RutaLocalMini": "blanconevadamini36389",
+                    "RutaLocal": "blanconevada36389"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Plata urbano",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/plataurbano36389.jpg",
+                    "RutaMini": "",
+                    "RutaLocalMini": "plataurbanomini36389",
+                    "RutaLocal": "plataurbano36389"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Gris Magnético",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/grismagnetico36389.jpg",
+                    "RutaMini": "",
+                    "RutaLocalMini": "grismagneticomini36389",
+                    "RutaLocal": "grismagnetico36389"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

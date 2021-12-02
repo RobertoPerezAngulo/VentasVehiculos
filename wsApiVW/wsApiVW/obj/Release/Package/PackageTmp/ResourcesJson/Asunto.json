@@ -1,0 +1,89 @@
+[	
+{
+		"IdAsunto": "1",
+		"IdEstado": "1",
+		"Descripcion": "PEDIDO RECIBIDO"
+},
+{
+		"IdAsunto": "2",
+		"IdEstado": "2",
+		"Descripcion": "VALIDANDO PAGO"
+},
+{
+		"IdAsunto": "3",
+		"IdEstado": "3",
+		"Descripcion": "PAGO RECIBIDO"
+},
+{
+		"IdAsunto": "4",
+		"IdEstado": "4",
+		"Descripcion": "PRUEBA AGENDADA"
+},
+{
+		"IdAsunto": "5",
+		"IdEstado": "5",
+		"Descripcion": "DATOS FACTURA"
+},
+{
+		"IdAsunto": "6",
+		"IdEstado": "6",
+		"Descripcion": "DOCUMENTACIÓN"
+},
+{
+		"IdAsunto": "7",
+		"IdEstado": "7",
+		"Descripcion": "EN VALIDACIÓN"
+},
+{
+		"IdAsunto": "8",
+		"IdEstado": "8",
+		"Descripcion": "FACTURA GENERADA"
+},
+{
+		"IdAsunto": "9",
+		"IdEstado": "9",
+		"Descripcion": "VALIDANDO PAGO"
+},
+{
+		"IdAsunto": "10",
+		"IdEstado": "10",
+		"Descripcion": "FACTURA LIQUIDADA"
+},
+{
+		"IdAsunto": "11",
+		"IdEstado": "11",
+		"Descripcion": "Asegura tu CUPRA."
+},
+
+{
+		"IdAsunto": "50",
+		"IdEstado": "12",
+		"Descripcion": "CUPRA en bodega."
+},
+{
+		"IdAsunto": "51",
+		"IdEstado": "12",
+		"Descripcion": "Tu CUPRA llegó."
+},
+{
+		"IdAsunto": "52",
+		"IdEstado": "12",
+		"Descripcion": "EN PREPARACIÓN"
+},
+{
+		"IdAsunto": "53",
+		"IdEstado": "12",
+		"Descripcion": "TU CUPRA ESTÁ LISTO"
+},
+{
+		"IdAsunto": "13",
+		"IdEstado": "13",
+		"Descripcion": "CUPRA EN CAMINO"
+},
+{
+		"IdAsunto": "15",
+		"IdEstado": "15",
+		"Descripcion": "PEDIDO LIBERADO"
+}
+
+]

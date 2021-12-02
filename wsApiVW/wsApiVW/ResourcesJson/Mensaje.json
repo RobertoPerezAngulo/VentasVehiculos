@@ -1,0 +1,78 @@
+[
+	{
+		"IdAsunto": "1",
+		"Descripcion": "Hemos recibido tu pedido."
+	},
+	{
+		"IdAsunto": "1",
+		"Descripcion": "Carga nuevamente tu pago."
+	},
+	{
+		"IdAsunto": "2",
+		"Descripcion": "Estamos validando tu pago."
+	},
+	{
+		"IdAsunto": "3",
+		"Descripcion": "Agendar prueba de manejo."
+	},
+	{
+		"IdAsunto": "4",
+		"Descripcion": "Prueba programada."
+	},
+	{
+		"IdAsunto": "5",
+		"Descripcion": "Ingresa datos de factura."
+	},
+	{
+		"IdAsunto": "6",
+		"Descripcion": "Carga tus documentos."
+	},
+	{
+		"IdAsunto": "6",
+		"Descripcion": "Carga nuevamente tus documentos."
+	},
+	{
+		"IdAsunto": "7",
+		"Descripcion": "Validando tus documentos."
+	},
+	{
+		"IdAsunto": "8",
+		"Descripcion": "Hemos facturado tu CUPRA."
+	},
+	{
+		"IdAsunto": "9",
+		"Descripcion": "Validando tu liquidación."
+	},
+	{
+		"IdAsunto": "10",
+		"Descripcion": "Haz liquidado tu CUPRA."
+	},
+	{
+		"IdAsunto": "11",
+		"Descripcion": "Asegura tu CUPRA."
+	},
+	{
+		"IdAsunto": "50",
+		"Descripcion": "Máximo de llegada 3 días hábiles."
+	},
+	{
+		"IdAsunto": "51",
+		"Descripcion": "Tiempo de preparación 2 días hábiles."
+	},
+	{
+		"IdAsunto": "52",
+		"Descripcion": "Máximo preparación 2 días hábiles."
+	},
+	{
+		"IdAsunto": "53",
+		"Descripcion": "Programa tu entrega en la sección Mi CUPRA."
+	},
+	{
+		"IdAsunto": "13",
+		"Descripcion": "Esperamos tu confirmación."
+	},
+	{
+		"IdAsunto": "15",
+		"Descripcion": "Inicia nuevamente tu apartado."
+	}
+]

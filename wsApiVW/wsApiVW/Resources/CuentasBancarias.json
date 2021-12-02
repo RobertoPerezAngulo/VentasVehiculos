@@ -1,0 +1,542 @@
+﻿[
+  {
+    "IdAgencia": "12",
+    "DatosBancarios": [
+      {
+        "RazonSocial": "FURIA MOTORS MONTERREY, S.A. DE C.V.",
+        "Ubicacion": "AV. LAZARO CARDENAS NO. 2270, COL. VALLE ORIENTE, C.P. 66269",
+        "CuentasBancarias": [
+          {
+            "Banco": "BBVA",
+            "NombreLogo": "bbva.png",
+            "NumeroCuenta": "0454245873",
+            "ClabeInterbancaria": "01218000452458736"
+          },
+          {
+            "Banco": "CitiBanamex",
+            "NombreLogo": "citibanamex.png",
+            "NumeroCuenta": "0002231",
+            "ClabeInterbancaria": "002580486400022319"
+          },
+          {
+            "Banco": "Scotiabank",
+            "NombreLogo": "scotiabank.png",
+            "NumeroCuenta": "103637255",
+            "ClabeInterbancaria": "044180001036372551"
+          },
+          {
+            "Banco": "Banorte",
+            "NombreLogo": "banorte.png",
+            "NumeroCuenta": "0676595633",
+            "ClabeInterbancaria": "072180006765956338"
+          },
+          {
+            "Banco": "Banco del bajío",
+            "NombreLogo": "bancodelbajio.png",
+            "NumeroCuenta": "0148046600201",
+            "ClabeInterbancaria": "030180900006558795"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IdAgencia": "27",
+    "DatosBancarios": [
+      {
+        "RazonSocial": "Cresta del Valle, S.A. de C.V.",
+        "Ubicacion": "Av. División del Norte #1917 Col. R. Emperadores",
+        "CuentasBancarias": [
+          {
+            "Banco": "BBVA",
+            "NombreLogo": "bbva.png",
+            "NumeroCuenta": "0132119684",
+            "ClabeInterbancaria": "012180001321196843"
+          },
+          {
+            "Banco": "CitiBanamex",
+            "NombreLogo": "citibanamex.png",
+            "NumeroCuenta": "7683966",
+            "ClabeInterbancaria": "002180039576839665"
+          },
+          {
+            "Banco": "Banorte",
+            "NombreLogo": "banorte.png",
+            "NumeroCuenta": "0583334305",
+            "ClabeInterbancaria": "072180005833343052"
+          },
+          {
+            "Banco": "Santander",
+            "NombreLogo": "santander.png",
+            "NumeroCuenta": "51908141603",
+            "ClabeInterbancaria": "014180519081416036"
+          },
+          {
+            "Banco": "Scotiabank",
+            "NombreLogo": "scotiabank.png",
+            "NumeroCuenta": "00104493338",
+            "ClabeInterbancaria": "044180001044933380"
+          },
+          {
+            "Banco": "BAM",
+            "NombreLogo": "bam.png",
+            "NumeroCuenta": "1694",
+            "ClabeInterbancaria": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IdAgencia": "28",
+    "DatosBancarios": [
+      {
+        "RazonSocial": "Cresta Iztapalapa, S.A. de C.V.",
+        "Ubicacion": "Av. Javier Rojo Gómez No. 472, Esq. Eje 6 Sur C.P. 09367 Del. Iztapalapa, México, D.F.",
+        "CuentasBancarias": [
+          {
+            "Banco": "BBVA",
+            "NombreLogo": "bbva.png",
+            "NumeroCuenta": "045104136-3",
+            "ClabeInterbancaria": "01218000451041363-5"
+          },
+          {
+            "Banco": "CitiBanamex",
+            "NombreLogo": "citibanamex.png",
+            "NumeroCuenta": "23854-65",
+            "ClabeInterbancaria": "00218000650023854-0"
+          },
+          {
+            "Banco": "Banorte",
+            "NombreLogo": "banorte.png",
+            "NumeroCuenta": "0678633968",
+            "ClabeInterbancaria": "07218000678633968-8"
+          },
+          {
+            "Banco": "Santander",
+            "NombreLogo": "santander.png",
+            "NumeroCuenta": "65-50161960-7",
+            "ClabeInterbancaria": "01418065501619607-8"
+          },
+          {
+            "Banco": "Scotiabank",
+            "NombreLogo": "scotiabank.png",
+            "NumeroCuenta": "00102021277",
+            "ClabeInterbancaria": "04418000102021277-9"
+          },
+          {
+            "Banco": "BAM",
+            "NombreLogo": "bam.png",
+            "NumeroCuenta": "1856",
+            "ClabeInterbancaria": "12818000000001856-4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IdAgencia": "44",
+    "DatosBancarios": [
+      {
+        "RazonSocial": "Cresta Narvarte S.A. de C.V.",
+        "Ubicacion": "Av. Cuauhtémoc 548, Col. Narvarte Poniente, Deleg. Benito Juárez, C.P. 03020, Ciudad de México",
+        "CuentasBancarias": [
+          {
+            "Banco": "BBVA",
+            "NombreLogo": "bbva.png",
+            "NumeroCuenta": "0160110337",
+            "ClabeInterbancaria": "012 180 001601 10337 8"
+          },
+          {
+            "Banco": "CitiBanamex",
+            "NombreLogo": "citibanamex.png",
+            "NumeroCuenta": "236/7117144",
+            "ClabeInterbancaria": " 002 180 023671171441 1"
+          },
+          {
+            "Banco": "Banorte",
+            "NombreLogo": "banorte.png",
+            "NumeroCuenta": "0676595576",
+            "ClabeInterbancaria": "072 180 00676595576-6"
+          },
+          {
+            "Banco": "Santander",
+            "NombreLogo": "santander.png",
+            "NumeroCuenta": "655022",
+            "ClabeInterbancaria": "014 180 65502244963 8"
+          },
+          {
+            "Banco": "Scotiabank",
+            "NombreLogo": "scotiabank.png",
+            "NumeroCuenta": "2649306",
+            "ClabeInterbancaria": "044 180 00102649306 8"
+          },
+          {
+            "Banco": "BAM",
+            "NombreLogo": "bam.png",
+            "NumeroCuenta": "127736",
+            "ClabeInterbancaria": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IdAgencia": "29",
+    "DatosBancarios": [
+      {
+        "RazonSocial": "Cresta Morelos S.A. de C.V.",
+        "Ubicacion": "Entronque Galeana-Zacatepec s/n, C.P. 62780, en Zacatepec de Hidalgo, Morelos",
+        "CuentasBancarias": [
+          {
+            "Banco": "BBVA",
+            "NombreLogo": "bbva.png",
+            "NumeroCuenta": "0444082184",
+            "ClabeInterbancaria": "012 180 00 44 40821847"
+          },
+          {
+            "Banco": "CitiBanamex",
+            "NombreLogo": "citibanamex.png",
+            "NumeroCuenta": "1617904",
+            "ClabeInterbancaria": "002 544 02 48 16179047"
+          },
+          {
+            "Banco": "Banorte",
+            "NombreLogo": "banorte.png",
+            "NumeroCuenta": "0672 080186",
+            "ClabeInterbancaria": "072 180 00 67 20801868"
+          },
+          {
+            "Banco": "Santander",
+            "NombreLogo": "santander.png",
+            "NumeroCuenta": "65 50162239 4",
+            "ClabeInterbancaria": "014 544 65 50 16223943"
+          },
+          {
+            "Banco": "Scotiabank",
+            "NombreLogo": "scotiabank.png",
+            "NumeroCuenta": "00 103637271",
+            "ClabeInterbancaria": "044 180 00 10 36372713"
+          },
+          {
+            "Banco": "BAM",
+            "NombreLogo": "bam.png",
+            "NumeroCuenta": "34452",
+            "ClabeInterbancaria": "128 180 00 00 00344526"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IdAgencia": "26",
+    "DatosBancarios": [
+      {
+        "RazonSocial": "Cresta Cuernavaca, S.A. de C.V.",
+        "Ubicacion": "Emiliano Zapata No. 600, Tlaltenango, C.P. 62170, en Cuernavaca, Morelos.",
+        "CuentasBancarias": [
+          {
+            "Banco": "BBVA",
+            "NombreLogo": "bbva.png",
+            "NumeroCuenta": " 015 0588 156",
+            "ClabeInterbancaria": "0121 8000 1505 8815 63"
+          },
+          {
+            "Banco": "CitiBanamex",
+            "NombreLogo": "citibanamex.png",
+            "NumeroCuenta": "107 0353 322",
+            "ClabeInterbancaria": "0025 4001 0703 5332 25"
+          },
+          {
+            "Banco": "Banorte",
+            "NombreLogo": "banorte.png",
+            "NumeroCuenta": "067 2080 195",
+            "ClabeInterbancaria": "0721 8000 6720 8019 52"
+          },
+          {
+            "Banco": "Scotiabank",
+            "NombreLogo": "scotiabank.png",
+            "NumeroCuenta": "010 5513 023",
+            "ClabeInterbancaria": "0441 8000 1055 1302 37"
+          },
+          {
+            "Banco": "BAM",
+            "NombreLogo": "bam.png",
+            "NumeroCuenta": "0000 0034 436",
+            "ClabeInterbancaria": "1281 8000 0000 3443 64"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IdAgencia": "24",
+    "DatosBancarios": [
+      {
+        "RazonSocial": "Cresta Cuautla, S.A. DE C.V.",
+        "Ubicacion": "AV. Reforma 999, Col. Cuautlixco. C.P. 62740, Cuautla Morelos",
+        "CuentasBancarias": [
+          {
+            "Banco": "BBVA",
+            "NombreLogo": "bbva.png",
+            "NumeroCuenta": " 045 473 437 8",
+            "ClabeInterbancaria": "0 12 180 004 547 343 781"
+          },
+          {
+            "Banco": "CitiBanamex",
+            "NombreLogo": "citibanamex.png",
+            "NumeroCuenta": "22483",
+            "ClabeInterbancaria": "002 542 409 700 224 832"
+          },
+          {
+            "Banco": "Banorte",
+            "NombreLogo": "banorte.png",
+            "NumeroCuenta": "067 659 556 7",
+            "ClabeInterbancaria": "072 180 006 765 955 672"
+          },
+          {
+            "Banco": "Santander",
+            "NombreLogo": "santander.png",
+            "NumeroCuenta": "655 016 214 31",
+            "ClabeInterbancaria": "014 542 655 016 214 310"
+          },
+          {
+            "Banco": "Scotiabank",
+            "NombreLogo": "scotiabank.png",
+            "NumeroCuenta": "001 055 129 59",
+            "ClabeInterbancaria": "044 180 001 055 129 594"
+          },
+          {
+            "Banco": "BAM",
+            "NombreLogo": "bam.png",
+            "NumeroCuenta": "32468",
+            "ClabeInterbancaria": "128 180 000 000 324 685"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IdAgencia": "25",
+    "DatosBancarios": [
+      {
+        "RazonSocial": "CRESTA FURIA ACAPULCO, S.A. DE C.V.",
+        "Ubicacion": "RUBEN FIGUEROA No. 714, COL. FARALLON, C.P. 39690",
+        "CuentasBancarias": [
+          {
+            "Banco": "BBVA",
+            "NombreLogo": "bbva.png",
+            "NumeroCuenta": "0136884385",
+            "ClabeInterbancaria": "012180001368843858"
+          },
+          {
+            "Banco": "CitiBanamex",
+            "NombreLogo": "citibanamex.png",
+            "NumeroCuenta": "456 / 6433",
+            "ClabeInterbancaria": "002180045600064332"
+          },
+          {
+            "Banco": "Scotiabank",
+            "NombreLogo": "scotiabank.png",
+            "NumeroCuenta": "00101090673",
+            "ClabeInterbancaria": "044180001010906736"
+          },
+          {
+            "Banco": "BAM",
+            "NombreLogo": "bam.png",
+            "NumeroCuenta": "32457",
+            "ClabeInterbancaria": "128180000000324575"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IdAgencia": "36",
+    "DatosBancarios": [
+      {
+        "RazonSocial": "FURIA MOTORS MEXICO, S.A. DE C.V.",
+        "Ubicacion": "AV. DIVISIÓN DEL NORTE 1917, RESIDENCIAL EMPERADORES, D.F., C.P. 03320",
+        "CuentasBancarias": [
+          {
+            "Banco": "BBVA",
+            "NombreLogo": "bbva.png",
+            "NumeroCuenta": "0453809714",
+            "ClabeInterbancaria": "012180004538097143"
+          },
+          {
+            "Banco": "CitiBanamex",
+            "NombreLogo": "citibanamex.png",
+            "NumeroCuenta": "3957680576",
+            "ClabeInterbancaria": "002180039576805767"
+          },
+          {
+            "Banco": "Santander",
+            "NombreLogo": "santander.png",
+            "NumeroCuenta": "65501622090",
+            "ClabeInterbancaria": "014180655016220902"
+          },
+          {
+            "Banco": "Scotiabank",
+            "NombreLogo": "scotiabank.png",
+            "NumeroCuenta": "00106903649",
+            "ClabeInterbancaria": "044180001069036495"
+          },
+          {
+            "Banco": "Banorte",
+            "NombreLogo": "banorte.png",
+            "NumeroCuenta": "0650203321",
+            "ClabeInterbancaria": "072180006502033210"
+          },
+          {
+            "Banco": "BAM",
+            "NombreLogo": "bam.png",
+            "NumeroCuenta": "1805",
+            "ClabeInterbancaria": "128180000000018056"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IdAgencia": "35",
+    "DatosBancarios": [
+      {
+        "RazonSocial": "CRESTA FURIA ACAPULCO, S.A. DE C.V.",
+        "Ubicacion": "RUBEN FIGUEROA No. 714, COL. FARALLON, C.P. 39690",
+        "CuentasBancarias": [
+          {
+            "Banco": "BBVA",
+            "NombreLogo": "bbva.png",
+            "NumeroCuenta": "0136884385",
+            "ClabeInterbancaria": "012180001368843858"
+          },
+          {
+            "Banco": "CitiBanamex",
+            "NombreLogo": "citibanamex.png",
+            "NumeroCuenta": "456 / 6433",
+            "ClabeInterbancaria": "002180045600064332"
+          },
+          {
+            "Banco": "Santander",
+            "NombreLogo": "santander.png",
+            "NumeroCuenta": "65501622440",
+            "ClabeInterbancaria": "014261655016224403"
+          },
+          {
+            "Banco": "Scotiabank",
+            "NombreLogo": "scotiabank.png",
+            "NumeroCuenta": "00101090673",
+            "ClabeInterbancaria": "044180001010906736"
+          },
+          {
+            "Banco": "Banorte",
+            "NombreLogo": "banorte.png",
+            "NumeroCuenta": "0672080177",
+            "ClabeInterbancaria": "072180006720801774"
+          },
+          {
+            "Banco": "BAM",
+            "NombreLogo": "bam.png",
+            "NumeroCuenta": "32457",
+            "ClabeInterbancaria": "128180000000324575"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IdAgencia": "81",
+    "DatosBancarios": [
+      {
+        "RazonSocial": "Clase Automotriz Acapulco, S.A. DE C.V.",
+        "Ubicacion": "Rubén Figueroa 714, Farallon, 39690 Acapulco de Juárez, Gro.",
+        "CuentasBancarias": [
+          {
+            "Banco": "BBVA",
+            "NombreLogo": "bbva.png",
+            "NumeroCuenta": "0151168940",
+            "ClabeInterbancaria": "012180001511689403"
+          },
+          {
+            "Banco": "CitiBanamex",
+            "NombreLogo": "citibanamex.png",
+            "NumeroCuenta": "456/70352",
+            "ClabeInterbancaria": "002180045600703525"
+          },
+          {
+            "Banco": "Banorte",
+            "NombreLogo": "banorte.png",
+            "NumeroCuenta": "0676595615",
+            "ClabeInterbancaria": "072180006765956150"
+          },
+          {
+            "Banco": "Santander",
+            "NombreLogo": "santander.png",
+            "NumeroCuenta": "92000587042",
+            "ClabeInterbancaria": "014261920005870425"
+          },
+          {
+            "Banco": "BAM",
+            "NombreLogo": "bam.png",
+            "NumeroCuenta": "292125",
+            "ClabeInterbancaria": "1281800000002921251"
+          },
+          {
+            "Banco": "Scotiabank",
+            "NombreLogo": "scotiabank.png",
+            "NumeroCuenta": "00103637433",
+            "ClabeInterbancaria": "044180001036374339"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IdAgencia": "23",
+    "DatosBancarios": [
+      {
+        "RazonSocial": "lase Automotriz, S.A. DE C.V.",
+        "Ubicacion": "Av Lázaro Cárdenas 2268 Ote, Valle Oriente, 66269 San Pedro Garza García, N.L.",
+        "CuentasBancarias": [
+          {
+            "Banco": "BBVA",
+            "NombreLogo": "bbva.png",
+            "NumeroCuenta": "00449652353-1821 Las Palmas",
+            "ClabeInterbancaria": "012180004496523539"
+          },
+          {
+            "Banco": "Banorte",
+            "NombreLogo": "banorte.png",
+            "NumeroCuenta": "0676595624-1405 Periférico Toreo",
+            "ClabeInterbancaria": "072180006765956244"
+          },
+          {
+            "Banco": "CitiBanamex",
+            "NombreLogo": "citibanamex.png",
+            "NumeroCuenta": "0053437-4194",
+            "ClabeInterbancaria": "002580419400534379"
+          },
+          {
+            "Banco": "Scotiabank",
+            "NombreLogo": "scotiabank.png",
+            "NumeroCuenta": "00103637492 Félix Cuevas",
+            "ClabeInterbancaria": "044180001036374928"
+          },
+          {
+            "Banco": "Banco del bajío",
+            "NombreLogo": "bancodelbajio.png",
+            "NumeroCuenta": "01484463310201 Nápoles 555-5363627",
+            "ClabeInterbancaria": "030180900006552490"
+          },
+          {
+            "Banco": "Santander",
+            "NombreLogo": "santander.png",
+            "NumeroCuenta": "65500386528-316",
+            "ClabeInterbancaria": "014580655003865284"
+          }
+        ]
+      }
+    ]
+  }
+]

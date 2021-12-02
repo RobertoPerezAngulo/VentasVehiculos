@@ -1,0 +1,146 @@
+﻿[
+  {
+    "IdMarca": "41",
+    "Nombre": "SEAT",
+    "Direcciones": [
+      {
+        "IdAgencia": "36",
+        "Ubicacion": "SEAT Furia Motors México",
+        "Direccion": "Av. División del Nte. 1917, Emperadores, Benito Juárez, 03320 Ciudad de México, CDMX",
+        "Lat": "19.3666188",
+        "Lng": "-99.1560423",
+        "Icono":  "http://10.5.16.17/wsApiVW/Resources/Guirnaldas/FURIAMEXICO.png"
+      },
+      {
+        "IdAgencia": "12",
+        "Ubicacion": "SEAT Furia Motors Monterrey",
+        "Direccion": "Av Lázaro Cárdenas 2270, Zona Valle Oriente, 66269 Monterrey, N.L.",
+        "Lat": "25.64417636882502",
+        "Lng": "-100.32219352698985",
+        "Icono":  "http://10.5.16.17/wsApiVW/Resources/Guirnaldas/FURIAMONTERREY.png"
+      },
+      {
+        "IdAgencia": "35",
+        "Ubicacion": "SEAT Furia Motors Acapulco",
+        "Direccion": "Ruben Figueroa, Av Farallón del Obispo 714, Farallon, 39690 Acapulco de Juárez, Gro.",
+        "Lat": "16.86886582572222",
+        "Lng": "-99.8694597963096",
+        "Icono":  "http://10.5.16.17/wsApiVW/Resources/Guirnaldas/FURIAACAPULCO.png"
+      }
+    ]
+  },
+  {
+    "IdMarca": "0",
+    "Nombre": "CUPRA",
+    "Direcciones": [
+      {
+        "IdAgencia": "36",
+        "Ubicacion": "Cupra Garage",
+        "Direccion": "Av. División del Nte. 1917, Emperadores, Benito Juárez, 03320 Ciudad de México, CDMX",
+        "Lat": "19.3666188",
+        "Lng": "-99.1560423",
+        "Icono":  "http://10.5.16.17/wsApiVW/Resources/Guirnaldas/CUPRAGARAGE.png"
+      },
+      {
+        "IdAgencia": "12",
+        "Ubicacion": "Furia Motors Monterrey",
+        "Direccion": "Av Lázaro Cárdenas 2270, Zona Valle Oriente, 66269 Monterrey, N.L.",
+        "Lat": "25.64417636882502",
+        "Lng": "-100.32219352698985",
+        "Icono":  "http://10.5.16.17/wsApiVW/Resources/Guirnaldas/CUPRAGARAGE.png"
+      }
+    ]
+  },
+  {
+    "IdMarca": "42",
+    "Nombre": "VW",
+    "Direcciones": [
+      {
+        "IdAgencia": "27",
+        "Ubicacion": "City Store Cresta",
+        "Direccion": "Eje 10a Sur No. 32 Col, La Otra Banda, Álvaro Obregón, 01090 CDMX",
+        "Lat": "19.337031867708617",
+        "Lng": "-99.19105321292005",
+        "Icono": "http://10.5.16.17/wsApiVW/Resources/Guirnaldas/CITYSTORE.png"
+      },
+      {
+        "IdAgencia": "24",
+        "Ubicacion": "Volkswagen Cresta Cuautla",
+        "Direccion": "Av. Reforma 999, Cuautlixco, 62749 Cuautla, Mor.",
+        "Lat": "18.837318854349547",
+        "Lng": "-98.94189814791292",
+        "Icono": "http://10.5.16.17/wsApiVW/Resources/Guirnaldas/CRESTACUAUTLA.png"
+      },
+      {
+        "IdAgencia": "25",
+        "Ubicacion": "Volkswagen Cresta Acapulco",
+        "Direccion": "Ruben Figueroa, Av Farallón del Obispo 714, Farallon, 39690 Acapulco de Juárez, Gro.",
+        "Lat": "16.86886582572222",
+        "Lng": "-99.8694597963096",
+        "Icono": "http://10.5.16.17/wsApiVW/Resources/Guirnaldas/CRESTAACAPULCO.png"
+      },
+      {
+        "IdAgencia": "26",
+        "Ubicacion": "Volkswagen Cresta Cuernavaca",
+        "Direccion": "Av. Emiliano Zapata 600, Tlaltenango, 62160 Cuernavaca, Mor.",
+        "Lat": "18.952581164723235",
+        "Lng": "-99.244716837107",
+        "Icono": "http://10.5.16.17/wsApiVW/Resources/Guirnaldas/CRESTACUERNAVACA.png"
+      },
+      {
+        "IdAgencia": "27",
+        "Ubicacion": "Volkswagen Cresta del Valle",
+        "Direccion": "Av. División del Nte. 1917, Emperadores, Benito Juárez, 03320 Ciudad de México, CDMX",
+        "Lat": "19.366769004351827",
+        "Lng": "-99.15593397506198",
+        "Icono": "http://10.5.16.17/wsApiVW/Resources/Guirnaldas/CRESTADELVALLE.png"
+      },
+      {
+        "IdAgencia": "28",
+        "Ubicacion": "Volkswagen Cresta Iztapalapa",
+        "Direccion": "Av. Javier Rojo Gómez # 472, San Pedro, Iztapalapa, 09000 Ciudad de México, CDMX",
+        "Lat": "19.371749351374348",
+        "Lng": "-99.0811116150129",
+        "Icono": "http://10.5.16.17/wsApiVW/Resources/Guirnaldas/CRESTAIZTAPALAPA.png"
+      },
+      {
+        "IdAgencia": "29",
+        "Ubicacion": "Volkswagen Cresta Morelos",
+        "Direccion": "Entronque Galeana-Zacatepec s/n, Alpuyeca-Galeana, 62780 Zacatepec de Hidalgo, Mor.",
+        "Lat": "18.64111860924945",
+        "Lng": "-99.21361643036394",
+        "Icono": "http://10.5.16.17/wsApiVW/Resources/Guirnaldas/CRESTACUERNAVACA.png"
+      },
+      {
+        "IdAgencia": "44",
+        "Ubicacion": "Volkswagen Cresta Narvarte",
+        "Direccion": "Av. Cuauhtémoc 548, Narvarte Poniente, Benito Juárez, 03020 Ciudad de México, CDMX",
+        "Lat": "19.39881096347139",
+        "Lng": "-99.15543011501273",
+        "Icono": "http://10.5.16.17/wsApiVW/Resources/Guirnaldas/CRESTANARVARTE.png"
+      }
+    ]
+  },
+  {
+    "IdMarca": "39",
+    "Nombre": "AUDI",
+    "Direcciones": [
+      {
+        "IdAgencia": "81",
+        "Ubicacion": "Clase Automotriz Acapulco, S.A. DE C.V.",
+        "Direccion": "Rubén Figueroa 714, Farallon, 39690 Acapulco de Juárez, Gro.",
+        "Lat": "16.86869923134407",
+        "Lng": "-99.86962700909443",
+        "Icono": "http://10.5.16.17/wsApiVW/Resources/Guirnaldas/CLASEACAPULCO.png"
+      },
+       {
+        "IdAgencia": "23",
+        "Ubicacion": "Clase Automotriz, S.A. DE C.V.",
+        "Direccion": "Av Lázaro Cárdenas 2268 Ote, Valle Oriente, 66269 San Pedro Garza García, N.L.",
+        "Lat": "25.644253817279278",
+        "Lng": "-100.32265878645123",
+        "Icono": "http://10.5.16.17/wsApiVW/Resources/Guirnaldas/CLASEMONTERREY.png"
+      }
+    ]
+  }
+]

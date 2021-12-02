@@ -1,0 +1,405 @@
+DB2 - DB2 192.192.192.2 - PROD
+#define
+
+16:50:47.43   CurrentProcessId: 20716
+ 
+new DB2(DB2, 192.192.192.2, , )
+
+----------- BeginTransaccion              CurrentProcessId: 20716	JobName:104288/QUSER/QZDASOINIT     
+16:50:47.90   CurrentProcessId: 20716	JobName:104288/QUSER/QZDASOINIT     
+ 
+SELECT FNAUTOEST FROM PRODAUT.ANCAUTOM WHERE FNAUTOAGE = 36 AND FIANIDINVE=20699	AND FIANSTATU = 1 	AND FNAUTOEST in (6,10) AND FIANAUTMAV = 1
+
+16:50:47.95   CurrentProcessId: 20716	JobName:104288/QUSER/QZDASOINIT     
+ 
+SELECT A.FIAPIDCUEN Id, A.FSAPNOMBRE Nombre, A.FSAPAPEPAT ApellidoPaterno, A.FSAPAPEMAT ApellidoMaterno,A.FIAPLADMOV Lada,A.FIAPNUMMOV numero FROM PRODAPPS.APCCTAVW A INNER JOIN PRODAPPS.APCTOKEN B ON A.FIAPIDCUEN = B.FIAPIDCUEN AND A.FIAPIDAPPS = B.FIAPIDAPPS AND B.FIAPSTATUS = 1 WHERE lower(TRIM(A.FSAPCORREO)) = 'maurogrov@gmail.com' AND A.FIAPSTATUS = 1 AND A.FIAPIDAPPS = 1
+
+16:50:47.99   CurrentProcessId: 20716	JobName:104288/QUSER/QZDASOINIT     
+ 
+UPDATE PRODAPPS.APCTOKEN  SET FIAPSTATUS = 1, FSAPTOKEN = 'epNUq96kqUFLshW9ktc-zG:APA91bFMT_nNveiWFIfSnsRDn66aNdgJTr7XlBFvP82E-4KwvFlNL26MYjHZTeylIsYsIojmkMI_wmrXmQAI3M3Cg29H--0O-WSWxaqFdxaHsWAzaLUMwjeFoLJoNGbEIpd9QFLXEHMY', USERUPDAT = 'APP', DATEUPDAT = CURRENT DATE, TIMEUPDAT = CURRENT TIME, PROGUPDAT = 'APP' WHERE FIAPIDCUEN =  2 AND FIAPIDAPPS = 1
+
+16:50:48.01   CurrentProcessId: 20716	JobName:104288/QUSER/QZDASOINIT     
+ 
+select FIAPIDCOMP Cuenta FROM PRODapps.APECMPVW ape inner join PRODapps.APCESCVW est ON ape.FIAPIDESTA = est.FIAPIDESTA WHERE ape.FIAPSTATUS = 1 AND ape.FIAPIDESTA NOT IN(15,24) AND ape.FIAPIDCUEN = 2 AND ape.FIAPIDAPPS = 1
+
+16:50:48.04   CurrentProcessId: 20716	JobName:104288/QUSER/QZDASOINIT     
+ 
+SELECT FIAPIDCOMP FROM NEW TABLE ( INSERT INTO PRODAPPS.APECMPVW
+                            (
+                            FIAPIDAPPS,      /*ID APP*/
+                            FIAPIDCOMP,      /*ID COMPRA   */
+                            FIAPIDMARC,      /*ID MARCA */
+                            FSAPDESCRI,      /*DESCRIPCION*/
+                            FIAPFOLCOM,      /* FOLIO COMPRA*/
+                            FIAPIDCUEN,      /*ID CUENTA   */
+                            FFAPFECCOM,      /*FECHA COMPRA*/
+                            FHAPHORCOM,      /*HORA COMPRA */
+                            FDAPSUBTOT,      /*SUBTOTAL */
+                            FDAPDESCUE,      /*DESCUENTO*/
+                            FDAPIVA,         /*IVA      */
+                            FDAPTOTAL,       /* TOTAL*/    
+                            FIAPIDESTA,      /*ID ESTADO*/
+                            FIAPIDPROC,      /*ID PROCESO*/ 
+                            FIAPIDPASO,      /*ID PASO*/
+                            FIAPSTATUS,      /*ESTATUS     */     
+                            USERCREAT,       /*USUARIO CREACION */
+                            DATECREAT,       /*FECHA CREACION   */
+                            TIMECREAT,       /*HORA CREACION    */
+                            PROGCREAT        /*PROGRAMA CREACION*/) VALUES(1, (SELECT COALESCE(MAX(FIAPIDCOMP), 0) + 1 Id FROM PRODAPPS.APECMPVW WHERE FIAPIDAPPS = 1) , 41,'SINMARCA',(SELECT COALESCE(MAX(FIAPIDCOMP), 0) + 1 Id FROM PRODAPPS.APECMPVW WHERE FIAPIDAPPS = 1) , 2 , CURRENT DATE , CURRENT TIME , 285546.55172413793103448275862 , 0 , 45687.448275862068965517241379 , 331234.0 , 1 , 2 , 1 , 1 , 'APP' , CURRENT DATE , CURRENT TIME , 'APP'))
+
+16:50:48.09   CurrentProcessId: 20716	JobName:104288/QUSER/QZDASOINIT     
+ 
+INSERT INTO PRODAPPS.APEPANVW
+                            (
+                            FIAPIDAPPS,
+                            FIAPIDCOMP,     /* ID COMPRA    */
+                            FIAPIDMARC,      /*ID MARCA */
+                            FSAPDESCRI,      /*DESCRIPCION*/
+                            FIAPIDCIAU,      /*ID CIA. UNICA*/
+                            FIAPIDVEHI,     /*ID VEHICULO  */
+                            FIAPIDINVE,      /*ID INVENTARIO*/
+                            FSAPMODELO,
+                            FSAPVERSIO,
+                            FSAPTRANSM,      /*TRANSMISION*/ 
+                            FSAPCOLEXT,
+                            FSAPNUMINV,
+
+                            FSAPNUMSER,      /*NUMERO SERIE*/ 
+                            FDAPSUBTOT,      /*SUBTOTAL     */
+                            FDAPDESCUE,      /*DESCUENTO      */ 
+                            FDAPIVA,         /*IVA             */
+                            FDAPTOTAL,       /*TOTAL      */     
+                            FSAPRUTFOT,    /*RUTA FOTO*/
+                            FIAPSTATUS,      /*ESTATUS       */  
+                            USERCREAT,       /*USUARIO CREACION*/
+                            DATECREAT,       /*FECHA CREACION   */
+                            TIMECREAT,       /*HORA CREACION    */
+                            PROGCREAT       /*PROGRAMA CREACION*/
+                            ) VALUES(1,207,41,'SINMARCA',36,1369919,20699,'IBIZA','XCELLENCE','STD','Gris Magnético','N-2021-1306','VSSCB1KJ7MR658397',285546.55172413793103448275862,0,45687.448275862068965517241379,331234.0,'http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Xcellence/ibiza-xcellence-gris-magnetico.png',1 , 'APP' , CURRENT DATE , CURRENT TIME , 'APP')
+
+16:50:48.12   CurrentProcessId: 20716	JobName:104288/QUSER/QZDASOINIT     
+ 
+UPDATE PRODAUT.ANCAUTOM  SET FNAUTOEST = 50, 	USERUPDAT = 'APP', DATEUPDAT = CURRENT DATE, TIMEUPDAT = CURRENT TIME, PROGUPDAT = 'APP' 	WHERE FNAUTOAGE = 36 AND FIANIDINVE=20699	AND FIANSTATU = 1 	AND FNAUTOEST in (6,10) AND FIANAUTMAV = 1
+
+16:50:48.16   CurrentProcessId: 20716	JobName:104288/QUSER/QZDASOINIT     
+ 
+SELECT COALESCE(MAX(FIAPIDSEGU),0) + 1 Id FROM PRODAPPS.APDSGCVW WHERE  FIAPIDCOMP = 207 AND FIAPIDAPPS = 1
+
+16:50:48.20   CurrentProcessId: 20716	JobName:104288/QUSER/QZDASOINIT     
+ 
+INSERT INTO PRODAPPS.APDSGCVW
+                            (
+                                FIAPIDCOMP,      /*ID COMPRA     */
+                                FIAPIDAPPS,      /*ID APP*/
+                                FIAPIDSEGU,      /*ID SEGUIMIENTO*/
+                                FSAPTITSEG,     /*TITULO SEGUIM */
+                                FIAPIDESTA,      /*ID ESTADO     */
+                                FIAPSTATUS,      /*ESTATUS       */
+                                USERCREAT,       /*USUARIO CREACION */
+                                DATECREAT,       /*FECHA CREACION   */
+                                TIMECREAT,       /*HORA CREACION    */
+                                PROGCREAT       /*PROGRAMA CREACION*/
+                                ) VALUES
+                                ((SELECT COALESCE(MAX(FIAPIDCOMP), 0) + 1 Id FROM PRODAPPS.APDSGCVW WHERE FIAPIDAPPS = 1) , 1,1 , 'Registro de orden de compra' , 1 , 1 , 'APP' , CURRENT DATE , CURRENT TIME , 'APP')
+
+16:50:48.24   CurrentProcessId: 20716	JobName:104288/QUSER/QZDASOINIT     
+ 
+INSERT INTO PRODAPPS.APDCKLVW(  FIAPIDCOMP, FIAPIDPROC, FIAPIDPCKL, FSAPDESCCK, FIAPSMARTI,  FIAPAPPVIS, FIAPSISTEM, FIAPREALIZ, FIAPSTATUS, USERCREAT,  DATECREAT, TIMECREAT, PROGCREAT,FIAPIDAPPS) SELECT 207, FIAPIDPROC, FIAPIDPCKL,  FSAPDESCCK, FIAPSMARTI,  FIAPAPPVIS, FIAPSISTEM,  0, FIAPSTATUS, 'APP',  CURRENT DATE, CURRENT TIME, 'APP' ,1 AS FIAPIDAPPS FROM PRODAPPS.APCCKLIS  WHERE FIAPSTATUS = 1
+
+16:50:48.28   CurrentProcessId: 20716	JobName:104288/QUSER/QZDASOINIT     
+ 
+UPDATE PRODAPPS.APDCKLVW SET FIAPREALIZ = 1, PROGUPDAT = 'APP', USERUPDAT = 'APP', TIMEUPDAT = CURRENT TIME, DATEUPDAT = CURRENT DATE WHERE FIAPIDCOMP = 207 AND FIAPIDPCKL = 1 AND FIAPIDAPPS= 1
+
+----------- CommitTransaccion              CurrentProcessId: 20716	JobName:104288/QUSER/QZDASOINIT     
+
+16:50:48.34   CurrentProcessId: 20716	JobName:104288/QUSER/QZDASOINIT     
+ 
+ModoConectado=False	(antes:True)
+
+16:50:48.61   CurrentProcessId: 20716	JobName:106920/QUSER/QZDASOINIT     
+ 
+SELECT FIAPIDCIAU, FSAPCORREO FROM 
+                                        PRODAPPS.APDCRSVW 
+                                        WHERE 1=1
+                                            AND FIAPIDUSUA = 1
+                                            AND FIAPIDAPPS = 1  
+                                            AND FIAPIDCIAU = 36
+
+16:50:48.65	SQL0206 No se ha encontrado la columna o variable global FIAPIDUSUA.
+   en IBM.Data.DB2.iSeries.iDB2Exception.throwDcException(MpDcErrorInfo mpEI, MPConnection conn)
+   en IBM.Data.DB2.iSeries.iDB2Command.reportDCError(Int32 rc)
+   en IBM.Data.DB2.iSeries.iDB2Command.Prepare()
+   en IBM.Data.DB2.iSeries.iDB2Command.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   en DVADB.DB2.GetDataSetInterno(String strSQL, Boolean bolRegistraBitacora)
+
+16:55:20.66   CurrentProcessId: 20716
+ 
+new DB2(DB2, 192.192.192.2, , )
+
+----------- BeginTransaccion              CurrentProcessId: 20716	JobName:106745/QUSER/QZDASOINIT     
+16:55:29.88   CurrentProcessId: 20716	JobName:106745/QUSER/QZDASOINIT     
+ 
+SELECT FNAUTOEST FROM PRODAUT.ANCAUTOM WHERE FNAUTOAGE = 36 AND FIANIDINVE=20699	AND FIANSTATU = 1 	AND FNAUTOEST in (6,10) AND FIANAUTMAV = 1
+
+16:55:29.94   CurrentProcessId: 20716	JobName:106745/QUSER/QZDASOINIT     
+ 
+SELECT A.FIAPIDCUEN Id, A.FSAPNOMBRE Nombre, A.FSAPAPEPAT ApellidoPaterno, A.FSAPAPEMAT ApellidoMaterno,A.FIAPLADMOV Lada,A.FIAPNUMMOV numero FROM PRODAPPS.APCCTAVW A INNER JOIN PRODAPPS.APCTOKEN B ON A.FIAPIDCUEN = B.FIAPIDCUEN AND A.FIAPIDAPPS = B.FIAPIDAPPS AND B.FIAPSTATUS = 1 WHERE lower(TRIM(A.FSAPCORREO)) = 'maurogrov@gmail.com' AND A.FIAPSTATUS = 1 AND A.FIAPIDAPPS = 1
+
+16:55:31.37   CurrentProcessId: 20716	JobName:106745/QUSER/QZDASOINIT     
+ 
+UPDATE PRODAPPS.APCTOKEN  SET FIAPSTATUS = 1, FSAPTOKEN = 'epNUq96kqUFLshW9ktc-zG:APA91bFMT_nNveiWFIfSnsRDn66aNdgJTr7XlBFvP82E-4KwvFlNL26MYjHZTeylIsYsIojmkMI_wmrXmQAI3M3Cg29H--0O-WSWxaqFdxaHsWAzaLUMwjeFoLJoNGbEIpd9QFLXEHMY', USERUPDAT = 'APP', DATEUPDAT = CURRENT DATE, TIMEUPDAT = CURRENT TIME, PROGUPDAT = 'APP' WHERE FIAPIDCUEN =  2 AND FIAPIDAPPS = 1
+
+16:55:32.95   CurrentProcessId: 20716	JobName:106745/QUSER/QZDASOINIT     
+ 
+select FIAPIDCOMP Cuenta FROM PRODapps.APECMPVW ape inner join PRODapps.APCESCVW est ON ape.FIAPIDESTA = est.FIAPIDESTA WHERE ape.FIAPSTATUS = 1 AND ape.FIAPIDESTA NOT IN(15,24) AND ape.FIAPIDCUEN = 2 AND ape.FIAPIDAPPS = 1
+
+16:55:35.08   CurrentProcessId: 20716	JobName:106745/QUSER/QZDASOINIT     
+ 
+SELECT FIAPIDCOMP FROM NEW TABLE ( INSERT INTO PRODAPPS.APECMPVW
+                            (
+                            FIAPIDAPPS,      /*ID APP*/
+                            FIAPIDCOMP,      /*ID COMPRA   */
+                            FIAPIDMARC,      /*ID MARCA */
+                            FSAPDESCRI,      /*DESCRIPCION*/
+                            FIAPFOLCOM,      /* FOLIO COMPRA*/
+                            FIAPIDCUEN,      /*ID CUENTA   */
+                            FFAPFECCOM,      /*FECHA COMPRA*/
+                            FHAPHORCOM,      /*HORA COMPRA */
+                            FDAPSUBTOT,      /*SUBTOTAL */
+                            FDAPDESCUE,      /*DESCUENTO*/
+                            FDAPIVA,         /*IVA      */
+                            FDAPTOTAL,       /* TOTAL*/    
+                            FIAPIDESTA,      /*ID ESTADO*/
+                            FIAPIDPROC,      /*ID PROCESO*/ 
+                            FIAPIDPASO,      /*ID PASO*/
+                            FIAPSTATUS,      /*ESTATUS     */     
+                            USERCREAT,       /*USUARIO CREACION */
+                            DATECREAT,       /*FECHA CREACION   */
+                            TIMECREAT,       /*HORA CREACION    */
+                            PROGCREAT        /*PROGRAMA CREACION*/) VALUES(1, (SELECT COALESCE(MAX(FIAPIDCOMP), 0) + 1 Id FROM PRODAPPS.APECMPVW WHERE FIAPIDAPPS = 1) , 41,'SINMARCA',(SELECT COALESCE(MAX(FIAPIDCOMP), 0) + 1 Id FROM PRODAPPS.APECMPVW WHERE FIAPIDAPPS = 1) , 2 , CURRENT DATE , CURRENT TIME , 285546.55172413793103448275862 , 0 , 45687.448275862068965517241379 , 331234.0 , 1 , 2 , 1 , 1 , 'APP' , CURRENT DATE , CURRENT TIME , 'APP'))
+
+16:55:35.24   CurrentProcessId: 20716	JobName:106745/QUSER/QZDASOINIT     
+ 
+INSERT INTO PRODAPPS.APEPANVW
+                            (
+                            FIAPIDAPPS,
+                            FIAPIDCOMP,     /* ID COMPRA    */
+                            FIAPIDMARC,      /*ID MARCA */
+                            FSAPDESCRI,      /*DESCRIPCION*/
+                            FIAPIDCIAU,      /*ID CIA. UNICA*/
+                            FIAPIDVEHI,     /*ID VEHICULO  */
+                            FIAPIDINVE,      /*ID INVENTARIO*/
+                            FSAPMODELO,
+                            FSAPVERSIO,
+                            FSAPTRANSM,      /*TRANSMISION*/ 
+                            FSAPCOLEXT,
+                            FSAPNUMINV,
+
+                            FSAPNUMSER,      /*NUMERO SERIE*/ 
+                            FDAPSUBTOT,      /*SUBTOTAL     */
+                            FDAPDESCUE,      /*DESCUENTO      */ 
+                            FDAPIVA,         /*IVA             */
+                            FDAPTOTAL,       /*TOTAL      */     
+                            FSAPRUTFOT,    /*RUTA FOTO*/
+                            FIAPSTATUS,      /*ESTATUS       */  
+                            USERCREAT,       /*USUARIO CREACION*/
+                            DATECREAT,       /*FECHA CREACION   */
+                            TIMECREAT,       /*HORA CREACION    */
+                            PROGCREAT       /*PROGRAMA CREACION*/
+                            ) VALUES(1,208,41,'SINMARCA',36,1369919,20699,'IBIZA','XCELLENCE','STD','Gris Magnético','N-2021-1306','VSSCB1KJ7MR658397',285546.55172413793103448275862,0,45687.448275862068965517241379,331234.0,'http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Xcellence/ibiza-xcellence-gris-magnetico.png',1 , 'APP' , CURRENT DATE , CURRENT TIME , 'APP')
+
+16:55:35.45   CurrentProcessId: 20716	JobName:106745/QUSER/QZDASOINIT     
+ 
+UPDATE PRODAUT.ANCAUTOM  SET FNAUTOEST = 50, 	USERUPDAT = 'APP', DATEUPDAT = CURRENT DATE, TIMEUPDAT = CURRENT TIME, PROGUPDAT = 'APP' 	WHERE FNAUTOAGE = 36 AND FIANIDINVE=20699	AND FIANSTATU = 1 	AND FNAUTOEST in (6,10) AND FIANAUTMAV = 1
+
+16:55:35.59   CurrentProcessId: 20716	JobName:106745/QUSER/QZDASOINIT     
+ 
+SELECT COALESCE(MAX(FIAPIDSEGU),0) + 1 Id FROM PRODAPPS.APDSGCVW WHERE  FIAPIDCOMP = 208 AND FIAPIDAPPS = 1
+
+16:55:35.69   CurrentProcessId: 20716	JobName:106745/QUSER/QZDASOINIT     
+ 
+INSERT INTO PRODAPPS.APDSGCVW
+                            (
+                                FIAPIDCOMP,      /*ID COMPRA     */
+                                FIAPIDAPPS,      /*ID APP*/
+                                FIAPIDSEGU,      /*ID SEGUIMIENTO*/
+                                FSAPTITSEG,     /*TITULO SEGUIM */
+                                FIAPIDESTA,      /*ID ESTADO     */
+                                FIAPSTATUS,      /*ESTATUS       */
+                                USERCREAT,       /*USUARIO CREACION */
+                                DATECREAT,       /*FECHA CREACION   */
+                                TIMECREAT,       /*HORA CREACION    */
+                                PROGCREAT       /*PROGRAMA CREACION*/
+                                ) VALUES
+                                ((SELECT COALESCE(MAX(FIAPIDCOMP), 0) + 1 Id FROM PRODAPPS.APDSGCVW WHERE FIAPIDAPPS = 1) , 1,1 , 'Registro de orden de compra' , 1 , 1 , 'APP' , CURRENT DATE , CURRENT TIME , 'APP')
+
+16:55:35.81   CurrentProcessId: 20716	JobName:106745/QUSER/QZDASOINIT     
+ 
+INSERT INTO PRODAPPS.APDCKLVW(  FIAPIDCOMP, FIAPIDPROC, FIAPIDPCKL, FSAPDESCCK, FIAPSMARTI,  FIAPAPPVIS, FIAPSISTEM, FIAPREALIZ, FIAPSTATUS, USERCREAT,  DATECREAT, TIMECREAT, PROGCREAT,FIAPIDAPPS) SELECT 208, FIAPIDPROC, FIAPIDPCKL,  FSAPDESCCK, FIAPSMARTI,  FIAPAPPVIS, FIAPSISTEM,  0, FIAPSTATUS, 'APP',  CURRENT DATE, CURRENT TIME, 'APP' ,1 AS FIAPIDAPPS FROM PRODAPPS.APCCKLIS  WHERE FIAPSTATUS = 1
+
+16:55:35.99   CurrentProcessId: 20716	JobName:106745/QUSER/QZDASOINIT     
+ 
+UPDATE PRODAPPS.APDCKLVW SET FIAPREALIZ = 1, PROGUPDAT = 'APP', USERUPDAT = 'APP', TIMEUPDAT = CURRENT TIME, DATEUPDAT = CURRENT DATE WHERE FIAPIDCOMP = 208 AND FIAPIDPCKL = 1 AND FIAPIDAPPS= 1
+
+----------- CommitTransaccion              CurrentProcessId: 20716	JobName:106745/QUSER/QZDASOINIT     
+
+16:55:36.23   CurrentProcessId: 20716	JobName:106745/QUSER/QZDASOINIT     
+ 
+ModoConectado=False	(antes:True)
+
+16:56:14.20   CurrentProcessId: 20716	JobName:106571/QUSER/QZDASOINIT     
+ 
+SELECT FIAPIDCIAU, FSAPCORREO FROM 
+                                        PRODAPPS.APDCRSVW 
+                                        WHERE 1=1
+                                            AND FIAPIDUSUA = 1
+                                            AND FIAPIDAPPS = 1  
+                                            AND FIAPIDCIAU = 36
+
+16:56:14.34	SQL0206 No se ha encontrado la columna o variable global FIAPIDUSUA.
+   en IBM.Data.DB2.iSeries.iDB2Exception.throwDcException(MpDcErrorInfo mpEI, MPConnection conn)
+   en IBM.Data.DB2.iSeries.iDB2Command.reportDCError(Int32 rc)
+   en IBM.Data.DB2.iSeries.iDB2Command.Prepare()
+   en IBM.Data.DB2.iSeries.iDB2Command.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   en DVADB.DB2.GetDataSetInterno(String strSQL, Boolean bolRegistraBitacora)
+
+17:03:34.03   CurrentProcessId: 20716
+ 
+new DB2(DB2, 192.192.192.2, , )
+
+----------- BeginTransaccion              CurrentProcessId: 20716	JobName:106621/QUSER/QZDASOINIT     
+17:03:34.49   CurrentProcessId: 20716	JobName:106621/QUSER/QZDASOINIT     
+ 
+SELECT FNAUTOEST FROM PRODAUT.ANCAUTOM WHERE FNAUTOAGE = 36 AND FIANIDINVE=20699	AND FIANSTATU = 1 	AND FNAUTOEST in (6,10) AND FIANAUTMAV = 1
+
+17:03:34.53   CurrentProcessId: 20716	JobName:106621/QUSER/QZDASOINIT     
+ 
+SELECT A.FIAPIDCUEN Id, A.FSAPNOMBRE Nombre, A.FSAPAPEPAT ApellidoPaterno, A.FSAPAPEMAT ApellidoMaterno,A.FIAPLADMOV Lada,A.FIAPNUMMOV numero FROM PRODAPPS.APCCTAVW A INNER JOIN PRODAPPS.APCTOKEN B ON A.FIAPIDCUEN = B.FIAPIDCUEN AND A.FIAPIDAPPS = B.FIAPIDAPPS AND B.FIAPSTATUS = 1 WHERE lower(TRIM(A.FSAPCORREO)) = 'maurogrov@gmail.com' AND A.FIAPSTATUS = 1 AND A.FIAPIDAPPS = 1
+
+17:03:34.57   CurrentProcessId: 20716	JobName:106621/QUSER/QZDASOINIT     
+ 
+UPDATE PRODAPPS.APCTOKEN  SET FIAPSTATUS = 1, FSAPTOKEN = 'epNUq96kqUFLshW9ktc-zG:APA91bFMT_nNveiWFIfSnsRDn66aNdgJTr7XlBFvP82E-4KwvFlNL26MYjHZTeylIsYsIojmkMI_wmrXmQAI3M3Cg29H--0O-WSWxaqFdxaHsWAzaLUMwjeFoLJoNGbEIpd9QFLXEHMY', USERUPDAT = 'APP', DATEUPDAT = CURRENT DATE, TIMEUPDAT = CURRENT TIME, PROGUPDAT = 'APP' WHERE FIAPIDCUEN =  2 AND FIAPIDAPPS = 1
+
+17:03:34.65   CurrentProcessId: 20716	JobName:106621/QUSER/QZDASOINIT     
+ 
+select FIAPIDCOMP Cuenta FROM PRODapps.APECMPVW ape inner join PRODapps.APCESCVW est ON ape.FIAPIDESTA = est.FIAPIDESTA WHERE ape.FIAPSTATUS = 1 AND ape.FIAPIDESTA NOT IN(15,24) AND ape.FIAPIDCUEN = 2 AND ape.FIAPIDAPPS = 1
+
+17:03:34.76   CurrentProcessId: 20716	JobName:106621/QUSER/QZDASOINIT     
+ 
+SELECT FIAPIDCOMP FROM NEW TABLE ( INSERT INTO PRODAPPS.APECMPVW
+                            (
+                            FIAPIDAPPS,      /*ID APP*/
+                            FIAPIDCOMP,      /*ID COMPRA   */
+                            FIAPIDMARC,      /*ID MARCA */
+                            FSAPDESCRI,      /*DESCRIPCION*/
+                            FIAPFOLCOM,      /* FOLIO COMPRA*/
+                            FIAPIDCUEN,      /*ID CUENTA   */
+                            FFAPFECCOM,      /*FECHA COMPRA*/
+                            FHAPHORCOM,      /*HORA COMPRA */
+                            FDAPSUBTOT,      /*SUBTOTAL */
+                            FDAPDESCUE,      /*DESCUENTO*/
+                            FDAPIVA,         /*IVA      */
+                            FDAPTOTAL,       /* TOTAL*/    
+                            FIAPIDESTA,      /*ID ESTADO*/
+                            FIAPIDPROC,      /*ID PROCESO*/ 
+                            FIAPIDPASO,      /*ID PASO*/
+                            FIAPSTATUS,      /*ESTATUS     */     
+                            USERCREAT,       /*USUARIO CREACION */
+                            DATECREAT,       /*FECHA CREACION   */
+                            TIMECREAT,       /*HORA CREACION    */
+                            PROGCREAT        /*PROGRAMA CREACION*/) VALUES(1, (SELECT COALESCE(MAX(FIAPIDCOMP), 0) + 1 Id FROM PRODAPPS.APECMPVW WHERE FIAPIDAPPS = 1) , 41,'SINMARCA',(SELECT COALESCE(MAX(FIAPIDCOMP), 0) + 1 Id FROM PRODAPPS.APECMPVW WHERE FIAPIDAPPS = 1) , 2 , CURRENT DATE , CURRENT TIME , 285546.55172413793103448275862 , 0 , 45687.448275862068965517241379 , 331234.0 , 1 , 2 , 1 , 1 , 'APP' , CURRENT DATE , CURRENT TIME , 'APP'))
+
+17:03:34.81   CurrentProcessId: 20716	JobName:106621/QUSER/QZDASOINIT     
+ 
+INSERT INTO PRODAPPS.APEPANVW
+                            (
+                            FIAPIDAPPS,
+                            FIAPIDCOMP,     /* ID COMPRA    */
+                            FIAPIDMARC,      /*ID MARCA */
+                            FSAPDESCRI,      /*DESCRIPCION*/
+                            FIAPIDCIAU,      /*ID CIA. UNICA*/
+                            FIAPIDVEHI,     /*ID VEHICULO  */
+                            FIAPIDINVE,      /*ID INVENTARIO*/
+                            FSAPMODELO,
+                            FSAPVERSIO,
+                            FSAPTRANSM,      /*TRANSMISION*/ 
+                            FSAPCOLEXT,
+                            FSAPNUMINV,
+
+                            FSAPNUMSER,      /*NUMERO SERIE*/ 
+                            FDAPSUBTOT,      /*SUBTOTAL     */
+                            FDAPDESCUE,      /*DESCUENTO      */ 
+                            FDAPIVA,         /*IVA             */
+                            FDAPTOTAL,       /*TOTAL      */     
+                            FSAPRUTFOT,    /*RUTA FOTO*/
+                            FIAPSTATUS,      /*ESTATUS       */  
+                            USERCREAT,       /*USUARIO CREACION*/
+                            DATECREAT,       /*FECHA CREACION   */
+                            TIMECREAT,       /*HORA CREACION    */
+                            PROGCREAT       /*PROGRAMA CREACION*/
+                            ) VALUES(1,209,41,'SINMARCA',36,1369919,20699,'IBIZA','XCELLENCE','STD','Gris Magnético','N-2021-1306','VSSCB1KJ7MR658397',285546.55172413793103448275862,0,45687.448275862068965517241379,331234.0,'http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Xcellence/ibiza-xcellence-gris-magnetico.png',1 , 'APP' , CURRENT DATE , CURRENT TIME , 'APP')
+
+17:03:34.93   CurrentProcessId: 20716	JobName:106621/QUSER/QZDASOINIT     
+ 
+UPDATE PRODAUT.ANCAUTOM  SET FNAUTOEST = 50, 	USERUPDAT = 'APP', DATEUPDAT = CURRENT DATE, TIMEUPDAT = CURRENT TIME, PROGUPDAT = 'APP' 	WHERE FNAUTOAGE = 36 AND FIANIDINVE=20699	AND FIANSTATU = 1 	AND FNAUTOEST in (6,10) AND FIANAUTMAV = 1
+
+17:03:35.02   CurrentProcessId: 20716	JobName:106621/QUSER/QZDASOINIT     
+ 
+SELECT COALESCE(MAX(FIAPIDSEGU),0) + 1 Id FROM PRODAPPS.APDSGCVW WHERE  FIAPIDCOMP = 209 AND FIAPIDAPPS = 1
+
+17:03:35.12   CurrentProcessId: 20716	JobName:106621/QUSER/QZDASOINIT     
+ 
+INSERT INTO PRODAPPS.APDSGCVW
+                            (
+                                FIAPIDCOMP,      /*ID COMPRA     */
+                                FIAPIDAPPS,      /*ID APP*/
+                                FIAPIDSEGU,      /*ID SEGUIMIENTO*/
+                                FSAPTITSEG,     /*TITULO SEGUIM */
+                                FIAPIDESTA,      /*ID ESTADO     */
+                                FIAPSTATUS,      /*ESTATUS       */
+                                USERCREAT,       /*USUARIO CREACION */
+                                DATECREAT,       /*FECHA CREACION   */
+                                TIMECREAT,       /*HORA CREACION    */
+                                PROGCREAT       /*PROGRAMA CREACION*/
+                                ) VALUES
+                                ((SELECT COALESCE(MAX(FIAPIDCOMP), 0) + 1 Id FROM PRODAPPS.APDSGCVW WHERE FIAPIDAPPS = 1) , 1,1 , 'Registro de orden de compra' , 1 , 1 , 'APP' , CURRENT DATE , CURRENT TIME , 'APP')
+
+17:03:35.24   CurrentProcessId: 20716	JobName:106621/QUSER/QZDASOINIT     
+ 
+INSERT INTO PRODAPPS.APDCKLVW(  FIAPIDCOMP, FIAPIDPROC, FIAPIDPCKL, FSAPDESCCK, FIAPSMARTI,  FIAPAPPVIS, FIAPSISTEM, FIAPREALIZ, FIAPSTATUS, USERCREAT,  DATECREAT, TIMECREAT, PROGCREAT,FIAPIDAPPS) SELECT 209, FIAPIDPROC, FIAPIDPCKL,  FSAPDESCCK, FIAPSMARTI,  FIAPAPPVIS, FIAPSISTEM,  0, FIAPSTATUS, 'APP',  CURRENT DATE, CURRENT TIME, 'APP' ,1 AS FIAPIDAPPS FROM PRODAPPS.APCCKLIS  WHERE FIAPSTATUS = 1
+
+17:03:36.75   CurrentProcessId: 20716	JobName:106621/QUSER/QZDASOINIT     
+ 
+UPDATE PRODAPPS.APDCKLVW SET FIAPREALIZ = 1, PROGUPDAT = 'APP', USERUPDAT = 'APP', TIMEUPDAT = CURRENT TIME, DATEUPDAT = CURRENT DATE WHERE FIAPIDCOMP = 209 AND FIAPIDPCKL = 1 AND FIAPIDAPPS= 1
+
+----------- CommitTransaccion              CurrentProcessId: 20716	JobName:106621/QUSER/QZDASOINIT     
+
+17:03:40.21   CurrentProcessId: 20716	JobName:106621/QUSER/QZDASOINIT     
+ 
+ModoConectado=False	(antes:True)
+
+17:04:51.35   CurrentProcessId: 20716	JobName:106342/QUSER/QZDASOINIT     
+ 
+SELECT FIAPIDCIAU, FSAPCORREO FROM 
+                                        PRODAPPS.APDCRSVW 
+                                        WHERE 1=1
+                                            AND FIAPIDUSUA = 1
+                                            AND FIAPIDAPPS = 1  
+                                            AND FIAPIDCIAU = 36
+
+17:04:52.65	SQL0206 No se ha encontrado la columna o variable global FIAPIDUSUA.
+   en IBM.Data.DB2.iSeries.iDB2Exception.throwDcException(MpDcErrorInfo mpEI, MPConnection conn)
+   en IBM.Data.DB2.iSeries.iDB2Command.reportDCError(Int32 rc)
+   en IBM.Data.DB2.iSeries.iDB2Command.Prepare()
+   en IBM.Data.DB2.iSeries.iDB2Command.ExecuteDbDataReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataSet dataSet, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataSet dataSet)
+   en DVADB.DB2.GetDataSetInterno(String strSQL, Boolean bolRegistraBitacora)
+

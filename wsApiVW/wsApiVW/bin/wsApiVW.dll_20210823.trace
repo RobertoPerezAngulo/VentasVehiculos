@@ -1,0 +1,69 @@
+DB2 - DB2 192.192.192.2 - PROD
+#define
+
+15:24:10.46   CurrentProcessId: 19100
+ 
+new DB2(DB2, 192.192.192.2, , )
+
+----------- BeginTransaccion              CurrentProcessId: 19100	JobName:927200/QUSER/QZDASOINIT     
+15:24:11.19   CurrentProcessId: 19100	JobName:927200/QUSER/QZDASOINIT     
+ 
+SELECT  pedan.FIAPIDINVE, pedan.FIAPIDPEDI, factu.FSCAIDEDO, factu.FFCAFECHA, factu.FDCASUBTOT, factu.FICAIDCIAU, factu.FICAIDCLIE, factu.FCCAPREIN, factu.FICAFOLIN FROM PRODAPPS.APEPANVW pedan INNER JOIN PRODCAJA.CAEFACAN facan ON pedan.FIAPIDCIAU = facan.FICAIDCIAU AND pedan.FIAPIDPEDI = facan.FICAIDPEDI INNER JOIN PRODCAJA.CAEFACTU factu ON facan.FICAIDCIAU = factu.FICAIDCIAU AND facan.FICAIDFACT = factu.FICAIDFACT WHERE pedan.FIAPSTATUS = 1  AND pedan.FIAPIDCOMP = 70 AND pedan.FIAPIDAPPS = 3
+
+15:24:11.40   CurrentProcessId: 19100	JobName:927200/QUSER/QZDASOINIT     
+ 
+SELECT FIAPIDINVE, FIAPIDPEDI, FIAPIDCIAU FROM PRODAPPS.APEPANVW WHERE FIAPSTATUS = 1 AND FIAPIDCOMP = 70 AND FIAPIDAPPS = 3
+
+15:24:11.46   CurrentProcessId: 19100	JobName:927200/QUSER/QZDASOINIT     
+ 
+UPDATE PRODAPPS.APECMPVW SET FIAPIDESTA = 15, USERUPDAT = 'APP', DATEUPDAT = CURRENT DATE, TIMEUPDAT = CURRENT TIME, PROGUPDAT = 'APP'   WHERE FIAPIDCOMP = 70 AND FIAPIDAPPS= 3
+
+15:24:13.66   CurrentProcessId: 19100	JobName:927200/QUSER/QZDASOINIT     
+ 
+UPDATE PRODAUT.ANCAUTOM SET FNAUTOEST = 10, USERUPDAT = 'APP', DATEUPDAT = CURRENT DATE, TIMEUPDAT = CURRENT TIME, PROGUPDAT = 'APP' WHERE FNAUTOEST IN (11, 50) AND FNAUTOAGE = 25 AND FIANIDINVE = 15630
+
+15:24:13.90   CurrentProcessId: 19100	JobName:927200/QUSER/QZDASOINIT     
+ 
+INSERT INTO PRODAPPS.APDSGCVW (FIAPIDCOMP, FIAPIDSEGU, FSAPTITSEG, FIAPIDESTA, FIAPSTATUS, USERCREAT, DATECREAT, TIMECREAT, PROGCREAT,FIAPIDAPPS)VALUES (70, (SELECT coalesce(MAX(FIAPIDSEGU),0)+1 ID FROM PRODAPPS.APDSGCVW WHERE FIAPIDCOMP = 70 AND FIAPIDAPPS = 3),'Movimiento generado en Servicios' ,15,1, 'APPS' ,CURRENT DATE, CURRENT TIME, 'APP','3')
+
+----------- CommitTransaccion              CurrentProcessId: 19100	JobName:927200/QUSER/QZDASOINIT     
+
+15:24:14.00   CurrentProcessId: 19100	JobName:927200/QUSER/QZDASOINIT     
+ 
+ModoConectado=False	(antes:True)
+
+15:25:25.38   CurrentProcessId: 19100
+ 
+new DB2(DB2, 192.192.192.2, , )
+
+15:25:56.59   CurrentProcessId: 19100	JobName:923817/QUSER/QZDASOINIT     
+ 
+SELECT B.FIAPIDCIAU FROM PRODAPPS.APECMPVW A
+                                    INNER JOIN PRODapps.APEPANVW B
+                                    ON A.FIAPIDCOMP = B.FIAPIDCOMP
+                                    AND A.FIAPIDMARC = B.FIAPIDMARC
+                                    AND A.FIAPIDAPPS = B.FIAPIDAPPS
+                                    WHERE A.FIAPIDCOMP = 70
+                                    AND A.FIAPIDAPPS = 3
+                                    AND A.FIAPIDESTA = 15
+
+----------- BeginTransaccion              CurrentProcessId: 19100	JobName:924937/QUSER/QZDASOINIT     
+15:26:16.69   CurrentProcessId: 19100	JobName:924937/QUSER/QZDASOINIT     
+ 
+UPDATE PRODAPPS.APECMPVW SET FIAPIDPASO = 4, USERUPDAT = 'APP', DATEUPDAT = CURRENT DATE, TIMEUPDAT = CURRENT TIME, PROGUPDAT = 'APP' WHERE FIAPIDCOMP = 70 AND FIAPIDAPPS = 3 AND FIAPSTATUS = 1
+
+----------- CommitTransaccion              CurrentProcessId: 19100	JobName:924937/QUSER/QZDASOINIT     
+
+15:26:18.55   CurrentProcessId: 19100	JobName:924937/QUSER/QZDASOINIT     
+ 
+ModoConectado=False	(antes:True)
+
+15:26:44.25   CurrentProcessId: 19100
+              en wsApiVW.dll wsApiVW.Bussine.ProcesoCompra.cs Method: Void enviaCorreo(Int64 IdCompra, string nuevoPaso, string IdAgencia) ..\Bussine\ProcesoCompra.cs Line: 848 
+new DB2(DB2, 192.192.192.2, , )
+
+15:26:56.74   CurrentProcessId: 19100	JobName:924836/QUSER/QZDASOINIT     
+              en wsApiVW.dll wsApiVW.Bussine.ProcesoCompra.cs Method: Void enviaCorreo(Int64 IdCompra, string nuevoPaso, string IdAgencia) ..\Bussine\ProcesoCompra.cs Line: 854 
+SELECT FSAPCORREO FROM PRODAPPS.APDCRSVW
+                           WHERE FIAPIDCIAU=25
+

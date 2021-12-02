@@ -1,0 +1,40 @@
+DB2 - DB2 192.192.192.2 - PROD
+#define
+
+15:54:12.73   CurrentProcessId: 22532
+ 
+new DB2(DB2, 192.192.192.2, , )
+
+15:54:12.92   CurrentProcessId: 22532	JobName:938528/QUSER/QZDASOINIT     
+ 
+SELECT ape.FIAPIDCOMP IDCOMPRA, ape.FIAPIDAPPS, ape.FIAPIDMARC, ape.FIAPFOLCOM, ape.FIAPIDCUEN IDCUENTA, ape.FFAPFECCOM, ape.FHAPHORCOM, ape.FDAPSUBTOT SUBTOTAL, ape.FDAPDESCUE DESCUENTO, ape.FDAPIVA IVA, ape.FDAPTOTAL TOTAL, ape.FSAPRUTRFB, ape.FIAPIDESTA,  est.FSAPESTADO, ape.FIAPIDPROC, ape.FIAPIDPASO PASO, dan.FIAPIDCIAU, dan.FIAPIDPEDI, dan.FFAPFECPED, dan.FHAPHORPED, dan.FIAPIDPERS, dan.FIAPIDVEHI, dan.FIAPIDINVE, dan.FSAPMODELO, dan.FSAPVERSIO, dan.FSAPTRANSM ,dan.FSAPCOLEXT, dan.FSAPNUMINV,dan.FSAPNUMSER, dan.FDAPSUBTOT SUBTOTALPEDIDO, dan.FDAPDESCUE, dan.FDAPIVA IVAPEDIDO, dan.FDAPTOTAL TOTALPEDIDO, dan.FIAPCOTSEG, dan.FSAPRUTFOT,CUENTA.FSAPNOMBRE, CUENTA.FSAPAPEPAT, CUENTA.FSAPAPEMAT, CUENTA.FSAPCORREO, CUENTA.FIAPLADMOV, CUENTA.FIAPNUMMOV FROM PRODapps.APECMPVW ape 
+                                INNER JOIN PRODapps.APCESCVW est ON ape.FIAPIDESTA = est.FIAPIDESTA 
+                                INNER JOIN PRODapps.APEPANVW dan ON dan.FIAPIDCOMP = ape.FIAPIDCOMP 
+                                AND  dan.FIAPIDMARC = ape.FIAPIDMARC 
+                                INNER JOIN PRODAPPS.APCCTAVW CUENTA ON 
+                                ape.FIAPIDCUEN = CUENTA.FIAPIDCUEN 
+                                AND ape.FIAPIDAPPS= CUENTA.FIAPIDAPPS 
+                                WHERE 1 = 1 
+                                AND ape.FIAPSTATUS = 1  AND ape.FIAPIDAPPS= 3  ORDER BY ape.FIAPIDCOMP ASC
+
+15:58:44.07   CurrentProcessId: 22532
+ 
+new DB2(DB2, 192.192.192.2, , )
+
+15:58:44.26   CurrentProcessId: 22532	JobName:937187/QUSER/QZDASOINIT     
+ 
+UPDATE PRODAPPS.APECMPVW SET FIAPIDESTA = 3 WHERE FIAPIDCOMP =77 AND FIAPIDAPPS =3
+
+16:00:17.96   CurrentProcessId: 22532
+              en wsApiVW.dll wsApiVW.Bussine.ProcesoCompra+<GetActualizaCheckOrdenCompra>d__9.cs Method: Void MoveNext()                                                      ..\Bussine\ProcesoCompra.cs Line: 1020
+              en wsApiVW.dll ProcesoCompra.cs                                                    Method: Void enviaCorreo(Int64 IdCompra, string nuevoPaso, string IdAgencia) ..\Bussine\ProcesoCompra.cs Line: 847 
+new DB2(DB2, 192.192.192.2, , )
+
+16:00:42.39   CurrentProcessId: 22532	JobName:941424/QUSER/QZDASOINIT     
+              en wsApiVW.dll wsApiVW.Bussine.ProcesoCompra+<GetActualizaCheckOrdenCompra>d__9.cs Method: Void MoveNext()                                                      ..\Bussine\ProcesoCompra.cs Line: 1020
+              en wsApiVW.dll ProcesoCompra.cs                                                    Method: Void enviaCorreo(Int64 IdCompra, string nuevoPaso, string IdAgencia) ..\Bussine\ProcesoCompra.cs Line: 857 
+SELECT FSAPCORREO FROM PRODAPPS.APDCRSVW
+                           WHERE 1=1
+                           AND FIAPIDUSUA = 2
+                           AND FIAPIDCIAU=28
+

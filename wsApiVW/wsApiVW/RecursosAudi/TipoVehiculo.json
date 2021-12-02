@@ -1,0 +1,10 @@
+﻿[
+  {
+    "Id"  : "1",
+    "Tipo": "Existencia"
+  },
+  {
+    "Id"  : "2",
+    "Tipo": "Configurado"
+  }
+]

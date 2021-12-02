@@ -1,0 +1,499 @@
+DB2 - DB2 192.192.192.2 - PROD
+#define
+
+09:15:34.72   CurrentProcessId: 23712
+ 
+new DB2(DB2, 192.192.192.2, , )
+
+----------- BeginTransaccion              CurrentProcessId: 23712	JobName:218628/QUSER/QZDASOINIT     
+09:15:35.17   CurrentProcessId: 23712	JobName:218628/QUSER/QZDASOINIT     
+ 
+SELECT FNAUTOEST FROM PRODAUT.ANCAUTOM WHERE FNAUTOAGE = 36 AND FIANIDINVE=20260	AND FIANSTATU = 1 	AND FNAUTOEST in (6,10) AND FIANAUTMAV = 1
+
+09:15:35.22   CurrentProcessId: 23712	JobName:218628/QUSER/QZDASOINIT     
+ 
+SELECT A.FIAPIDCUEN Id, A.FSAPNOMBRE Nombre, A.FSAPAPEPAT ApellidoPaterno, A.FSAPAPEMAT ApellidoMaterno,A.FIAPLADMOV Lada,A.FIAPNUMMOV numero FROM PRODAPPS.APCCTAVW A INNER JOIN PRODAPPS.APCTOKEN B ON A.FIAPIDCUEN = B.FIAPIDCUEN AND A.FIAPIDAPPS = B.FIAPIDAPPS AND B.FIAPSTATUS = 1 WHERE lower(TRIM(A.FSAPCORREO)) = 'maurogrov@gmail.com' AND A.FIAPSTATUS = 1 AND A.FIAPIDAPPS = 2
+
+09:15:35.25   CurrentProcessId: 23712	JobName:218628/QUSER/QZDASOINIT     
+ 
+UPDATE PRODAPPS.APCTOKEN  SET FIAPSTATUS = 1, FSAPTOKEN = '', USERUPDAT = 'APP', DATEUPDAT = CURRENT DATE, TIMEUPDAT = CURRENT TIME, PROGUPDAT = 'APP' WHERE FIAPIDCUEN =  97 AND FIAPIDAPPS = 2
+
+09:15:35.27   CurrentProcessId: 23712	JobName:218628/QUSER/QZDASOINIT     
+ 
+select FIAPIDCOMP Cuenta FROM PRODapps.APECMPVW ape inner join PRODapps.APCESCVW est ON ape.FIAPIDESTA = est.FIAPIDESTA WHERE ape.FIAPSTATUS = 1 AND ape.FIAPIDESTA NOT IN(15,24) AND ape.FIAPIDCUEN = 97 AND ape.FIAPIDAPPS = 2
+
+09:15:35.30   CurrentProcessId: 23712	JobName:218628/QUSER/QZDASOINIT     
+ 
+SELECT FIAPIDCOMP FROM NEW TABLE ( INSERT INTO PRODAPPS.APECMPVW
+                            (
+                            FIAPIDAPPS,      /*ID APP*/
+                            FIAPIDCOMP,      /*ID COMPRA   */
+                            FIAPIDMARC,      /*ID MARCA */
+                            FSAPDESCRI,      /*DESCRIPCION*/
+                            FIAPFOLCOM,      /* FOLIO COMPRA*/
+                            FIAPIDCUEN,      /*ID CUENTA   */
+                            FFAPFECCOM,      /*FECHA COMPRA*/
+                            FHAPHORCOM,      /*HORA COMPRA */
+                            FDAPSUBTOT,      /*SUBTOTAL */
+                            FDAPDESCUE,      /*DESCUENTO*/
+                            FDAPIVA,         /*IVA      */
+                            FDAPTOTAL,       /* TOTAL*/    
+                            FIAPIDESTA,      /*ID ESTADO*/
+                            FIAPIDPROC,      /*ID PROCESO*/ 
+                            FIAPIDPASO,      /*ID PASO*/
+                            FIAPSTATUS,      /*ESTATUS     */     
+                            USERCREAT,       /*USUARIO CREACION */
+                            DATECREAT,       /*FECHA CREACION   */
+                            TIMECREAT,       /*HORA CREACION    */
+                            PROGCREAT        /*PROGRAMA CREACION*/) VALUES(2, (SELECT COALESCE(MAX(FIAPIDCOMP), 0) + 1 Id FROM PRODAPPS.APECMPVW WHERE FIAPIDAPPS = 2) , 0,'CUPRA',(SELECT COALESCE(MAX(FIAPIDCOMP), 0) + 1 Id FROM PRODAPPS.APECMPVW WHERE FIAPIDAPPS = 2) , 97 , CURRENT DATE , CURRENT TIME , 670603.44827586206896551724138 , 0 , 107296.55172413793103448275862 , 777900.0 , 1 , 2 , 1 , 1 , 'APP' , CURRENT DATE , CURRENT TIME , 'APP'))
+
+09:15:35.35   CurrentProcessId: 23712	JobName:218628/QUSER/QZDASOINIT     
+ 
+INSERT INTO PRODAPPS.APEPANVW
+                            (
+                            FIAPIDAPPS,
+                            FIAPIDCOMP,     /* ID COMPRA    */
+                            FIAPIDMARC,      /*ID MARCA */
+                            FSAPDESCRI,      /*DESCRIPCION*/
+                            FIAPIDCIAU,      /*ID CIA. UNICA*/
+                            FIAPIDVEHI,     /*ID VEHICULO  */
+                            FIAPIDINVE,      /*ID INVENTARIO*/
+                            FSAPMODELO,
+                            FSAPVERSIO,
+                            FSAPTRANSM,      /*TRANSMISION*/ 
+                            FSAPCOLEXT,
+                            FSAPNUMINV,
+
+                            FSAPNUMSER,      /*NUMERO SERIE*/ 
+                            FDAPSUBTOT,      /*SUBTOTAL     */
+                            FDAPDESCUE,      /*DESCUENTO      */ 
+                            FDAPIVA,         /*IVA             */
+                            FDAPTOTAL,       /*TOTAL      */     
+                            FSAPRUTFOT,    /*RUTA FOTO*/
+                            FIAPSTATUS,      /*ESTATUS       */  
+                            USERCREAT,       /*USUARIO CREACION*/
+                            DATECREAT,       /*FECHA CREACION   */
+                            TIMECREAT,       /*HORA CREACION    */
+                            PROGCREAT       /*PROGRAMA CREACION*/
+                            ) VALUES(2,67,0,'CUPRA',36,1355282,20260,'CUPRA Ateca','CUPRA Ateca 2021','DSG','Negro Cristal','N-2021-868','VSSDD75F8M6557302',670603.44827586206896551724138,0,107296.55172413793103448275862,777900.0,'http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca2021/negrocristal37487.png',1 , 'APP' , CURRENT DATE , CURRENT TIME , 'APP')
+
+09:15:35.36   CurrentProcessId: 23712	JobName:218628/QUSER/QZDASOINIT     
+ 
+UPDATE PRODAUT.ANCAUTOM  SET FNAUTOEST = 50, 	USERUPDAT = 'APP', DATEUPDAT = CURRENT DATE, TIMEUPDAT = CURRENT TIME, PROGUPDAT = 'APP' 	WHERE FNAUTOAGE = 36 AND FIANIDINVE=20260	AND FIANSTATU = 1 	AND FNAUTOEST in (6,10) AND FIANAUTMAV = 1
+
+09:15:35.41   CurrentProcessId: 23712	JobName:218628/QUSER/QZDASOINIT     
+ 
+SELECT COALESCE(MAX(FIAPIDSEGU),0) + 1 Id FROM PRODAPPS.APDSGCVW WHERE  FIAPIDCOMP = 67 AND FIAPIDAPPS = 2
+
+09:15:35.44   CurrentProcessId: 23712	JobName:218628/QUSER/QZDASOINIT     
+ 
+INSERT INTO PRODAPPS.APDSGCVW
+                            (
+                                FIAPIDCOMP,      /*ID COMPRA     */
+                                FIAPIDAPPS,      /*ID APP*/
+                                FIAPIDSEGU,      /*ID SEGUIMIENTO*/
+                                FSAPTITSEG,     /*TITULO SEGUIM */
+                                FIAPIDESTA,      /*ID ESTADO     */
+                                FIAPSTATUS,      /*ESTATUS       */
+                                USERCREAT,       /*USUARIO CREACION */
+                                DATECREAT,       /*FECHA CREACION   */
+                                TIMECREAT,       /*HORA CREACION    */
+                                PROGCREAT       /*PROGRAMA CREACION*/
+                                ) VALUES
+                                ((SELECT COALESCE(MAX(FIAPIDCOMP), 0) + 1 Id FROM PRODAPPS.APDSGCVW WHERE FIAPIDAPPS = 2) , 2,1 , 'Registro de orden de compra' , 1 , 1 , 'APP' , CURRENT DATE , CURRENT TIME , 'APP')
+
+09:15:35.47   CurrentProcessId: 23712	JobName:218628/QUSER/QZDASOINIT     
+ 
+INSERT INTO PRODAPPS.APDCKLVW(  FIAPIDCOMP, FIAPIDPROC, FIAPIDPCKL, FSAPDESCCK, FIAPSMARTI,  FIAPAPPVIS, FIAPSISTEM, FIAPREALIZ, FIAPSTATUS, USERCREAT,  DATECREAT, TIMECREAT, PROGCREAT,FIAPIDAPPS) SELECT 67, FIAPIDPROC, FIAPIDPCKL,  FSAPDESCCK, FIAPSMARTI,  FIAPAPPVIS, FIAPSISTEM,  0, FIAPSTATUS, 'APP',  CURRENT DATE, CURRENT TIME, 'APP' ,2 AS FIAPIDAPPS FROM PRODAPPS.APCCKLIS  WHERE FIAPSTATUS = 1
+
+09:15:35.50   CurrentProcessId: 23712	JobName:218628/QUSER/QZDASOINIT     
+ 
+UPDATE PRODAPPS.APDCKLVW SET FIAPREALIZ = 1, PROGUPDAT = 'APP', USERUPDAT = 'APP', TIMEUPDAT = CURRENT TIME, DATEUPDAT = CURRENT DATE WHERE FIAPIDCOMP = 67 AND FIAPIDPCKL = 1 AND FIAPIDAPPS= 2
+
+----------- CommitTransaccion              CurrentProcessId: 23712	JobName:218628/QUSER/QZDASOINIT     
+
+09:15:35.58   CurrentProcessId: 23712	JobName:218628/QUSER/QZDASOINIT     
+ 
+ModoConectado=False	(antes:True)
+
+09:15:35.86   CurrentProcessId: 23712	JobName:218628/QUSER/QZDASOINIT     
+ 
+SELECT FIAPIDCIAU, FSAPCORREO FROM PRODAPPS.APDCRSVW WHERE FIAPSTATUS = 1 AND FIAPIDCIAU = 36
+
+09:16:01.72   CurrentProcessId: 23712
+ 
+new DB2(DB2, 192.192.192.2, , )
+
+09:16:01.89   CurrentProcessId: 23712	JobName:217684/QUSER/QZDASOINIT     
+ 
+UPDATE PRODAPPS.APECMPVW SET FIAPIDESTA = 2 WHERE FIAPIDCOMP =67 AND FIAPIDAPPS =2
+
+09:16:02.03   CurrentProcessId: 23712
+              en wsApiVW.dll wsApiVW.Bussine.ProcesoCompra+<GetActualizaCheckOrdenCompra>d__9.cs Method: Void MoveNext()                                    ..\Bussine\ProcesoCompra.cs Line: 995
+              en wsApiVW.dll ProcesoCompra.cs                                                    Method: Void enviaCorreo(Int64 IdCompra, string nuevoPaso) ..\Bussine\ProcesoCompra.cs Line: 840 
+new DB2(DB2, 192.192.192.2, , )
+
+09:16:02.20   CurrentProcessId: 23712	JobName:218603/QUSER/QZDASOINIT     
+              en wsApiVW.dll wsApiVW.Bussine.ProcesoCompra+<GetActualizaCheckOrdenCompra>d__9.cs Method: Void MoveNext()                                    ..\Bussine\ProcesoCompra.cs Line: 995
+              en wsApiVW.dll ProcesoCompra.cs                                                    Method: Void enviaCorreo(Int64 IdCompra, string nuevoPaso) ..\Bussine\ProcesoCompra.cs Line: 844 
+SELECT DISTINCT FSAPCORREO FROM PRODAPPS.APDCRSVW
+
+09:17:05.48   CurrentProcessId: 23712
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.CatalogoSexo> GetObtenerSexo() ..\Bussine\FClienteAuto.cs Line: 224 
+new DB2(DB2, 192.192.192.2, , )
+
+09:17:05.65   CurrentProcessId: 23712	JobName:218684/QUSER/QZDASOINIT     
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.CatalogoSexo> GetObtenerSexo() ..\Bussine\FClienteAuto.cs Line: 232 
+select FDSXIDSEXO, FSSXDESCRI from PRODPERS.CTCSEXO
+
+09:17:05.81   CurrentProcessId: 23712
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.Sociedad> GetObtenerCatalogoSociedad() ..\Bussine\FClienteAuto.cs Line: 261 
+new DB2(DB2, 192.192.192.2, , )
+
+09:17:06.00   CurrentProcessId: 23712	JobName:218684/QUSER/QZDASOINIT     
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.Sociedad> GetObtenerCatalogoSociedad() ..\Bussine\FClienteAuto.cs Line: 267 
+select FIGEIDSOCI, FSGEDESSOC from PRODGRAL.GECSOCIE WHERE FIGESTATUS = 1
+
+09:17:06.14   CurrentProcessId: 23712
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.GiroComercial> GetObtenerGiroComercial() ..\Bussine\FClienteAuto.cs Line: 286 
+new DB2(DB2, 192.192.192.2, , )
+
+09:17:06.31   CurrentProcessId: 23712	JobName:218684/QUSER/QZDASOINIT     
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.GiroComercial> GetObtenerGiroComercial() ..\Bussine\FClienteAuto.cs Line: 293 
+select FICTIDGRCM, TRIM(FSCTDSGRCM) FSCTDSGRCM from PRODPERS.CTCGRCME WHERE  FICTSTATUS = 1 
+
+09:20:30.77   CurrentProcessId: 23712
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.CatalogoSexo> GetObtenerSexo() ..\Bussine\FClienteAuto.cs Line: 224 
+new DB2(DB2, 192.192.192.2, , )
+
+09:20:30.99   CurrentProcessId: 23712	JobName:218752/QUSER/QZDASOINIT     
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.CatalogoSexo> GetObtenerSexo() ..\Bussine\FClienteAuto.cs Line: 232 
+select FDSXIDSEXO, FSSXDESCRI from PRODPERS.CTCSEXO
+
+09:20:31.22   CurrentProcessId: 23712
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.Sociedad> GetObtenerCatalogoSociedad() ..\Bussine\FClienteAuto.cs Line: 261 
+new DB2(DB2, 192.192.192.2, , )
+
+09:20:31.39   CurrentProcessId: 23712	JobName:218752/QUSER/QZDASOINIT     
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.Sociedad> GetObtenerCatalogoSociedad() ..\Bussine\FClienteAuto.cs Line: 267 
+select FIGEIDSOCI, FSGEDESSOC from PRODGRAL.GECSOCIE WHERE FIGESTATUS = 1
+
+09:20:31.55   CurrentProcessId: 23712
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.GiroComercial> GetObtenerGiroComercial() ..\Bussine\FClienteAuto.cs Line: 286 
+new DB2(DB2, 192.192.192.2, , )
+
+09:20:31.72   CurrentProcessId: 23712	JobName:217835/QUSER/QZDASOINIT     
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.GiroComercial> GetObtenerGiroComercial() ..\Bussine\FClienteAuto.cs Line: 293 
+select FICTIDGRCM, TRIM(FSCTDSGRCM) FSCTDSGRCM from PRODPERS.CTCGRCME WHERE  FICTSTATUS = 1 
+
+09:24:34.63   CurrentProcessId: 23712
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.CatalogoSexo> GetObtenerSexo() ..\Bussine\FClienteAuto.cs Line: 224 
+new DB2(DB2, 192.192.192.2, , )
+
+09:24:34.81   CurrentProcessId: 23712	JobName:219159/QUSER/QZDASOINIT     
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.CatalogoSexo> GetObtenerSexo() ..\Bussine\FClienteAuto.cs Line: 232 
+select FDSXIDSEXO, FSSXDESCRI from PRODPERS.CTCSEXO
+
+09:24:34.98   CurrentProcessId: 23712
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.Sociedad> GetObtenerCatalogoSociedad() ..\Bussine\FClienteAuto.cs Line: 261 
+new DB2(DB2, 192.192.192.2, , )
+
+09:24:35.16   CurrentProcessId: 23712	JobName:219161/QUSER/QZDASOINIT     
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.Sociedad> GetObtenerCatalogoSociedad() ..\Bussine\FClienteAuto.cs Line: 267 
+select FIGEIDSOCI, FSGEDESSOC from PRODGRAL.GECSOCIE WHERE FIGESTATUS = 1
+
+09:24:35.32   CurrentProcessId: 23712
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.GiroComercial> GetObtenerGiroComercial() ..\Bussine\FClienteAuto.cs Line: 286 
+new DB2(DB2, 192.192.192.2, , )
+
+09:24:35.63   CurrentProcessId: 23712	JobName:219163/QUSER/QZDASOINIT     
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.GiroComercial> GetObtenerGiroComercial() ..\Bussine\FClienteAuto.cs Line: 293 
+select FICTIDGRCM, TRIM(FSCTDSGRCM) FSCTDSGRCM from PRODPERS.CTCGRCME WHERE  FICTSTATUS = 1 
+
+09:27:22.49   CurrentProcessId: 23712
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.CatalogoSexo> GetObtenerSexo() ..\Bussine\FClienteAuto.cs Line: 224 
+new DB2(DB2, 192.192.192.2, , )
+
+09:27:22.67   CurrentProcessId: 23712	JobName:219425/QUSER/QZDASOINIT     
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.CatalogoSexo> GetObtenerSexo() ..\Bussine\FClienteAuto.cs Line: 232 
+select FDSXIDSEXO, FSSXDESCRI from PRODPERS.CTCSEXO
+
+09:27:22.81   CurrentProcessId: 23712
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.Sociedad> GetObtenerCatalogoSociedad() ..\Bussine\FClienteAuto.cs Line: 261 
+new DB2(DB2, 192.192.192.2, , )
+
+09:27:22.98   CurrentProcessId: 23712	JobName:219425/QUSER/QZDASOINIT     
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.Sociedad> GetObtenerCatalogoSociedad() ..\Bussine\FClienteAuto.cs Line: 267 
+select FIGEIDSOCI, FSGEDESSOC from PRODGRAL.GECSOCIE WHERE FIGESTATUS = 1
+
+09:27:23.12   CurrentProcessId: 23712
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.GiroComercial> GetObtenerGiroComercial() ..\Bussine\FClienteAuto.cs Line: 286 
+new DB2(DB2, 192.192.192.2, , )
+
+09:27:23.29   CurrentProcessId: 23712	JobName:219425/QUSER/QZDASOINIT     
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.GiroComercial> GetObtenerGiroComercial() ..\Bussine\FClienteAuto.cs Line: 293 
+select FICTIDGRCM, TRIM(FSCTDSGRCM) FSCTDSGRCM from PRODPERS.CTCGRCME WHERE  FICTSTATUS = 1 
+
+09:29:15.42   CurrentProcessId: 23712
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.CatalogoSexo> GetObtenerSexo() ..\Bussine\FClienteAuto.cs Line: 224 
+new DB2(DB2, 192.192.192.2, , )
+
+09:29:15.59   CurrentProcessId: 23712	JobName:217777/QUSER/QZDASOINIT     
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.CatalogoSexo> GetObtenerSexo() ..\Bussine\FClienteAuto.cs Line: 232 
+select FDSXIDSEXO, FSSXDESCRI from PRODPERS.CTCSEXO
+
+09:29:15.73   CurrentProcessId: 23712
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.Sociedad> GetObtenerCatalogoSociedad() ..\Bussine\FClienteAuto.cs Line: 261 
+new DB2(DB2, 192.192.192.2, , )
+
+09:29:15.90   CurrentProcessId: 23712	JobName:217777/QUSER/QZDASOINIT     
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.Sociedad> GetObtenerCatalogoSociedad() ..\Bussine\FClienteAuto.cs Line: 267 
+select FIGEIDSOCI, FSGEDESSOC from PRODGRAL.GECSOCIE WHERE FIGESTATUS = 1
+
+09:29:16.04   CurrentProcessId: 23712
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.GiroComercial> GetObtenerGiroComercial() ..\Bussine\FClienteAuto.cs Line: 286 
+new DB2(DB2, 192.192.192.2, , )
+
+09:29:16.21   CurrentProcessId: 23712	JobName:218834/QUSER/QZDASOINIT     
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.GiroComercial> GetObtenerGiroComercial() ..\Bussine\FClienteAuto.cs Line: 293 
+select FICTIDGRCM, TRIM(FSCTDSGRCM) FSCTDSGRCM from PRODPERS.CTCGRCME WHERE  FICTSTATUS = 1 
+
+09:30:06.32   CurrentProcessId: 23712
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.CatalogoSexo> GetObtenerSexo() ..\Bussine\FClienteAuto.cs Line: 224 
+new DB2(DB2, 192.192.192.2, , )
+
+09:30:06.47   CurrentProcessId: 23712	JobName:219439/QUSER/QZDASOINIT     
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.CatalogoSexo> GetObtenerSexo() ..\Bussine\FClienteAuto.cs Line: 232 
+select FDSXIDSEXO, FSSXDESCRI from PRODPERS.CTCSEXO
+
+09:30:06.60   CurrentProcessId: 23712
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.Sociedad> GetObtenerCatalogoSociedad() ..\Bussine\FClienteAuto.cs Line: 261 
+new DB2(DB2, 192.192.192.2, , )
+
+09:30:06.76   CurrentProcessId: 23712	JobName:219439/QUSER/QZDASOINIT     
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.Sociedad> GetObtenerCatalogoSociedad() ..\Bussine\FClienteAuto.cs Line: 267 
+select FIGEIDSOCI, FSGEDESSOC from PRODGRAL.GECSOCIE WHERE FIGESTATUS = 1
+
+09:30:06.90   CurrentProcessId: 23712
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.GiroComercial> GetObtenerGiroComercial() ..\Bussine\FClienteAuto.cs Line: 286 
+new DB2(DB2, 192.192.192.2, , )
+
+09:30:07.05   CurrentProcessId: 23712	JobName:219441/QUSER/QZDASOINIT     
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.GiroComercial> GetObtenerGiroComercial() ..\Bussine\FClienteAuto.cs Line: 293 
+select FICTIDGRCM, TRIM(FSCTDSGRCM) FSCTDSGRCM from PRODPERS.CTCGRCME WHERE  FICTSTATUS = 1 
+
+09:35:11.27   CurrentProcessId: 23712
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.CatalogoSexo> GetObtenerSexo() ..\Bussine\FClienteAuto.cs Line: 224 
+new DB2(DB2, 192.192.192.2, , )
+
+09:35:11.59   CurrentProcessId: 23712	JobName:217565/QUSER/QZDASOINIT     
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.CatalogoSexo> GetObtenerSexo() ..\Bussine\FClienteAuto.cs Line: 232 
+select FDSXIDSEXO, FSSXDESCRI from PRODPERS.CTCSEXO
+
+09:35:11.77   CurrentProcessId: 23712
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.Sociedad> GetObtenerCatalogoSociedad() ..\Bussine\FClienteAuto.cs Line: 261 
+new DB2(DB2, 192.192.192.2, , )
+
+09:35:11.95   CurrentProcessId: 23712	JobName:217565/QUSER/QZDASOINIT     
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.Sociedad> GetObtenerCatalogoSociedad() ..\Bussine\FClienteAuto.cs Line: 267 
+select FIGEIDSOCI, FSGEDESSOC from PRODGRAL.GECSOCIE WHERE FIGESTATUS = 1
+
+09:35:12.09   CurrentProcessId: 23712
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.GiroComercial> GetObtenerGiroComercial() ..\Bussine\FClienteAuto.cs Line: 286 
+new DB2(DB2, 192.192.192.2, , )
+
+09:35:12.27   CurrentProcessId: 23712	JobName:218065/QUSER/QZDASOINIT     
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: List<wsApiVW.Factura.GiroComercial> GetObtenerGiroComercial() ..\Bussine\FClienteAuto.cs Line: 293 
+select FICTIDGRCM, TRIM(FSCTDSGRCM) FSCTDSGRCM from PRODPERS.CTCGRCME WHERE  FICTSTATUS = 1 
+
+09:36:37.65   CurrentProcessId: 23712
+ 
+new DB2(DB2, 192.192.192.2, , )
+
+09:36:37.82   CurrentProcessId: 23712	JobName:219595/QUSER/QZDASOINIT     
+ 
+select FIAPIDCIAU, trim(FSAPNUMSER) NumeroSerie, FDAPTOTAL Total, FIAPIDINVE from prodapps.APEPANVW where FIAPIDCOMP = 67 AND FIAPIDAPPS = 2
+
+----------- BeginTransaccion              CurrentProcessId: 23712	JobName:218692/QUSER/QZDASOINIT     
+09:36:38.40   CurrentProcessId: 23712	JobName:218692/QUSER/QZDASOINIT     
+ 
+UPDATE PRODAUT.ANCAUTOM  SET FNAUTOEST = 10, 	USERUPDAT = 'APP', DATEUPDAT = CURRENT DATE, TIMEUPDAT = CURRENT TIME, PROGUPDAT = 'APP' 	WHERE FNAUTOAGE = 36 	AND FIANIDINVE=20260	AND FIANSTATU = 1 	AND FNAUTOEST = 50
+
+09:36:38.54   CurrentProcessId: 23712	JobName:218692/QUSER/QZDASOINIT     
+              en wsApiVW.dll wsApiVW.Bussine.FClienteAuto.cs Method: String ObtieneORegistraPersonaApps(DB2 conexion, int IdAgencia, string IdUsuario, string IdPrograma, RegistraPersona registraPersona) ..\Bussine\FClienteAuto.cs Line: 876 
+SELECT FDPEIDPERS, FSPECTEUNI, FIPEIDCIAU, FSPERFC, FDPEIDTIPO, FDPEIDTCTE, FDPEIDCLAS, FFPEALTA, FHPEALTA, FFPEESTATU, FHPEESTATU FROM PRODPERS.CTEPERSO WHERE FSPERFC = 'GUVM-950620-DY2' AND FDPEESTATU = 1
+
+----------- CommitTransaccion              CurrentProcessId: 23712	JobName:218692/QUSER/QZDASOINIT     
+
+09:36:38.58   CurrentProcessId: 23712	JobName:218692/QUSER/QZDASOINIT     
+ 
+ModoConectado=False	(antes:True)
+
+09:36:38.87   CurrentProcessId: 23712	JobName:218692/QUSER/QZDASOINIT     
+ 
+SELECT FSAPDESCRI FROM prodapps.APECMPVW WHERE FIAPIDCOMP = 67 AND FIAPIDAPPS =2
+
+09:36:39.15   CurrentProcessId: 23712	JobName:218692/QUSER/QZDASOINIT     
+ 
+SELECT FSAPDESCRI FROM prodapps.APECMPVW WHERE FIAPIDCOMP = 67 AND FIAPIDAPPS =2
+
+09:36:42.85   CurrentProcessId: 23712	JobName:219484/QUSER/QZDASOINIT     
+ 
+UPDATE PRODAPPS.APECMPVW SET FSAPRUTRFB =  'http://ws-smartit.divisionautomotriz.com/wsAppMiAuto/Recursos/Adjuntos/LineaCaptura_36_2316257_0360023162570003040.pdf' WHERE FIAPIDCOMP =67 AND FIAPIDAPPS= 2
+
+----------- BeginTransaccion              CurrentProcessId: 23712	JobName:219484/QUSER/QZDASOINIT     
+09:36:43.43   CurrentProcessId: 23712	JobName:219484/QUSER/QZDASOINIT     
+ 
+SELECT COUNT(*) COUNT FROM PRODAPPS.APDDTFVW WHERE FIAPIDCOMP = 67 AND FIAPSTATUS = 1 AND FIAPIDAPPS= 2
+
+09:36:43.46   CurrentProcessId: 23712	JobName:219484/QUSER/QZDASOINIT     
+ 
+INSERT INTO PRODAPPS.APDDTFVW (FIAPIDCOMP, FSAPRFCFIS, FSAPNMBFIS, FSAPAPTFIS, FSAPAMTFIS, FIAPLDTFIS, FIAPNMTFIS, FSAPCRRFIS, FSAPRFCRSC, FSAPRAZSOC, FSAPRFCRLG, FSAPNMBRLG, FSAPAPTRLG, FSAPAMTRLG, FIAPLDTRLG, FIAPNMTRLG, FSAPCRRRLG, FSAPCUCFDI, FSAPDESCRI, FIAPIDNACP, FSAPDESNAP, FSAPCURPPE, FSAPDIRPER, FIAPIDGENP, FSAPDESGEP, FIAPIDOCUP, FSAPDESOCP, FIAPSTATUS, USERCREAT, PROGCREAT,FIAPIDAPPS)VALUES (67,'GUVM-950620-DY2','MAURICIO','GUERRERO','VEGA',52,5511556513,'maurogrov@gmail.com','','','','','','',52,Default,'','G03','GASTOS EN GENERAL',1,'MEXICANA','GUVM950620HMCRGR06','4TA DE ALLENDE',1,'MASCULINO',1,'PROFESIONISTA',1,'APP','APP', 2)
+
+09:36:43.49   CurrentProcessId: 23712	JobName:219484/QUSER/QZDASOINIT     
+ 
+UPDATE PRODAPPS.APEPANVW SET FIAPIDPEDI = 98899, FFAPFECPED = CURRENT DATE, FHAPHORPED = CURRENT TIME, FIAPIDPERS = 2316257 WHERE FIAPIDCOMP = 67 AND FIAPIDAPPS = 2
+
+----------- CommitTransaccion              CurrentProcessId: 23712	JobName:219484/QUSER/QZDASOINIT     
+
+09:36:43.54   CurrentProcessId: 23712	JobName:219484/QUSER/QZDASOINIT     
+ 
+ModoConectado=False	(antes:True)
+
+09:36:50.19   CurrentProcessId: 23712
+ 
+new DB2(DB2, 192.192.192.2, , )
+
+09:36:50.37   CurrentProcessId: 23712	JobName:218795/QUSER/QZDASOINIT     
+ 
+UPDATE PRODAPPS.APECMPVW SET FIAPIDESTA = 4 WHERE FIAPIDCOMP =67 AND FIAPIDAPPS =2
+
+09:36:50.51   CurrentProcessId: 23712
+              en wsApiVW.dll wsApiVW.Bussine.ProcesoCompra+<GetActualizaCheckOrdenCompra>d__9.cs Method: Void MoveNext()                                    ..\Bussine\ProcesoCompra.cs Line: 1003
+              en wsApiVW.dll ProcesoCompra.cs                                                    Method: Void enviaCorreo(Int64 IdCompra, string nuevoPaso) ..\Bussine\ProcesoCompra.cs Line: 840 
+new DB2(DB2, 192.192.192.2, , )
+
+09:36:50.68   CurrentProcessId: 23712	JobName:219553/QUSER/QZDASOINIT     
+              en wsApiVW.dll wsApiVW.Bussine.ProcesoCompra+<GetActualizaCheckOrdenCompra>d__9.cs Method: Void MoveNext()                                    ..\Bussine\ProcesoCompra.cs Line: 1003
+              en wsApiVW.dll ProcesoCompra.cs                                                    Method: Void enviaCorreo(Int64 IdCompra, string nuevoPaso) ..\Bussine\ProcesoCompra.cs Line: 844 
+SELECT DISTINCT FSAPCORREO FROM PRODAPPS.APDCRSVW
+
+09:42:37.67   CurrentProcessId: 23712
+ 
+new DB2(DB2, 192.192.192.2, , )
+
+----------- BeginTransaccion              CurrentProcessId: 23712	JobName:219705/QUSER/QZDASOINIT     
+09:42:38.08   CurrentProcessId: 23712	JobName:219705/QUSER/QZDASOINIT     
+ 
+SELECT FNAUTOEST FROM PRODAUT.ANCAUTOM WHERE FNAUTOAGE = 36 AND FIANIDINVE=20335	AND FIANSTATU = 1 	AND FNAUTOEST in (6,10) AND FIANAUTMAV = 1
+
+09:42:38.11   CurrentProcessId: 23712	JobName:219705/QUSER/QZDASOINIT     
+ 
+SELECT A.FIAPIDCUEN Id, A.FSAPNOMBRE Nombre, A.FSAPAPEPAT ApellidoPaterno, A.FSAPAPEMAT ApellidoMaterno,A.FIAPLADMOV Lada,A.FIAPNUMMOV numero FROM PRODAPPS.APCCTAVW A INNER JOIN PRODAPPS.APCTOKEN B ON A.FIAPIDCUEN = B.FIAPIDCUEN AND A.FIAPIDAPPS = B.FIAPIDAPPS AND B.FIAPSTATUS = 1 WHERE lower(TRIM(A.FSAPCORREO)) = 'maurogrov@gmail.com' AND A.FIAPSTATUS = 1 AND A.FIAPIDAPPS = 2
+
+09:42:38.15   CurrentProcessId: 23712	JobName:219705/QUSER/QZDASOINIT     
+ 
+UPDATE PRODAPPS.APCTOKEN  SET FIAPSTATUS = 1, FSAPTOKEN = 'eiTftb17h0EgsUugMQsWjT:APA91bHRHiRMPj1B6W0GhEMdVnNbnT0Ff_tzhkcWQ9dr-UkHqMnlnyY7zr3_GA9zFzKVsr6vVIFIENGb6eRmCmlrAA0-HmgRcLxw_glKeWLVbdu75ZQ7LpLdmWWb3ncYGR36OXJXYzgI', USERUPDAT = 'APP', DATEUPDAT = CURRENT DATE, TIMEUPDAT = CURRENT TIME, PROGUPDAT = 'APP' WHERE FIAPIDCUEN =  132 AND FIAPIDAPPS = 2
+
+09:42:38.20   CurrentProcessId: 23712	JobName:219705/QUSER/QZDASOINIT     
+ 
+select FIAPIDCOMP Cuenta FROM PRODapps.APECMPVW ape inner join PRODapps.APCESCVW est ON ape.FIAPIDESTA = est.FIAPIDESTA WHERE ape.FIAPSTATUS = 1 AND ape.FIAPIDESTA NOT IN(15,24) AND ape.FIAPIDCUEN = 132 AND ape.FIAPIDAPPS = 2
+
+09:42:38.23   CurrentProcessId: 23712	JobName:219705/QUSER/QZDASOINIT     
+ 
+SELECT FIAPIDCOMP FROM NEW TABLE ( INSERT INTO PRODAPPS.APECMPVW
+                            (
+                            FIAPIDAPPS,      /*ID APP*/
+                            FIAPIDCOMP,      /*ID COMPRA   */
+                            FIAPIDMARC,      /*ID MARCA */
+                            FSAPDESCRI,      /*DESCRIPCION*/
+                            FIAPFOLCOM,      /* FOLIO COMPRA*/
+                            FIAPIDCUEN,      /*ID CUENTA   */
+                            FFAPFECCOM,      /*FECHA COMPRA*/
+                            FHAPHORCOM,      /*HORA COMPRA */
+                            FDAPSUBTOT,      /*SUBTOTAL */
+                            FDAPDESCUE,      /*DESCUENTO*/
+                            FDAPIVA,         /*IVA      */
+                            FDAPTOTAL,       /* TOTAL*/    
+                            FIAPIDESTA,      /*ID ESTADO*/
+                            FIAPIDPROC,      /*ID PROCESO*/ 
+                            FIAPIDPASO,      /*ID PASO*/
+                            FIAPSTATUS,      /*ESTATUS     */     
+                            USERCREAT,       /*USUARIO CREACION */
+                            DATECREAT,       /*FECHA CREACION   */
+                            TIMECREAT,       /*HORA CREACION    */
+                            PROGCREAT        /*PROGRAMA CREACION*/) VALUES(2, (SELECT COALESCE(MAX(FIAPIDCOMP), 0) + 1 Id FROM PRODAPPS.APECMPVW WHERE FIAPIDAPPS = 2) , 0,'CUPRA',(SELECT COALESCE(MAX(FIAPIDCOMP), 0) + 1 Id FROM PRODAPPS.APECMPVW WHERE FIAPIDAPPS = 2) , 132 , CURRENT DATE , CURRENT TIME , 670603.44827586206896551724138 , 0 , 107296.55172413793103448275862 , 777900.0 , 1 , 2 , 1 , 1 , 'APP' , CURRENT DATE , CURRENT TIME , 'APP'))
+
+09:42:38.26   CurrentProcessId: 23712	JobName:219705/QUSER/QZDASOINIT     
+ 
+INSERT INTO PRODAPPS.APEPANVW
+                            (
+                            FIAPIDAPPS,
+                            FIAPIDCOMP,     /* ID COMPRA    */
+                            FIAPIDMARC,      /*ID MARCA */
+                            FSAPDESCRI,      /*DESCRIPCION*/
+                            FIAPIDCIAU,      /*ID CIA. UNICA*/
+                            FIAPIDVEHI,     /*ID VEHICULO  */
+                            FIAPIDINVE,      /*ID INVENTARIO*/
+                            FSAPMODELO,
+                            FSAPVERSIO,
+                            FSAPTRANSM,      /*TRANSMISION*/ 
+                            FSAPCOLEXT,
+                            FSAPNUMINV,
+
+                            FSAPNUMSER,      /*NUMERO SERIE*/ 
+                            FDAPSUBTOT,      /*SUBTOTAL     */
+                            FDAPDESCUE,      /*DESCUENTO      */ 
+                            FDAPIVA,         /*IVA             */
+                            FDAPTOTAL,       /*TOTAL      */     
+                            FSAPRUTFOT,    /*RUTA FOTO*/
+                            FIAPSTATUS,      /*ESTATUS       */  
+                            USERCREAT,       /*USUARIO CREACION*/
+                            DATECREAT,       /*FECHA CREACION   */
+                            TIMECREAT,       /*HORA CREACION    */
+                            PROGCREAT       /*PROGRAMA CREACION*/
+                            ) VALUES(2,68,0,'CUPRA',36,1358445,20335,'CUPRA Ateca','CUPRA Ateca 2021','DSG','Negro Cristal','N-2021-943','VSSDD75F5M6558438',670603.44827586206896551724138,0,107296.55172413793103448275862,777900.0,'http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca2021/negrocristal37487.png',1 , 'APP' , CURRENT DATE , CURRENT TIME , 'APP')
+
+09:42:38.28   CurrentProcessId: 23712	JobName:219705/QUSER/QZDASOINIT     
+ 
+UPDATE PRODAUT.ANCAUTOM  SET FNAUTOEST = 50, 	USERUPDAT = 'APP', DATEUPDAT = CURRENT DATE, TIMEUPDAT = CURRENT TIME, PROGUPDAT = 'APP' 	WHERE FNAUTOAGE = 36 AND FIANIDINVE=20335	AND FIANSTATU = 1 	AND FNAUTOEST in (6,10) AND FIANAUTMAV = 1
+
+09:42:38.31   CurrentProcessId: 23712	JobName:219705/QUSER/QZDASOINIT     
+ 
+SELECT COALESCE(MAX(FIAPIDSEGU),0) + 1 Id FROM PRODAPPS.APDSGCVW WHERE  FIAPIDCOMP = 68 AND FIAPIDAPPS = 2
+
+09:42:38.34   CurrentProcessId: 23712	JobName:219705/QUSER/QZDASOINIT     
+ 
+INSERT INTO PRODAPPS.APDSGCVW
+                            (
+                                FIAPIDCOMP,      /*ID COMPRA     */
+                                FIAPIDAPPS,      /*ID APP*/
+                                FIAPIDSEGU,      /*ID SEGUIMIENTO*/
+                                FSAPTITSEG,     /*TITULO SEGUIM */
+                                FIAPIDESTA,      /*ID ESTADO     */
+                                FIAPSTATUS,      /*ESTATUS       */
+                                USERCREAT,       /*USUARIO CREACION */
+                                DATECREAT,       /*FECHA CREACION   */
+                                TIMECREAT,       /*HORA CREACION    */
+                                PROGCREAT       /*PROGRAMA CREACION*/
+                                ) VALUES
+                                ((SELECT COALESCE(MAX(FIAPIDCOMP), 0) + 1 Id FROM PRODAPPS.APDSGCVW WHERE FIAPIDAPPS = 2) , 2,1 , 'Registro de orden de compra' , 1 , 1 , 'APP' , CURRENT DATE , CURRENT TIME , 'APP')
+
+09:42:38.37   CurrentProcessId: 23712	JobName:219705/QUSER/QZDASOINIT     
+ 
+INSERT INTO PRODAPPS.APDCKLVW(  FIAPIDCOMP, FIAPIDPROC, FIAPIDPCKL, FSAPDESCCK, FIAPSMARTI,  FIAPAPPVIS, FIAPSISTEM, FIAPREALIZ, FIAPSTATUS, USERCREAT,  DATECREAT, TIMECREAT, PROGCREAT,FIAPIDAPPS) SELECT 68, FIAPIDPROC, FIAPIDPCKL,  FSAPDESCCK, FIAPSMARTI,  FIAPAPPVIS, FIAPSISTEM,  0, FIAPSTATUS, 'APP',  CURRENT DATE, CURRENT TIME, 'APP' ,2 AS FIAPIDAPPS FROM PRODAPPS.APCCKLIS  WHERE FIAPSTATUS = 1
+
+09:42:38.39   CurrentProcessId: 23712	JobName:219705/QUSER/QZDASOINIT     
+ 
+UPDATE PRODAPPS.APDCKLVW SET FIAPREALIZ = 1, PROGUPDAT = 'APP', USERUPDAT = 'APP', TIMEUPDAT = CURRENT TIME, DATEUPDAT = CURRENT DATE WHERE FIAPIDCOMP = 68 AND FIAPIDPCKL = 1 AND FIAPIDAPPS= 2
+
+----------- CommitTransaccion              CurrentProcessId: 23712	JobName:219705/QUSER/QZDASOINIT     
+
+09:42:38.42   CurrentProcessId: 23712	JobName:219705/QUSER/QZDASOINIT     
+ 
+ModoConectado=False	(antes:True)
+
+09:42:38.69   CurrentProcessId: 23712	JobName:219705/QUSER/QZDASOINIT     
+ 
+SELECT FIAPIDCIAU, FSAPCORREO FROM PRODAPPS.APDCRSVW WHERE FIAPSTATUS = 1 AND FIAPIDCIAU = 36
+

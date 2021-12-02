@@ -1,0 +1,144 @@
+﻿[
+  {
+    "IdMarca": "41",
+    "TerminoYCondiciones": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/TerminosYCondiciones/TerminoYCondiciones.pdf",
+    "AvisoDePrivacidad": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/TerminosYCondiciones/AvisoPrivacidad.pdf",
+    "LinkVideo": "https://www.youtube.com/channel/UC_ko1GzUfOwss0QYiUbhOGw/videos",
+    "LinkPaginaOficial": "https://www.seat.mx",
+    "LinkPaginaAppStore": "https://apps.apple.com/mx/app/seat-furia/id1547123021",
+    "LinkPaginaAppStoreAndroid" : "https://play.google.com/store/apps/details?id=com.dvalic.appfuriaseat",
+    "PoliticasAgencias": [
+      {
+        "IdAgencia": "12",
+        "NombreAgencia": "Monterrey",
+        "TerminoYCondiciones": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/Monterrey/politicasMonterrey.pdf",
+        "AvisoDePrivacidad": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/legales/avisoPrivacidad-Monterrey.pdf",
+        "Politicas": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/Monterrey/politicasMonterrey.pdf"
+      },
+      {
+        "IdAgencia": "35",
+        "NombreAgencia": "Acapulco",
+        "TerminoYCondiciones": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/Acapulco/politicasAcapulco.pdf",
+        "AvisoDePrivacidad": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/legales/avisoPrivacidad-Acapulco.pdf",
+        "Politicas": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/Acapulco/politicasAcapulco.pdf"
+      },
+      {
+        "IdAgencia": "36",
+        "NombreAgencia": "CDMX",
+        "TerminoYCondiciones": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/CDMX/politicasCDMX.pdf",
+        "AvisoDePrivacidad": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/legales/avisoPrivacidad-CDMX.pdf",
+        "Politicas": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/CDMX/politicasCDMX.pdf"
+      }
+    ]
+  },
+  {
+    "IdMarca": "0",
+    "TerminoYCondiciones": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/TerminosYCondiciones/TerminoYCondicionesCupra.pdf",
+    "AvisoDePrivacidad": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/TerminosYCondiciones/AvisoPrivacidad.pdf",
+    "LinkVideo": "https://www.youtube.com/channel/UCWKo3WxT6iDQi4KZ81wp0tA/videos",
+    "LinkPaginaOficial": "https://www.cupraoficial.mx",
+    "LinkPaginaAppStore": "https://apps.apple.com/us/app/cupra-garage/id1528566790",
+    "LinkPaginaAppStoreAndroid": "https://play.google.com/store/apps/details?id=com.dvalic.apptribucupra",
+    "PoliticasAgencias": [
+      {
+        "IdAgencia": "12",
+        "NombreAgencia": "Monterrey",
+        "TerminoYCondiciones": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/Monterrey/politicasMonterreyCupra.pdf",
+        "AvisoDePrivacidad": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/legales/avisoPrivacidad-Monterrey.pdf",
+        "Politicas": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/Monterrey/politicasMonterreyCupra.pdf"
+      },
+      {
+        "IdAgencia": "36",
+        "NombreAgencia": "CDMX",
+        "TerminoYCondiciones": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/CDMX/politicasCDMXCupra.pdf",
+        "AvisoDePrivacidad": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/legales/avisoPrivacidad-CDMX.pdf",
+        "Politicas": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/CDMX/politicasCDMXCupra.pdf"
+      }
+    ]
+  },
+  {
+    "IdMarca": "42",
+    "TerminoYCondiciones": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/TerminosYCondiciones/TerminosYCondicionesVW.pdf",
+    "AvisoDePrivacidad": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/TerminosYCondiciones/AvisoPrivacidad.pdf",
+    "LinkVideo": "https://www.youtube.com/channel/UCq32UWXmheRNSvYkBiMuXSw/videos",
+    "LinkPaginaOficial": "https://www.vw.com.mx",
+    "LinkPaginaAppStore": "https://apps.apple.com/mx/app/volkswagen-cresta/id1581280588",
+    "LinkPaginaAppStoreAndroid": "https://play.google.com/store/apps/details?id=com.dvalic.appvwcresta&hl=es_MX",
+    "PoliticasAgencias": [
+      {
+        "IdAgencia": "24",
+        "NombreAgencia": "Cuautla",
+        "TerminoYCondiciones": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/Cuatla/CRESTA_CUAUTLA_Politicas_TerminosLegales_App.pdf",
+        "AvisoDePrivacidad": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/Cuatla/AvisoPrivacidad.pdf",
+        "Politicas": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/Cuatla/CRESTA_CUAUTLA_Politicas_TerminosLegales_App.pdf"
+      },
+      {
+        "IdAgencia": "25",
+        "NombreAgencia": "Acapulco",
+        "TerminoYCondiciones": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/Acapulco/CRESTA_FURIA_ACAPULCO_Politicas_TerminosLegales_App.pdf",
+        "AvisoDePrivacidad": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/Acapulco/AvisoPrivacidad.pdf",
+        "Politicas": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/Acapulco/CRESTA_FURIA_ACAPULCO_Politicas_TerminosLegales_App.pdf"
+      },
+      {
+        "IdAgencia": "26",
+        "NombreAgencia": "Cuernavaca",
+        "TerminoYCondiciones": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/Morelos/CRESTA_CUERNAVACA_Politicas_TerminosLegales_App.pdf",
+        "AvisoDePrivacidad": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/Morelos/AvisoPrivacidadCuerna.pdf",
+        "Politicas": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/Morelos/CRESTA_CUERNAVACA_Politicas_TerminosLegales_App.pdf"
+      },
+      {
+        "IdAgencia": "27",
+        "NombreAgencia": "Del Valle",
+        "TerminoYCondiciones": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/CDMX/CRESTA_DEL_VALLE_Politicas_TerminosLegales_App.pdf",
+        "AvisoDePrivacidad": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/CDMX/AvisoPrivacidadValle.pdf",
+        "Politicas": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/CDMX/CRESTA_DEL_VALLE_Politicas_TerminosLegales_App.pdf"
+      },
+      {
+        "IdAgencia": "28",
+        "NombreAgencia": "Iztapalapa",
+        "TerminoYCondiciones": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/CDMX/CRESTA_IZTAPALAPA_Politicas_TerminosLegales_App.pdf",
+        "AvisoDePrivacidad": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/CDMX/AvisoPrivacidadIztapalapa.pdf",
+        "Politicas": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/CDMX/CRESTA_IZTAPALAPA_Politicas_TerminosLegales_App.pdf"
+      },
+      {
+        "IdAgencia": "29",
+        "NombreAgencia": "Morelos",
+        "TerminoYCondiciones": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/Morelos/CRESTA_MORELOS_Politicas_TerminosLegales_App.pdf",
+        "AvisoDePrivacidad": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/Morelos/AvisoPrivacidadMorelos.pdf",
+        "Politicas": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/Morelos/CRESTA_MORELOS_Politicas_TerminosLegales_App.pdf"
+      },
+      {
+        "IdAgencia": "44",
+        "NombreAgencia": "Narvarte",
+        "TerminoYCondiciones": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/CDMX/CRESTA_NARVARTE_Politicas_TerminosLegales_App.pdf",
+        "AvisoDePrivacidad": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/CDMX/AvisoPrivacidadNarvarte.pdf",
+        "Politicas": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/CDMX/CRESTA_NARVARTE_Politicas_TerminosLegales_App.pdf"
+      }
+    ]
+  },
+  {
+    "IdMarca": "39",
+    "TerminoYCondiciones": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/TerminosYCondiciones/TerminoYCondiciones.pdf",
+    "AvisoDePrivacidad": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/TerminosYCondiciones/AvisoPrivacidad.pdf",
+    "LinkVideo": "https://www.youtube.com/channel/UCsOuURkCzCuFKsvhP9dhDtA",
+    "LinkPaginaOficial": "https://www.audi.com.mx/mx/web/es.html",
+    "LinkPaginaAppStore": "https://apps.apple.com/mx/app/volkswagen-cresta/id1581280588",
+    "LinkPaginaAppStoreAndroid": "https://play.google.com/store/apps/details?id=com.dvalic.appvwcresta&hl=es_MX",
+    "PoliticasAgencias": [
+      {
+        "IdAgencia": "23",
+        "NombreAgencia": "Monterrey",
+        "TerminoYCondiciones": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/Monterrey/PoliticasMonterreyAudi.pdf",
+        "AvisoDePrivacidad": "",
+        "Politicas": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/Monterrey/PoliticasMonterreyAudi.pdf"
+      },
+      {
+        "IdAgencia": "81",
+        "NombreAgencia": "Acapulco",
+        "TerminoYCondiciones": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/Acapulco/PoliticasAcapulcoAudi.pdf",
+        "AvisoDePrivacidad": "",
+        "Politicas": "http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Politicas/Acapulco/PoliticasAcapulcoAudi.pdf"
+      }
+    ]
+  }
+]

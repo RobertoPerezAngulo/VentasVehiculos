@@ -1,0 +1,27 @@
+﻿[
+  {
+    "IdApps": "1",
+    "Nombre": "SEAT",
+    "Video1": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Nosotros/NOSOTROS_CDMX.jpg",
+    "Video2": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Nosotros/NOSOTROS_MONTERREY.jpg",
+    "Video3" :  "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Nosotros/NOSOTROS_ACAPULCO.jpg"
+  },
+  {
+    "IdApps": "2",
+    "Nombre": "CUPRA",
+    "Video1": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Nosotros/VideoCupraGarage1.mp4",
+    "Video2": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Nosotros/VideoCupraGarage2.mp4"
+  },
+  {
+    "IdApps": "3",
+    "Nombre": "VW",
+    "Video1": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/VW/Nosotros/ACAPULCO.jpg",
+    "Video2": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/VW/Nosotros/CITYSTORE.jpg",
+    "Video3": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/VW/Nosotros/CUAUTLA.jpg",
+    "Video4": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/VW/Nosotros/CUERNAVACA.jpg",
+    "Video5": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/VW/Nosotros/DELVALLE.jpg",
+    "Video6": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/VW/Nosotros/IZTAPALAPA.jpg",
+    "Video7": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/VW/Nosotros/MORELOS.jpg",
+    "Video8": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/VW/Nosotros/NARVARTE.jpg"
+  }
+]

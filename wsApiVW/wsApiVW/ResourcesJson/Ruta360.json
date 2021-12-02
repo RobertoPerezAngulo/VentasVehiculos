@@ -1,0 +1,341 @@
+﻿[
+  {
+    "IdMarca": "41",
+    "Nombre": "SEAT",
+    "Maquetas": [
+      {
+        "Version": "REFERENCE",
+        "Nombre": "Ibiza Reference",
+        "Anio": "2021",
+        "NombreApp": "IBIZA",
+        "Ruta": "https://my.matterport.com/show/?m=jLBwewdhWLZ&lang=es&play=1&help=1"
+      },
+      {
+        "Version": "STYLE",
+        "Nombre": "Ibiza Style",
+        "Anio": "2021",
+        "NombreApp": "IBIZA",
+        "Ruta": "https://my.matterport.com/show/?m=ZGSDDEemVdu&lang=es&play=1&help=1"
+      },
+      {
+        "Version": "XCELLENCE",
+        "Nombre": "Ibiza Xcellence",
+        "Anio": "2021",
+        "NombreApp": "IBIZA",
+        "Ruta": "https://my.matterport.com/show/?m=5WX1L5jgbDK&lang=es&play=1&help=1"
+      },
+      {
+        "Version": "FR",
+        "Nombre": "Ibiza Fr",
+        "Anio": "2021",
+        "NombreApp": "IBIZA",
+        "Ruta": "https://my.matterport.com/show/?m=BuiAsBFXaNJ&lang=es&play=1&help=1"
+      },
+      {
+        "Version": "STYLE",
+        "Nombre": "Arona Style",
+        "Anio": "2021",
+        "NombreApp": "ARONA",
+        "Ruta": "https://my.matterport.com/show/?m=YtWFsQgb57q"
+      },
+      {
+        "Version": "XCELLENCE",
+        "Nombre": "Arona Xcellece",
+        "Anio": "2021",
+        "NombreApp": "ARONA",
+        "Ruta": "https://my.matterport.com/show/?m=ZE1qp6kmVqo&lang=es&play=1&help=1"
+      },
+      {
+        "Version": "STYLE",
+        "Nombre": "Léon Style",
+        "Anio": "2021",
+        "NombreApp": "LEÓN",
+        "Ruta": "https://www.tuinview3dtour.com/seat_leon_style"
+      },
+      {
+        "Version": "FR",
+        "Nombre": "Léon Fr",
+        "Anio": "2021",
+        "NombreApp": "LEÓN",
+        "Ruta": "https://www.tuinview3dtour.com/seat_leon_fr/"
+      },
+      {
+        "Version": "FR Pintura Especial",
+        "Nombre": "Léon Fr Pintura Especial",
+        "Anio": "2021",
+        "NombreApp": "LEÓN",
+        "Ruta": "https://www.tuinview3dtour.com/seat_leon_fr/"
+      },
+      {
+        "Version": "STYLE",
+        "Nombre": "Ateca Style",
+        "Anio": "2021",
+        "NombreApp": "ATECA",
+        "Ruta": "https://my.matterport.com/show/?m=oaYbyx3UQ1T&lang=es&play=1&help=1"
+      },
+      {
+        "Version": "XPERIENCE",
+        "Nombre": "Ateca Xperience",
+        "Anio": "2021",
+        "NombreApp": "ATECA",
+        "Ruta": "https://my.matterport.com/show/?m=3DrUYeXuVc7&lang=es&play=1&help=1"
+      },
+      {
+        "Version": "FR",
+        "Nombre": "Tarraco Fr",
+        "Anio": "2021",
+        "NombreApp": "TARRACO",
+        "Ruta": "https://my.matterport.com/show/?m=zjEWUuvsZkk&lang=es&play=1&help=1"
+      }
+    ]
+  },
+  {
+    "IdMarca": "0",
+    "Nombre": "CUPRA",
+    "Maquetas": [
+      {
+        "Version": "",
+        "Nombre": "CUPRA GARAGE",
+        "Anio": "",
+        "NombreApp": "",
+        "Ruta": "https://my.matterport.com/show/?m=faecKU6QAQw"
+      },
+      {
+        "Version": "León P. Metálica",
+        "Nombre": "CUPRA León P. Metálica",
+        "Anio": "2021",
+        "NombreApp": "CUPRA León",
+        "Ruta": "https://www.tuinview3dtour.com/cupra_leon/"
+      },
+      {
+        "Version": "Formentor MID P. Metálica",
+        "Nombre": "CUPRA Formentor MID",
+        "Anio": "2021",
+        "NombreApp": "CUPRA Formentor MID",
+        "Ruta": "https://www.tuinview3dtour.com/cupra_formentor_mid/"
+      },
+      {
+        "Version": "Formentor HIGH P. Mate",
+        "Nombre": "CUPRA Formentor HIGH P. Mate",
+        "Anio": "2021",
+        "NombreApp": "CUPRA Formentor HIGH",
+        "Ruta": "https://www.tuinview3dtour.com/cupra_formentor_high/"
+      },
+      {
+        "Version": "CUPRA Ateca",
+        "Nombre": "CUPRA Ateca",
+        "Anio": "2021",
+        "NombreApp": "CUPRA Ateca",
+        "Ruta": "https://my.matterport.com/show/?m=o6RbyQyXe5S"
+      }
+    ]
+  },
+  {
+    "IdMarca": "42",
+    "Nombre": "VW",
+    "Maquetas": [
+      {
+        "Version": "STARTLINE",
+        "Nombre": "POLO STARTLINE STD",
+        "Anio": "2021",
+        "NombreApp": "POLO",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/polo_startline_std"
+      },
+      {
+        "Version": "STARTLINE",
+        "Nombre": "POLO STARTLINE TIP",
+        "Anio": "2021",
+        "NombreApp": "POLO",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/polo_startline_tip"
+      },
+      {
+        "Version": "COMFORTLINE PLUS",
+        "Nombre": "POLO COMFORTLINE STD",
+        "Anio": "2021",
+        "NombreApp": "POLO",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/polo_comfortline_std"
+      },
+      {
+        "Version": "COMFORTLINE PLUS",
+        "Nombre": "POLO COMFORTLINE TIP",
+        "Anio": "2021",
+        "NombreApp": "POLO",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/polo_comfortline_tip"
+      },
+      {
+        "Version": "STARTLINE",
+        "Nombre": "VENTO STARTLINE STD",
+        "Anio": "2021",
+        "NombreApp": "VENTO",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/vento_startline_std"
+      },
+      {
+        "Version": "STARTLINE",
+        "Nombre": "VENTO STARTLINE TIP",
+        "Anio": "2021",
+        "NombreApp": "VENTO",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/vento_startline_tip"
+      },
+      {
+        "Version": "COMFORTLINE",
+        "Nombre": "VENTO COMFORTLINE STD",
+        "Anio": "2021",
+        "NombreApp": "VENTO",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/vento_comfortline_std"
+      },
+      {
+        "Version": "COMFORTLINE",
+        "Nombre": "VENTO COMFORTLINE TIP",
+        "Anio": "2021",
+        "NombreApp": "VENTO",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/vento_comfortline_tip"
+      },
+      {
+        "Version": "VIRTUS TIP",
+        "Nombre": "1.6 L",
+        "Anio": "2022",
+        "NombreApp": "VIRTUS",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/virtus_triptonic"
+      },
+      {
+        "Version": "VIRTUS STD",
+        "Nombre": "1.6 L",
+        "Anio": "2022",
+        "NombreApp": "VIRTUS",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/virtus_std_2022"
+      },
+      {
+        "Version": "TRENDLINE",
+        "Nombre": "JETTA TRENDLINE TIP",
+        "Anio": "2021",
+        "NombreApp": "JETTA",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/jetta_trendline_tip"
+      },
+      {
+        "Version": "TRENDLINE",
+        "Nombre": "JETTA TRENDLINE STD",
+        "Anio": "2021",
+        "NombreApp": "JETTA",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/jetta_trendline_std/"
+      },
+      {
+        "Nombre": "JETTA COMFORTLINE",
+        "Version": "COMFORTLINE",
+        "Anio": "2021",
+        "NombreApp": "JETTA",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/jetta_comfortline_tip"
+      },
+      {
+        "Nombre": "JETTA R LINE",
+        "Version": "R LINE",
+        "Anio": "2021",
+        "NombreApp": "JETTA",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/jetta_r_line"
+      },
+      {
+        "Nombre": "JETTA HIGHLINE",
+        "Version": "HIGHLINE",
+        "Anio": "2021",
+        "NombreApp": "JETTA",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/jetta_highline"
+      },
+      {
+        "Nombre": "JETTA GLI",
+        "Version": "GLI",
+        "Anio": "2021",
+        "NombreApp": "JETTA GLI",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/jetta_gli"
+      },
+      {
+        "Version": "TRENDLINE",
+        "Nombre": "TRENDLINE TIP",
+        "Anio": "2021",
+        "NombreApp": "T-CROSS",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/t-cross_trendline"
+      },
+      {
+        "Version": "COMFORTLINE",
+        "Nombre": "COMFORTLINE STD",
+        "Anio": "2021",
+        "NombreApp": "T-CROSS",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/t-cross_comfortline"
+      },
+      {
+        "Nombre": "TAOS TRENDLINE",
+        "Version": "TRENDLINE",
+        "Anio": "2021",
+        "NombreApp": "NUEVO TAOS",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/taos_trendline"
+      },
+      {
+        "Nombre": "TAOS COMFORTLINE",
+        "Version": "COMFORTLINE",
+        "Anio": "2021",
+        "NombreApp": "NUEVO TAOS",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/taos_comfortline"
+      },
+      {
+        "Nombre": "TERAMONT TRENDLINE",
+        "Version": "TRENDLINE",
+        "Anio": "2021",
+        "NombreApp": "NUEVO TERAMONT",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/teramont_trendline"
+      },
+      {
+        "Nombre": "TERAMONT COMFORTLINE",
+        "Version": "COMFORTLINE",
+        "Anio": "2021",
+        "NombreApp": "NUEVO TERAMONT",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/teramont_comfortline"
+      },
+      {
+        "Nombre": "TERAMONT HIGHLINE",
+        "Version": "HIGHLINE",
+        "Anio": "2021",
+        "NombreApp": "TERAMONT",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/teramont_highline"
+      },
+      {
+        "Nombre": "CROSS SPORT R LINE",
+        "Version": "R-LINE",
+        "Anio": "2021",
+        "NombreApp": "NUEVO CROSS SPORT",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/cross_sport_rline"
+      },
+      {
+        "Nombre": "SAVEIRO ROBUST",
+        "Version": "ROBUST",
+        "Anio": "2022",
+        "NombreApp": "SAVEIRO",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/saveiro_robust_2022"
+      }
+    ]
+  },
+  {
+    "IdMarca": "39",
+    "Nombre": "Audi",
+    "Maquetas": [
+      {
+        "Version": "DYNAMIC",
+        "Nombre": "A4 DYNAMIC",
+        "Anio": "2021",
+        "NombreApp": "A4",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/polo_startline_std"
+      },
+      {
+        "Version": "SELECT",
+        "Nombre": "A4 SELECT",
+        "Anio": "2021",
+        "NombreApp": "A4",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/polo_startline_std"
+      },
+      {
+        "Version": "QUATTRO",
+        "Nombre": "A4 QUATTRO",
+        "Anio": "2021",
+        "NombreApp": "A4",
+        "Ruta": "https://www.tuinview3dtour.com/autofin/vw/polo_startline_std"
+      }
+    ]
+  }
+]

@@ -1,0 +1,483 @@
+DB2 - DB2 192.192.192.2 - PROD
+#define
+
+18:55:42.72   CurrentProcessId: 13308
+ 
+new DB2(DB2, 192.192.192.2, , )
+
+18:55:43.11   CurrentProcessId: 13308	JobName:076887/QUSER/QZDASOINIT     
+ 
+SELECT  B.FNMODEIDM,  B.FIAPIDMARC ,B.FSAPDESCRI NOMBREMODELO, B.FIAPANIO,C.FNVERSIDV, C.FDAPPRECIO, C.FDAPPRECIL, C.FSAPDESCRI NOMBREVERSION, D.FSAPTRANSM,E.FSAPATRIB1,E.FSAPATRIB2,E.FSAPATRIB3,E.FSAPATRIB4,E.FSAPATRIB5, E.FSAPATRIB6,E.FSAPRUTVID,E.FSAPRUT360, E.FSAPRUTFTE, F.FSAPRUTMIN, F.FSAPRUTVEH, F.FSAPDESCRI NOMBRECOLOR, F.FIDAPCOLOR  FROM PRODAPPS.APCAPMAR A
+                        
+                        INNER JOIN PRODAPPS.APCMODEL B
+                        ON A.FIAPIDMARC = B.FIAPIDMARC
+                        AND B.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCVERSI C
+                        ON B.FNMODEIDM = C.FNMODEIDM
+                        AND B.FIAPIDMARC = C.FIAPIDMARC
+                        AND B.FIAPANIO = C.FIAPANIO
+                        AND C.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCTRANS D
+                        ON C.FNVERSIDV =  D.FNVERSIDV
+                        AND D.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APDDETVE E
+                        ON D.FNVERSIDV = E.FNVERSIDV
+                        AND E.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCCOLOR F
+                        ON E.FNVERSIDV = F.FNVERSIDV
+                        AND F.FIAPSTATUS= 1
+
+                        WHERE B.FIAPIDMARC= 42 ORDER BY  CASE B.FNMODEIDM
+                                             WHEN '186' THEN 1
+                                             WHEN '1529' THEN 2
+                                             WHEN '1481' THEN 3
+                                             WHEN '133' THEN 4
+                                             WHEN '3' THEN 5
+                                             WHEN '543' THEN 6
+                                             WHEN '1498' THEN 7
+                                             WHEN '1602' THEN 8
+                                             WHEN '1257' THEN 9
+                                             WHEN '1350' THEN 10
+                                             WHEN '7' THEN 11
+                                             END, C.FDAPPRECIO ASC
+
+18:55:43.25   CurrentProcessId: 13308	JobName:075857/QUSER/QZDASOINIT     
+ 
+SELECT  B.FNMODEIDM,  B.FIAPIDMARC ,B.FSAPDESCRI NOMBREMODELO, B.FIAPANIO,C.FNVERSIDV, C.FDAPPRECIO, C.FDAPPRECIL, C.FSAPDESCRI NOMBREVERSION, D.FSAPTRANSM,E.FSAPATRIB1,E.FSAPATRIB2,E.FSAPATRIB3,E.FSAPATRIB4,E.FSAPATRIB5, E.FSAPATRIB6,E.FSAPRUTVID,E.FSAPRUT360, E.FSAPRUTFTE, F.FSAPRUTMIN, F.FSAPRUTVEH, F.FSAPDESCRI NOMBRECOLOR, F.FIDAPCOLOR  FROM PRODAPPS.APCAPMAR A
+                        
+                        INNER JOIN PRODAPPS.APCMODEL B
+                        ON A.FIAPIDMARC = B.FIAPIDMARC
+                        AND B.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCVERSI C
+                        ON B.FNMODEIDM = C.FNMODEIDM
+                        AND B.FIAPIDMARC = C.FIAPIDMARC
+                        AND B.FIAPANIO = C.FIAPANIO
+                        AND C.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCTRANS D
+                        ON C.FNVERSIDV =  D.FNVERSIDV
+                        AND D.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APDDETVE E
+                        ON D.FNVERSIDV = E.FNVERSIDV
+                        AND E.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCCOLOR F
+                        ON E.FNVERSIDV = F.FNVERSIDV
+                        AND F.FIAPSTATUS= 1
+
+                        WHERE B.FIAPIDMARC= 42 ORDER BY  CASE B.FNMODEIDM
+                                             WHEN '186' THEN 1
+                                             WHEN '1529' THEN 2
+                                             WHEN '1481' THEN 3
+                                             WHEN '133' THEN 4
+                                             WHEN '3' THEN 5
+                                             WHEN '543' THEN 6
+                                             WHEN '1498' THEN 7
+                                             WHEN '1602' THEN 8
+                                             WHEN '1257' THEN 9
+                                             WHEN '1350' THEN 10
+                                             WHEN '7' THEN 11
+                                             END, C.FDAPPRECIO ASC
+
+19:05:05.67   CurrentProcessId: 13308
+ 
+new DB2(DB2, 192.192.192.2, , )
+
+19:05:05.85   CurrentProcessId: 13308	JobName:077107/QUSER/QZDASOINIT     
+ 
+SELECT  B.FNMODEIDM,  B.FIAPIDMARC ,B.FSAPDESCRI NOMBREMODELO, B.FIAPANIO,C.FNVERSIDV, C.FDAPPRECIO, C.FDAPPRECIL, C.FSAPDESCRI NOMBREVERSION, D.FSAPTRANSM,E.FSAPATRIB1,E.FSAPATRIB2,E.FSAPATRIB3,E.FSAPATRIB4,E.FSAPATRIB5, E.FSAPATRIB6,E.FSAPRUTVID,E.FSAPRUT360, E.FSAPRUTFTE, F.FSAPRUTMIN, F.FSAPRUTVEH, F.FSAPDESCRI NOMBRECOLOR, F.FIDAPCOLOR  FROM PRODAPPS.APCAPMAR A
+                        
+                        INNER JOIN PRODAPPS.APCMODEL B
+                        ON A.FIAPIDMARC = B.FIAPIDMARC
+                        AND B.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCVERSI C
+                        ON B.FNMODEIDM = C.FNMODEIDM
+                        AND B.FIAPIDMARC = C.FIAPIDMARC
+                        AND B.FIAPANIO = C.FIAPANIO
+                        AND C.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCTRANS D
+                        ON C.FNVERSIDV =  D.FNVERSIDV
+                        AND D.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APDDETVE E
+                        ON D.FNVERSIDV = E.FNVERSIDV
+                        AND E.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCCOLOR F
+                        ON E.FNVERSIDV = F.FNVERSIDV
+                        AND F.FIAPSTATUS= 1
+
+                        WHERE B.FIAPIDMARC= 42 ORDER BY  CASE B.FNMODEIDM
+                                             WHEN '186' THEN 1
+                                             WHEN '1529' THEN 2
+                                             WHEN '1481' THEN 3
+                                             WHEN '133' THEN 4
+                                             WHEN '3' THEN 5
+                                             WHEN '543' THEN 6
+                                             WHEN '1498' THEN 7
+                                             WHEN '1602' THEN 8
+                                             WHEN '1257' THEN 9
+                                             WHEN '1350' THEN 10
+                                             WHEN '7' THEN 11
+                                             END, C.FDAPPRECIO ASC
+
+19:08:13.37   CurrentProcessId: 13308
+ 
+new DB2(DB2, 192.192.192.2, , )
+
+19:08:13.56   CurrentProcessId: 13308	JobName:077429/QUSER/QZDASOINIT     
+ 
+SELECT  B.FNMODEIDM,  B.FIAPIDMARC ,B.FSAPDESCRI NOMBREMODELO, B.FIAPANIO,C.FNVERSIDV, C.FDAPPRECIO, C.FDAPPRECIL, C.FSAPDESCRI NOMBREVERSION, D.FSAPTRANSM,E.FSAPATRIB1,E.FSAPATRIB2,E.FSAPATRIB3,E.FSAPATRIB4,E.FSAPATRIB5, E.FSAPATRIB6,E.FSAPRUTVID,E.FSAPRUT360, E.FSAPRUTFTE, F.FSAPRUTMIN, F.FSAPRUTVEH, F.FSAPDESCRI NOMBRECOLOR, F.FIDAPCOLOR  FROM PRODAPPS.APCAPMAR A
+                        
+                        INNER JOIN PRODAPPS.APCMODEL B
+                        ON A.FIAPIDMARC = B.FIAPIDMARC
+                        AND B.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCVERSI C
+                        ON B.FNMODEIDM = C.FNMODEIDM
+                        AND B.FIAPIDMARC = C.FIAPIDMARC
+                        AND B.FIAPANIO = C.FIAPANIO
+                        AND C.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCTRANS D
+                        ON C.FNVERSIDV =  D.FNVERSIDV
+                        AND D.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APDDETVE E
+                        ON D.FNVERSIDV = E.FNVERSIDV
+                        AND E.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCCOLOR F
+                        ON E.FNVERSIDV = F.FNVERSIDV
+                        AND F.FIAPSTATUS= 1
+
+                        WHERE B.FIAPIDMARC= 42 ORDER BY  CASE B.FNMODEIDM
+                                             WHEN '186' THEN 1
+                                             WHEN '1529' THEN 2
+                                             WHEN '1481' THEN 3
+                                             WHEN '133' THEN 4
+                                             WHEN '3' THEN 5
+                                             WHEN '543' THEN 6
+                                             WHEN '1498' THEN 7
+                                             WHEN '1602' THEN 8
+                                             WHEN '1257' THEN 9
+                                             WHEN '1350' THEN 10
+                                             WHEN '7' THEN 11
+                                             END, C.FDAPPRECIO ASC
+
+19:10:03.92   CurrentProcessId: 13308
+ 
+new DB2(DB2, 192.192.192.2, , )
+
+19:10:04.11   CurrentProcessId: 13308	JobName:077624/QUSER/QZDASOINIT     
+ 
+SELECT  B.FNMODEIDM,  B.FIAPIDMARC ,B.FSAPDESCRI NOMBREMODELO, B.FIAPANIO,C.FNVERSIDV, C.FDAPPRECIO, C.FDAPPRECIL, C.FSAPDESCRI NOMBREVERSION, D.FSAPTRANSM,E.FSAPATRIB1,E.FSAPATRIB2,E.FSAPATRIB3,E.FSAPATRIB4,E.FSAPATRIB5, E.FSAPATRIB6,E.FSAPRUTVID,E.FSAPRUT360, E.FSAPRUTFTE, F.FSAPRUTMIN, F.FSAPRUTVEH, F.FSAPDESCRI NOMBRECOLOR, F.FIDAPCOLOR  FROM PRODAPPS.APCAPMAR A
+                        
+                        INNER JOIN PRODAPPS.APCMODEL B
+                        ON A.FIAPIDMARC = B.FIAPIDMARC
+                        AND B.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCVERSI C
+                        ON B.FNMODEIDM = C.FNMODEIDM
+                        AND B.FIAPIDMARC = C.FIAPIDMARC
+                        AND B.FIAPANIO = C.FIAPANIO
+                        AND C.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCTRANS D
+                        ON C.FNVERSIDV =  D.FNVERSIDV
+                        AND D.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APDDETVE E
+                        ON D.FNVERSIDV = E.FNVERSIDV
+                        AND E.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCCOLOR F
+                        ON E.FNVERSIDV = F.FNVERSIDV
+                        AND F.FIAPSTATUS= 1
+
+                        WHERE B.FIAPIDMARC= 42 ORDER BY  CASE B.FNMODEIDM
+                                             WHEN '186' THEN 1
+                                             WHEN '1529' THEN 2
+                                             WHEN '1481' THEN 3
+                                             WHEN '133' THEN 4
+                                             WHEN '3' THEN 5
+                                             WHEN '543' THEN 6
+                                             WHEN '1498' THEN 7
+                                             WHEN '1602' THEN 8
+                                             WHEN '1257' THEN 9
+                                             WHEN '1350' THEN 10
+                                             WHEN '7' THEN 11
+                                             END, C.FDAPPRECIO ASC
+
+19:10:28.44   CurrentProcessId: 13308
+ 
+new DB2(DB2, 192.192.192.2, , )
+
+19:10:28.63   CurrentProcessId: 13308	JobName:072348/QUSER/QZDASOINIT     
+ 
+SELECT  B.FNMODEIDM,  B.FIAPIDMARC ,B.FSAPDESCRI NOMBREMODELO, B.FIAPANIO,C.FNVERSIDV, C.FDAPPRECIO, C.FDAPPRECIL, C.FSAPDESCRI NOMBREVERSION, D.FSAPTRANSM,E.FSAPATRIB1,E.FSAPATRIB2,E.FSAPATRIB3,E.FSAPATRIB4,E.FSAPATRIB5, E.FSAPATRIB6,E.FSAPRUTVID,E.FSAPRUT360, E.FSAPRUTFTE, F.FSAPRUTMIN, F.FSAPRUTVEH, F.FSAPDESCRI NOMBRECOLOR, F.FIDAPCOLOR  FROM PRODAPPS.APCAPMAR A
+                        
+                        INNER JOIN PRODAPPS.APCMODEL B
+                        ON A.FIAPIDMARC = B.FIAPIDMARC
+                        AND B.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCVERSI C
+                        ON B.FNMODEIDM = C.FNMODEIDM
+                        AND B.FIAPIDMARC = C.FIAPIDMARC
+                        AND B.FIAPANIO = C.FIAPANIO
+                        AND C.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCTRANS D
+                        ON C.FNVERSIDV =  D.FNVERSIDV
+                        AND D.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APDDETVE E
+                        ON D.FNVERSIDV = E.FNVERSIDV
+                        AND E.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCCOLOR F
+                        ON E.FNVERSIDV = F.FNVERSIDV
+                        AND F.FIAPSTATUS= 1
+
+                        WHERE B.FIAPIDMARC= 42 ORDER BY  CASE B.FNMODEIDM
+                                             WHEN '186' THEN 1
+                                             WHEN '1529' THEN 2
+                                             WHEN '1481' THEN 3
+                                             WHEN '133' THEN 4
+                                             WHEN '3' THEN 5
+                                             WHEN '543' THEN 6
+                                             WHEN '1498' THEN 7
+                                             WHEN '1602' THEN 8
+                                             WHEN '1257' THEN 9
+                                             WHEN '1350' THEN 10
+                                             WHEN '7' THEN 11
+                                             END, C.FDAPPRECIO ASC
+
+19:12:05.88   CurrentProcessId: 13308
+ 
+new DB2(DB2, 192.192.192.2, , )
+
+19:12:06.05   CurrentProcessId: 13308	JobName:077255/QUSER/QZDASOINIT     
+ 
+SELECT  B.FNMODEIDM,  B.FIAPIDMARC ,B.FSAPDESCRI NOMBREMODELO, B.FIAPANIO,C.FNVERSIDV, C.FDAPPRECIO, C.FDAPPRECIL, C.FSAPDESCRI NOMBREVERSION, D.FSAPTRANSM,E.FSAPATRIB1,E.FSAPATRIB2,E.FSAPATRIB3,E.FSAPATRIB4,E.FSAPATRIB5, E.FSAPATRIB6,E.FSAPRUTVID,E.FSAPRUT360, E.FSAPRUTFTE, F.FSAPRUTMIN, F.FSAPRUTVEH, F.FSAPDESCRI NOMBRECOLOR, F.FIDAPCOLOR  FROM PRODAPPS.APCAPMAR A
+                        
+                        INNER JOIN PRODAPPS.APCMODEL B
+                        ON A.FIAPIDMARC = B.FIAPIDMARC
+                        AND B.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCVERSI C
+                        ON B.FNMODEIDM = C.FNMODEIDM
+                        AND B.FIAPIDMARC = C.FIAPIDMARC
+                        AND B.FIAPANIO = C.FIAPANIO
+                        AND C.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCTRANS D
+                        ON C.FNVERSIDV =  D.FNVERSIDV
+                        AND D.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APDDETVE E
+                        ON D.FNVERSIDV = E.FNVERSIDV
+                        AND E.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCCOLOR F
+                        ON E.FNVERSIDV = F.FNVERSIDV
+                        AND F.FIAPSTATUS= 1
+
+                        WHERE B.FIAPIDMARC= 42 ORDER BY  CASE B.FNMODEIDM
+                                             WHEN '186' THEN 1
+                                             WHEN '1529' THEN 2
+                                             WHEN '1481' THEN 3
+                                             WHEN '133' THEN 4
+                                             WHEN '3' THEN 5
+                                             WHEN '543' THEN 6
+                                             WHEN '1498' THEN 7
+                                             WHEN '1602' THEN 8
+                                             WHEN '1257' THEN 9
+                                             WHEN '1350' THEN 10
+                                             WHEN '7' THEN 11
+                                             END, C.FDAPPRECIO ASC
+
+19:12:51.21   CurrentProcessId: 13308
+ 
+new DB2(DB2, 192.192.192.2, , )
+
+19:12:51.36   CurrentProcessId: 13308	JobName:074987/QUSER/QZDASOINIT     
+ 
+SELECT  B.FNMODEIDM,  B.FIAPIDMARC ,B.FSAPDESCRI NOMBREMODELO, B.FIAPANIO,C.FNVERSIDV, C.FDAPPRECIO, C.FDAPPRECIL, C.FSAPDESCRI NOMBREVERSION, D.FSAPTRANSM,E.FSAPATRIB1,E.FSAPATRIB2,E.FSAPATRIB3,E.FSAPATRIB4,E.FSAPATRIB5, E.FSAPATRIB6,E.FSAPRUTVID,E.FSAPRUT360, E.FSAPRUTFTE, F.FSAPRUTMIN, F.FSAPRUTVEH, F.FSAPDESCRI NOMBRECOLOR, F.FIDAPCOLOR  FROM PRODAPPS.APCAPMAR A
+                        
+                        INNER JOIN PRODAPPS.APCMODEL B
+                        ON A.FIAPIDMARC = B.FIAPIDMARC
+                        AND B.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCVERSI C
+                        ON B.FNMODEIDM = C.FNMODEIDM
+                        AND B.FIAPIDMARC = C.FIAPIDMARC
+                        AND B.FIAPANIO = C.FIAPANIO
+                        AND C.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCTRANS D
+                        ON C.FNVERSIDV =  D.FNVERSIDV
+                        AND D.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APDDETVE E
+                        ON D.FNVERSIDV = E.FNVERSIDV
+                        AND E.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCCOLOR F
+                        ON E.FNVERSIDV = F.FNVERSIDV
+                        AND F.FIAPSTATUS= 1
+
+                        WHERE B.FIAPIDMARC= 42 ORDER BY  CASE B.FNMODEIDM
+                                             WHEN '186' THEN 1
+                                             WHEN '1529' THEN 2
+                                             WHEN '1481' THEN 3
+                                             WHEN '133' THEN 4
+                                             WHEN '3' THEN 5
+                                             WHEN '543' THEN 6
+                                             WHEN '1498' THEN 7
+                                             WHEN '1602' THEN 8
+                                             WHEN '1257' THEN 9
+                                             WHEN '1350' THEN 10
+                                             WHEN '7' THEN 11
+                                             END, C.FDAPPRECIO ASC
+
+19:13:34.80   CurrentProcessId: 13308
+ 
+new DB2(DB2, 192.192.192.2, , )
+
+19:13:35.01   CurrentProcessId: 13308	JobName:076120/QUSER/QZDASOINIT     
+ 
+SELECT  B.FNMODEIDM,  B.FIAPIDMARC ,B.FSAPDESCRI NOMBREMODELO, B.FIAPANIO,C.FNVERSIDV, C.FDAPPRECIO, C.FDAPPRECIL, C.FSAPDESCRI NOMBREVERSION, D.FSAPTRANSM,E.FSAPATRIB1,E.FSAPATRIB2,E.FSAPATRIB3,E.FSAPATRIB4,E.FSAPATRIB5, E.FSAPATRIB6,E.FSAPRUTVID,E.FSAPRUT360, E.FSAPRUTFTE, F.FSAPRUTMIN, F.FSAPRUTVEH, F.FSAPDESCRI NOMBRECOLOR, F.FIDAPCOLOR  FROM PRODAPPS.APCAPMAR A
+                        
+                        INNER JOIN PRODAPPS.APCMODEL B
+                        ON A.FIAPIDMARC = B.FIAPIDMARC
+                        AND B.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCVERSI C
+                        ON B.FNMODEIDM = C.FNMODEIDM
+                        AND B.FIAPIDMARC = C.FIAPIDMARC
+                        AND B.FIAPANIO = C.FIAPANIO
+                        AND C.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCTRANS D
+                        ON C.FNVERSIDV =  D.FNVERSIDV
+                        AND D.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APDDETVE E
+                        ON D.FNVERSIDV = E.FNVERSIDV
+                        AND E.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCCOLOR F
+                        ON E.FNVERSIDV = F.FNVERSIDV
+                        AND F.FIAPSTATUS= 1
+
+                        WHERE B.FIAPIDMARC= 42 ORDER BY  CASE B.FNMODEIDM
+                                             WHEN '186' THEN 1
+                                             WHEN '1529' THEN 2
+                                             WHEN '1481' THEN 3
+                                             WHEN '133' THEN 4
+                                             WHEN '3' THEN 5
+                                             WHEN '543' THEN 6
+                                             WHEN '1498' THEN 7
+                                             WHEN '1602' THEN 8
+                                             WHEN '1257' THEN 9
+                                             WHEN '1350' THEN 10
+                                             WHEN '7' THEN 11
+                                             END, C.FDAPPRECIO ASC
+
+19:13:49.97   CurrentProcessId: 13308
+ 
+new DB2(DB2, 192.192.192.2, , )
+
+19:13:50.11   CurrentProcessId: 13308	JobName:075811/QUSER/QZDASOINIT     
+ 
+SELECT  B.FNMODEIDM,  B.FIAPIDMARC ,B.FSAPDESCRI NOMBREMODELO, B.FIAPANIO,C.FNVERSIDV, C.FDAPPRECIO, C.FDAPPRECIL, C.FSAPDESCRI NOMBREVERSION, D.FSAPTRANSM,E.FSAPATRIB1,E.FSAPATRIB2,E.FSAPATRIB3,E.FSAPATRIB4,E.FSAPATRIB5, E.FSAPATRIB6,E.FSAPRUTVID,E.FSAPRUT360, E.FSAPRUTFTE, F.FSAPRUTMIN, F.FSAPRUTVEH, F.FSAPDESCRI NOMBRECOLOR, F.FIDAPCOLOR  FROM PRODAPPS.APCAPMAR A
+                        
+                        INNER JOIN PRODAPPS.APCMODEL B
+                        ON A.FIAPIDMARC = B.FIAPIDMARC
+                        AND B.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCVERSI C
+                        ON B.FNMODEIDM = C.FNMODEIDM
+                        AND B.FIAPIDMARC = C.FIAPIDMARC
+                        AND B.FIAPANIO = C.FIAPANIO
+                        AND C.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCTRANS D
+                        ON C.FNVERSIDV =  D.FNVERSIDV
+                        AND D.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APDDETVE E
+                        ON D.FNVERSIDV = E.FNVERSIDV
+                        AND E.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCCOLOR F
+                        ON E.FNVERSIDV = F.FNVERSIDV
+                        AND F.FIAPSTATUS= 1
+
+                        WHERE B.FIAPIDMARC= 42 ORDER BY  CASE B.FNMODEIDM
+                                             WHEN '186' THEN 1
+                                             WHEN '1529' THEN 2
+                                             WHEN '1481' THEN 3
+                                             WHEN '133' THEN 4
+                                             WHEN '3' THEN 5
+                                             WHEN '543' THEN 6
+                                             WHEN '1498' THEN 7
+                                             WHEN '1602' THEN 8
+                                             WHEN '1257' THEN 9
+                                             WHEN '1350' THEN 10
+                                             WHEN '7' THEN 11
+                                             END, C.FDAPPRECIO ASC
+
+19:14:30.79   CurrentProcessId: 13308
+ 
+new DB2(DB2, 192.192.192.2, , )
+
+19:14:30.95   CurrentProcessId: 13308	JobName:076736/QUSER/QZDASOINIT     
+ 
+SELECT  B.FNMODEIDM,  B.FIAPIDMARC ,B.FSAPDESCRI NOMBREMODELO, B.FIAPANIO,C.FNVERSIDV, C.FDAPPRECIO, C.FDAPPRECIL, C.FSAPDESCRI NOMBREVERSION, D.FSAPTRANSM,E.FSAPATRIB1,E.FSAPATRIB2,E.FSAPATRIB3,E.FSAPATRIB4,E.FSAPATRIB5, E.FSAPATRIB6,E.FSAPRUTVID,E.FSAPRUT360, E.FSAPRUTFTE, F.FSAPRUTMIN, F.FSAPRUTVEH, F.FSAPDESCRI NOMBRECOLOR, F.FIDAPCOLOR  FROM PRODAPPS.APCAPMAR A
+                        
+                        INNER JOIN PRODAPPS.APCMODEL B
+                        ON A.FIAPIDMARC = B.FIAPIDMARC
+                        AND B.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCVERSI C
+                        ON B.FNMODEIDM = C.FNMODEIDM
+                        AND B.FIAPIDMARC = C.FIAPIDMARC
+                        AND B.FIAPANIO = C.FIAPANIO
+                        AND C.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCTRANS D
+                        ON C.FNVERSIDV =  D.FNVERSIDV
+                        AND D.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APDDETVE E
+                        ON D.FNVERSIDV = E.FNVERSIDV
+                        AND E.FIAPSTATUS = 1
+
+                        INNER JOIN PRODAPPS.APCCOLOR F
+                        ON E.FNVERSIDV = F.FNVERSIDV
+                        AND F.FIAPSTATUS= 1
+
+                        WHERE B.FIAPIDMARC= 42 ORDER BY  CASE B.FNMODEIDM
+                                             WHEN '186' THEN 1
+                                             WHEN '1529' THEN 2
+                                             WHEN '1481' THEN 3
+                                             WHEN '133' THEN 4
+                                             WHEN '3' THEN 5
+                                             WHEN '543' THEN 6
+                                             WHEN '1498' THEN 7
+                                             WHEN '1602' THEN 8
+                                             WHEN '1257' THEN 9
+                                             WHEN '1350' THEN 10
+                                             WHEN '7' THEN 11
+                                             END, C.FDAPPRECIO ASC
+

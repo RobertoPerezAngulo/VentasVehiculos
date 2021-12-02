@@ -1,0 +1,137 @@
+﻿[
+  {
+    "IdAgencia": "12",
+    "DatosBancarios": [
+      {
+        "RazonSocial": "FURIA MOTORS MONTERREY, S.A. DE C.V.",
+        "Ubicacion": "AV. LAZARO CARDENAS NO. 2270, COL. VALLE ORIENTE, C.P. 66269",
+        "CuentasBancarias": [
+          {
+            "Banco": "BBVA",
+            "NombreLogo": "bbva.png",
+            "NumeroCuenta": "0454245873",
+            "ClabeInterbancaria": "01218000452458736"
+          },
+          {
+            "Banco": "CitiBanamex",
+            "NombreLogo": "citibanamex.png",
+            "NumeroCuenta": "0002231",
+            "ClabeInterbancaria": "002580486400022319"
+          },
+          {
+            "Banco": "Scotiabank",
+            "NombreLogo": "scotiabank.png",
+            "NumeroCuenta": "103637255",
+            "ClabeInterbancaria": "044180001036372551"
+          },
+          {
+            "Banco": "Banorte",
+            "NombreLogo": "banorte.png",
+            "NumeroCuenta": "0676595633",
+            "ClabeInterbancaria": "072180006765956338"
+          },
+          {
+            "Banco": "Banco del bajío",
+            "NombreLogo": "bancodelbajio.png",
+            "NumeroCuenta": "0148046600201",
+            "ClabeInterbancaria": "030180900006558795"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IdAgencia": "36",
+    "DatosBancarios": [
+      {
+        "RazonSocial": "FURIA MOTORS MEXICO, S.A. DE C.V.",
+        "Ubicacion": "AV. DIVISIÓN DEL NORTE 1917, RESIDENCIAL EMPERADORES, D.F., C.P. 03320",
+        "CuentasBancarias": [
+          {
+            "Banco": "BBVA",
+            "NombreLogo": "bbva.png",
+            "NumeroCuenta": "0453809714",
+            "ClabeInterbancaria": "012180004538097143"
+          },
+          {
+            "Banco": "CitiBanamex",
+            "NombreLogo": "citibanamex.png",
+            "NumeroCuenta": "3957680576",
+            "ClabeInterbancaria": "002180039576805767"
+          },
+          {
+            "Banco": "Santander",
+            "NombreLogo": "santander.png",
+            "NumeroCuenta": "65501622090",
+            "ClabeInterbancaria": "014180655016220902"
+          },
+          {
+            "Banco": "Scotiabank",
+            "NombreLogo": "scotiabank.png",
+            "NumeroCuenta": "00106903649",
+            "ClabeInterbancaria": "044180001069036495"
+          },
+          {
+            "Banco": "Banorte",
+            "NombreLogo": "banorte.png",
+            "NumeroCuenta": "0650203321",
+            "ClabeInterbancaria": "072180006502033210"
+          },
+          {
+            "Banco": "BAM",
+            "NombreLogo": "bam.png",
+            "NumeroCuenta": "1805",
+            "ClabeInterbancaria": "128180000000018056"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IdAgencia": "35",
+    "DatosBancarios": [
+      {
+        "RazonSocial": "CRESTA FURIA ACAPULCO, S.A. DE C.V.",
+        "Ubicacion": "RUBEN FIGUEROA No. 714, COL. FARALLON, C.P. 39690",
+        "CuentasBancarias": [
+          {
+            "Banco": "BBVA",
+            "NombreLogo": "bbva.png",
+            "NumeroCuenta": "0136884385",
+            "ClabeInterbancaria": "012180001368843858"
+          },
+          {
+            "Banco": "CitiBanamex",
+            "NombreLogo": "citibanamex.png",
+            "NumeroCuenta": "456 / 6433",
+            "ClabeInterbancaria": "002180045600064332"
+          },
+          {
+            "Banco": "Santander",
+            "NombreLogo": "santander.png",
+            "NumeroCuenta": "65501622440",
+            "ClabeInterbancaria": "014261655016224403"
+          },
+          {
+            "Banco": "Scotiabank",
+            "NombreLogo": "scotiabank.png",
+            "NumeroCuenta": "00101090673",
+            "ClabeInterbancaria": "044180001010906736"
+          },
+          {
+            "Banco": "Banorte",
+            "NombreLogo": "banorte.png",
+            "NumeroCuenta": "0672080177",
+            "ClabeInterbancaria": "072180006720801774"
+          },
+          {
+            "Banco": "BAM",
+            "NombreLogo": "bam.png",
+            "NumeroCuenta": "32457",
+            "ClabeInterbancaria": "128180000000324575"
+          }
+        ]
+      }
+    ]
+  }
+]

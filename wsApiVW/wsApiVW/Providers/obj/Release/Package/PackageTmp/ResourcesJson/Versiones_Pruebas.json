@@ -1,0 +1,2640 @@
+﻿[
+  {
+    "IdMarca": "41",
+    "Modelos": [
+      {
+        "IdModelo": "131",
+        "NombreModelo": "IBIZA",
+        "Anios": [
+          {
+            "Anio": "Modelo 2021",
+            "Motor": "1.6 MPI/1.0 TDI",
+            "Potencia": "100/115 HP",
+            "Aceleracion": "0-100 km/h\n10.4/9.3 Seg.",
+            "VelocidadMax": "Vel. Max.\n190/195 Km/h",
+            "Versiones": [
+              {
+                "Nombre": "REFERENCE",
+                "RutaVideo": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Reference/Ibiza_Reference.mp4",
+                "RutaFichaTecnica": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/seat-ibiza-2021.pdf",
+                "Ruta360": "https://my.matterport.com/show/?m=jLBwewdhWLZ&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "27267",
+                    "Transmision": "STD.",
+                    "PrecioContado": "$258,900.00 MXN",
+                    "PrecioLista": "$278,900.00 MXN",
+                    "Iva": "35627.58",
+                    "SubTotal": "222672.41",
+                    "Total": "258300.00"
+                  },
+                  {
+                    "IdVersion": "28174",
+                    "Transmision": "TIPTRONIC.",
+                    "PrecioContado": "$279,900.00 MXN",
+                    "PrecioLista": "$299,900.00 MXN",
+                    "Iva": "38524.13",
+                    "SubTotal": "240775.86",
+                    "Total": "279900.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "7705",
+                    "Nombre": "Gris Mágnetico",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Reference/ibiza-reference-gris-magnetico.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/grismagnetico_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Reference/ibiza-reference-gris-magnetico.png"
+                  },
+                  {
+                    "IdColor": "1129",
+                    "Nombre": "Rojo Emoción",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Reference/RojoEmocion.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/rojoemocion_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Reference/RojoEmocion.png"
+                  },
+                  {
+                    "IdColor": "4354",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Reference/ibiza-reference-blanco-nevada.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/blanconevada_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Reference/ibiza-reference-blanco-nevada.png"
+                  },
+                  {
+                    "IdColor": "7170",
+                    "Nombre": "Negro Medianoche",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Reference/Ibiza-Reference-Negro-Medianoche.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/nmedianoche_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Reference/Ibiza-Reference-Negro-Medianoche.png"
+                  },
+                  {
+                    "IdColor": "7180",
+                    "Nombre": "Plata Urbano",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Reference/Ibiza-Reference-Plata-Urbano.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/plataurbano_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Reference/Ibiza-Reference-Plata-Urbano.png"
+                  },
+                  {
+                    "IdColor": "8913",
+                    "Nombre": "Rojo Deseo",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Reference/Ibiza-Reference-Rojo-Deseo.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/rojodeseo_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Reference/Ibiza-Reference-Rojo-Deseo.png"
+                  },
+                  {
+                    "IdColor": "6966",
+                    "Nombre": "Azul Misterio",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Reference/Ibiza-Reference-Azul-Misterio.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/azulmisterio_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Reference/Ibiza-Reference-Azul-Misterio.png"
+                  },
+                  {
+                    "IdColor": "289",
+                    "Nombre": "Blanco Candy",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Reference/BlancoCandy.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/BlancoCandy_IBIZA.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Reference/BlancoCandy.png"
+                  }
+                ]
+              },
+              {
+                "Nombre": "STYLE",
+                "RutaVideo": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Style/Ibiza_Style.mp4",
+                "RutaFichaTecnica": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/seat-ibiza-2021.pdf",
+                "Ruta360": "https://my.matterport.com/show/?m=ZGSDDEemVdu&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "37180",
+                    "Transmision": "STD.",
+                    "PrecioContado": "$294,900.00 MXN",
+                    "PrecioLista": "$319,900.00 MXN",
+                    "Iva": "40675.86",
+                    "SubTotal": "254224.13",
+                    "Total": "294900.00"
+                  },
+                  {
+                    "IdVersion": "37292",
+                    "Transmision": "TIPTRONIC.",
+                    "PrecioContado": "$316,900.00 MXN",
+                    "PrecioLista": "$336,900.00 MXN",
+                    "Iva": "43641.3793",
+                    "SubTotal": "272758.621",
+                    "Total": "316900.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "7705",
+                    "Nombre": "Gris Mágnetico",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Style/ibiza-style-gris-magnetico.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/grismagnetico_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Style/ibiza-style-gris-magnetico.png"
+                  },
+                  {
+                    "IdColor": "4354",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Style/ibiza-style-blanco-nevada.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/blanconevada_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Style/ibiza-style-blanco-nevada.png"
+                  },
+                  {
+                    "IdColor": "289",
+                    "Nombre": "Blanco Candy",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Style/ibiza-style-blanco-candy.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/blancocandy_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Style/ibiza-style-blanco-candy.png"
+                  },
+                  {
+                    "IdColor": "7180",
+                    "Nombre": "Plata Urbano",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Style/ibiza-style-plata-urbano.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/plataurbano_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Style/ibiza-style-plata-urbano.png"
+                  },
+                  {
+                    "IdColor": "7170",
+                    "Nombre": "Negro Medianoche",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Style/ibiza-style-negro-medianoche.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/nmedianoche_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Style/ibiza-style-negro-medianoche.png"
+                  },
+                  {
+                    "IdColor": "6915",
+                    "Nombre": "Rojo Deseo",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Style/ibiza-style-rojo-deseo.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/rojodeseo_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Style/ibiza-style-rojo-deseo.png"
+                  },
+                  {
+                    "IdColor": "6966",
+                    "Nombre": "Azul Misterio",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Style/ibiza-style-azul-misterio.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/azulmisterio_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Style/ibiza-style-azul-misterio.png"
+                  },
+                  {
+                    "IdColor": "1129",
+                    "Nombre": "Rojo Emoción",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Style/Ibiza-Style-Rojo-Emocion.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/RojoEmocion_IBIZA.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Style/Ibiza-Style-Rojo-Emocion.png"
+                  }
+                ]
+              },
+              {
+                "Nombre": "XCELLENCE",
+                "RutaVideo": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Xcellence/Ibiza_Xcellence.mp4",
+                "RutaFichaTecnica": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/seat-ibiza-2021.pdf",
+                "Ruta360": "https://my.matterport.com/show/?m=5WX1L5jgbDK&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "37181",
+                    "Transmision": "STD.",
+                    "PrecioContado": "$312,900.00 MXN",
+                    "PrecioLista": "$337,900.00 MXN",
+                    "Iva": "43158.62",
+                    "SubTotal": "269741.37",
+                    "Total": "312900.00"
+                  },
+                  {
+                    "IdVersion": "37192",
+                    "Transmision": "TIPTRONIC.",
+                    "PrecioContado": "$331,900.00 MXN",
+                    "PrecioLista": "$361,900.00 MXN",
+                    "Iva": "45668.965",
+                    "SubTotal": "285431.034",
+                    "Total": "331900.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "7705",
+                    "Nombre": "Gris Mágnetico",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Xcellence/ibiza-xcellence-gris-magnetico.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/grismagnetico_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Xcellence/ibiza-xcellence-gris-magnetico.png"
+                  },
+                  {
+                    "IdColor": "4354",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Xcellence/ibiza-xcellence-blanco-nevada.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/blanconevada_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Xcellence/ibiza-xcellence-blanco-nevada.png"
+                  },
+                  {
+                    "IdColor": "7180",
+                    "Nombre": "Plata Urbano",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Xcellence/ibiza-xcellence-plata-urbano.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/plataurbano_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Xcellence/ibiza-xcellence-plata-urbano.png"
+                  },
+                  {
+                    "IdColor": "289",
+                    "Nombre": "Blanco Candy",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Xcellence/Ibiza-Xcellence-Blanco-Candy.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/BlancoCandy_IBIZA.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Xcellence/Ibiza-Xcellence-Blanco-Candy.png"
+                  },
+                  {
+                    "IdColor": "7170",
+                    "Nombre": "Negro Medianoche",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Xcellence/ibiza-xcellence-negro-medianoche.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/nmedianoche_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Xcellence/ibiza-xcellence-negro-medianoche.png"
+                  },
+                  {
+                    "IdColor": "1129",
+                    "Nombre": "Rojo Emoción",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Xcellence/ibiza-xcellence-rojo-emocion.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/rojoemocion_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Xcellence/ibiza-xcellence-rojo-emocion.png"
+                  },
+                  {
+                    "IdColor": "6915",
+                    "Nombre": "Rojo Deseo",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Xcellence/Ibiza-Xcellence-Rojo-Deseo.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/RojoDeseo_IBIZA.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Xcellence/Ibiza-Xcellence-Rojo-Deseo.png"
+                  },
+                  {
+                    "IdColor": "6966",
+                    "Nombre": "Azul Misterio",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Xcellence/Ibiza-Xcellence-Azul-Misterio.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/azulmisterio_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Xcellence/Ibiza-Xcellence-Azul-Misterio.png"
+                  }
+                ]
+              },
+              {
+                "Nombre": "FR",
+                "RutaVideo": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/Fr/Ibiza_FR.mp4",
+                "RutaFichaTecnica": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/seat-ibiza-2021.pdf",
+                "Ruta360": "https://my.matterport.com/show/?m=BuiAsBFXaNJ&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "37237",
+                    "Transmision": "1.6 STD.",
+                    "PrecioContado": "$341,900.00 MXN",
+                    "PrecioLista": "$371,900.00 MXN",
+                    "Iva": "47075.862",
+                    "SubTotal": "294224.138",
+                    "Total": "341900.00"
+                  },
+                  {
+                    "IdVersion": "0",
+                    "Transmision": "1.0 TSI. STD.",
+                    "PrecioContado": "$380,200.00 MXN",
+                    "PrecioLista": "$410,200.00 MXN",
+                    "Iva": "52068.9655",
+                    "SubTotal": "325431.034",
+                    "Total": "380200.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "7705",
+                    "Nombre": "Gris Mágnetico",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/FR/ibiza-fr-gris-magnetico.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/grismagnetico_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "ibiza-fr-gris-magnetico"
+                  },
+                  {
+                    "IdColor": "4354",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/FR/ibiza-fr-blanco-nevada.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/blanconevada_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "ibiza-fr-blanco-nevada"
+                  },
+                  {
+                    "IdColor": "7170",
+                    "Nombre": "Negro Medianoche",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/FR/ibiza-fr-negro-medianoche.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/nmedianoche_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "ibiza-fr-negro-medianoche"
+                  },
+                  {
+                    "IdColor": "1129",
+                    "Nombre": "Rojo Emoción",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/FR/ibiza-fr-rojo-emocion.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/rojoemocion_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "ibiza-fr-rojo-emocion"
+                  },
+                  {
+                    "IdColor": "6966",
+                    "Nombre": "Azul Misterio",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/FR/ibiza-fr-azul-misterio.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/azulmisterio_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "ibiza-fr-azul-misterio"
+                  },
+                  {
+                    "IdColor": "289",
+                    "Nombre": "Blanco Candy",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/FR/Ibiza-FR-Blanco-Candy.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/BlancoCandy_IBIZA.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/FR/Ibiza-FR-Blanco-Candy.png"
+                  },
+                  {
+                    "IdColor": "6915",
+                    "Nombre": "Rojo Deseo",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/FR/Ibiza-FR-Rojo-Deseo.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/RojoDeseo_IBIZA.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/FR/Ibiza-FR-Rojo-Deseo.png"
+                  },
+                  {
+                    "IdColor": "7180",
+                    "Nombre": "Plata Urbano",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/FR/Ibiza-FR-Plata-Urbano.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/plataurbano_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/FR/Ibiza-FR-Plata-Urbano.png"
+                  }
+                ]
+              }
+            ],
+            "GamaColores": [
+              {
+                "IdColor": null,
+                "Nombre": "Gris Mágnetico",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/FR/ibiza-fr-gris-magnetico.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/grismagnetico_ibiza.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "ibiza-fr-gris-magnetico"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Blanco Nevada",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/FR/ibiza-fr-blanco-nevada.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/blanconevada_ibiza.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "ibiza-fr-blanco-nevada"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Negro Medianoche",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/FR/ibiza-fr-negro-medianoche.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/nmedianoche_ibiza.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "ibiza-fr-negro-medianoche"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Rojo Emoción",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/FR/ibiza-fr-rojo-emocion.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/rojoemocion_ibiza.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "ibiza-fr-rojo-emocion"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Azul Misterio",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/FR/ibiza-fr-azul-misterio.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/azulmisterio_ibiza.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "ibiza-fr-azul-misterio"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Blanco Candy",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/FR/Ibiza-FR-Blanco-Candy.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/BlancoCandy_IBIZA.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/FR/Ibiza-FR-Blanco-Candy.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Rojo Deseo",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/FR/Ibiza-FR-Rojo-Deseo.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/RojoDeseo_IBIZA.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/FR/Ibiza-FR-Rojo-Deseo.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Plata Urbano",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/FR/Ibiza-FR-Plata-Urbano.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/plataurbano_ibiza.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/FR/Ibiza-FR-Plata-Urbano.png"
+              }
+            ],
+            "ConsumoGasolina": [
+              {
+                "Tipo": "STD. 18.5 TM\n22.8 TM km/l"
+              },
+              {
+                "Tipo": "TIP. 17.3 TA"
+              }
+            ],
+            "Transmision": [
+              {
+                "Tipo": "5/6 Vel. STD."
+              },
+              {
+                "Tipo": "6 Vel. TIP."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "IdModelo": "1344",
+        "NombreModelo": "ARONA",
+        "Anios": [
+          {
+            "Anio": "Modelo 2021",
+            "Motor": "1.6 MPI",
+            "Potencia": "110 HP",
+            "Aceleracion": "0-100 km/h\n11.5 Seg.",
+            "VelocidadMax": "Vel. Max.\n181 Km/h",
+            "Versiones": [
+              {
+                "Nombre": "REFERENCE",
+                "RutaVideo": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Xcenllence/Arona_Xcellence.mp4",
+                "RutaFichaTecnica": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/seat-arona-2021.pdf",
+                "Ruta360": "https://my.matterport.com/show/?m=ZE1qp6kmVqo&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "37391",
+                    "Transmision": "AUT.",
+                    "PrecioContado": "$313,300.00 MXN",
+                    "PrecioLista": "$346,600.00 MXN",
+                    "Iva": "43813.7931",
+                    "SubTotal": "273836.207",
+                    "Total": "313300.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "6966",
+                    "Nombre": "Azul Misterio",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Reference/arona-reference-azul-misterio.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/azulmisterio_arona.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Reference/arona-reference-azul-misterio.png"
+                  },
+                  {
+                    "IdColor": "4354",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Reference/arona-reference-blanco-nevada.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/blanconevada_arona.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Reference/arona-reference-blanco-nevada.png"
+                  },
+                  {
+                    "IdColor": "7705",
+                    "Nombre": "Gris Mágnetico",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Reference/arona-reference-gris-magnetico.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/grismagnetico_arona.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Reference/arona-reference-gris-magnetico.png"
+                  },
+                  {
+                    "IdColor": "7180",
+                    "Nombre": "Plata Urbano",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Reference/arona-reference-plata-urbano.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/plataurbano_arona.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Reference/arona-reference-plata-urbano.png"
+                  },
+                  {
+                    "IdColor": "1129",
+                    "Nombre": "Rojo Emoción",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Reference/Arona-Reference-Rojo-Emocion.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/RojoEmocion_ARONA.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Reference/Arona-Reference-Rojo-Emocion.png"
+                  },
+                  {
+                    "IdColor": "7170",
+                    "Nombre": "Negro Medianoche",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Reference/arona-reference-negro-medianoche.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/nmedianoche_arona.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Reference/arona-reference-negro-medianoche.png"
+                  },
+                  {
+                    "IdColor": "8913",
+                    "Nombre": "Rojo Deseo",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Reference/Arona-Reference-Rojo-Deseo.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/rojodeseo_arona.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Reference/Arona-Reference-Rojo-Deseo.png"
+                  }
+                ]
+              },
+              {
+                "Nombre": "STYLE",
+                "RutaVideo": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Xcenllence/Arona_Xcellence.mp4",
+                "RutaFichaTecnica": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/seat-arona-2021.pdf",
+                "Ruta360": "https://my.matterport.com/show/?m=ZE1qp6kmVqo&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "37179",
+                    "Transmision": "AUT.",
+                    "PrecioContado": "$340,800 MXN",
+                    "PrecioLista": "$374,100.00 MXN",
+                    "Iva": "47606.8965",
+                    "SubTotal": "297543.1034",
+                    "Total": "340800.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "6966",
+                    "Nombre": "Azul Misterio",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/style/arona-style-azul-misterio.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/azulmisterio_arona.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/style/arona-style-azul-misterio.png"
+                  },
+                  {
+                    "IdColor": "4354",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/style/arona-style-blanco-nevada.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/blanconevada_arona.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/style/arona-style-blanco-nevada.png"
+                  },
+                  {
+                    "IdColor": "7180",
+                    "Nombre": "Plata Urbano",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/style/arona-style-plata-urbano.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/plataurbano_arona.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/style/arona-style-plata-urbano.png"
+                  },
+                  {
+                    "IdColor": "7705",
+                    "Nombre": "Gris Mágnetico",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/style/arona-style-gris-magnetico.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/grismagnetico_arona.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/style/arona-style-gris-magnetico.png"
+                  },
+                  {
+                    "IdColor": "1129",
+                    "Nombre": "Rojo Emoción",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/style/Arona-Style-Rojo-Emocion.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/RojoEmocion_ARONA.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/style/Arona-Style-Rojo-Emocion.png"
+                  },
+                  {
+                    "IdColor": "7170",
+                    "Nombre": "Negro Medianoche",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/style/arona-style-negro-medianoche.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/nmedianoche_arona.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/style/arona-style-negro-medianoche.png"
+                  },
+                  {
+                    "IdColor": "8913",
+                    "Nombre": "Rojo Deseo",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/style/arona-style-rojo-deseo.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/rojodeseo_arona.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/style/arona-style-rojo-deseo.png"
+                  }
+                ]
+              },
+              {
+                "Nombre": "XCELLENCE",
+                "RutaVideo": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Xcellence/Arona_Xcellence.mp4",
+                "RutaFichaTecnica": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/seat-arona-2021.pdf",
+                "Ruta360": "https://my.matterport.com/show/?m=ZE1qp6kmVqo&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "37178",
+                    "Transmision": "AUT.",
+                    "PrecioContado": "$370,900.00 MXN",
+                    "PrecioLista": "$404.200.00 MXN",
+                    "Iva": "51758.6206",
+                    "SubTotal": "323491.3793",
+                    "Total": "370900.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "7599",
+                    "Nombre": "Azul Misterio con Techo Negro",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Xcellence/arona-xcellence-azul-misterio-con-techo-negro.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/arona_x_amtn.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Xcellence/arona-xcellence-azul-misterio-con-techo-negro.png"
+                  },
+                  {
+                    "IdColor": "7612",
+                    "Nombre": "Blanco Nevada con Techo Gris",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Xcellence/arona-xcellence-blanco-nevada-con-techo-gris.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/arona_x_bntg.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Xcellence/arona-xcellence-blanco-nevada-con-techo-gris.png"
+                  },
+                  {
+                    "IdColor": "7604",
+                    "Nombre": "Azul Misterio con Techo Gris",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Xcellence/Arona-Xcellence-Azul-Misterio-con-techo-Gris.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/AMTG.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Xcellence/Arona-Xcellence-Azul-Misterio-con-techo-Gris.png"
+                  },
+                  {
+                    "IdColor": "8873",
+                    "Nombre": "Rojo Emoción con Techo Negro",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/xcellence/Arona-Xcellence-Rojo-Emocion-con-techo-Negro.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/RETN.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Xcellence/Arona-Xcellence-Rojo-Emocion-con-techo-Negro.png"
+                  },
+                  {
+                    "IdColor": "7841",
+                    "Nombre": "Blanco Nevada con Techo Negro",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/xcellence/arona-xcellence-blanco-nevada-con-techo-negro.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/arona_x_bntn.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/xcellence/arona-xcellence-blanco-nevada-con-techo-negro.png"
+                  },
+                  {
+                    "IdColor": "7803",
+                    "Nombre": "Gris Mágnetico con Techo Negro",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/xcellence/arona-xcellence-gris-magnetico-con-techo-negro.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/arona_x_gmtn.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/xcellence/arona-xcellence-gris-magnetico-con-techo-negro.png"
+                  },
+                  {
+                    "IdColor": "7802",
+                    "Nombre": "Plata Urbano con Techo Negro",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/xcellence/arona-xcellence-plata-urbano-con-techo-negro.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/arona_x_putn.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/xcellence/arona-xcellence-plata-urbano-con-techo-negro.png"
+                  },
+                  {
+                    "IdColor": "7856",
+                    "Nombre": "Negro Medianoche con Techo Gris",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/xcellence/arona-xcellence-negro-medianoche-con-techo-gris.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/arona_x_nmtg.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/xcellence/arona-xcellence-negro-medianoche-con-techo-gris.png"
+                  },
+                  {
+                    "IdColor": "7904",
+                    "Nombre": "Rojo Deseo con Techo Gris",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/xcellence/arona-xcellence-rojo-deseo-con-techo-gris.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/arona_x_rdtg.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/xcellence/arona-xcellence-rojo-deseo-con-techo-gris.png"
+                  },
+                  {
+                    "IdColor": "7796",
+                    "Nombre": "Rojo Deseo con Techo Negro",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/xcellence/arona-xcellence-rojo-deseo-con-techo-negro.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/arona_x_rdtn.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/xcellence/arona-xcellence-rojo-deseo-con-techo-negro.png"
+                  }
+                ]
+              }
+            ],
+            "GamaColores": [
+              {
+                "IdColor": "7599",
+                "Nombre": "Azul Misterio con Techo Negro",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Xcellence/arona-xcellence-azul-misterio-con-techo-negro.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/arona_x_amtn.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Xcellence/arona-xcellence-azul-misterio-con-techo-negro.png"
+              },
+              {
+                "IdColor": "7612",
+                "Nombre": "Blanco Nevada con Techo Gris",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Xcellence/arona-xcellence-blanco-nevada-con-techo-gris.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/arona_x_bntg.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Xcellence/arona-xcellence-blanco-nevada-con-techo-gris.png"
+              },
+              {
+                "IdColor": "7604",
+                "Nombre": "Azul Misterio con Techo Gris",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Xcellence/Arona-Xcellence-Azul-Misterio-con-techo-Gris.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/AMTG.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Xcellence/Arona-Xcellence-Azul-Misterio-con-techo-Gris.png"
+              },
+              {
+                "IdColor": "8873",
+                "Nombre": "Rojo Emoción con Techo Negro",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/xcellence/Arona-Xcellence-Rojo-Emocion-con-techo-Negro.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/RETN.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/Xcellence/Arona-Xcellence-Rojo-Emocion-con-techo-Negro.png"
+              },
+              {
+                "IdColor": "7841",
+                "Nombre": "Blanco Nevada con Techo Negro",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/xcellence/arona-xcellence-blanco-nevada-con-techo-negro.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/arona_x_bntn.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/xcellence/arona-xcellence-blanco-nevada-con-techo-negro.png"
+              },
+              {
+                "IdColor": "7803",
+                "Nombre": "Gris Mágnetico con Techo Negro",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/xcellence/arona-xcellence-gris-magnetico-con-techo-negro.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/arona_x_gmtn.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/xcellence/arona-xcellence-gris-magnetico-con-techo-negro.png"
+              },
+              {
+                "IdColor": "7802",
+                "Nombre": "Plata Urbano con Techo Negro",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/xcellence/arona-xcellence-plata-urbano-con-techo-negro.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/arona_x_putn.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/xcellence/arona-xcellence-plata-urbano-con-techo-negro.png"
+              },
+              {
+                "IdColor": "7856",
+                "Nombre": "Negro Medianoche con Techo Gris",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/xcellence/arona-xcellence-negro-medianoche-con-techo-gris.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/arona_x_nmtg.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/xcellence/arona-xcellence-negro-medianoche-con-techo-gris.png"
+              },
+              {
+                "IdColor": "7904",
+                "Nombre": "Rojo Deseo con Techo Gris",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/xcellence/arona-xcellence-rojo-deseo-con-techo-gris.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/arona_x_rdtg.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/xcellence/arona-xcellence-rojo-deseo-con-techo-gris.png"
+              },
+              {
+                "IdColor": "7796",
+                "Nombre": "Rojo Deseo con Techo Negro",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/xcellence/arona-xcellence-rojo-deseo-con-techo-negro.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/arona_x_rdtn.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Arona/xcellence/arona-xcellence-rojo-deseo-con-techo-negro.png"
+              }
+            ],
+            "ConsumoGasolina": [
+              {
+                "Tipo": "AUT. 18.9 Km/l\nCombinado"
+              }
+            ],
+            "Transmision": [
+              {
+                "Tipo": "6 Vel. TIP."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "IdModelo": "1344",
+        "NombreModelo": "LEÓN",
+        "Anios": [
+          {
+            "Anio": "Modelo 2021",
+            "Motor": "1.4L TSI",
+            "Potencia": "150 HP",
+            "Aceleracion": "8.8 SEG",
+            "VelocidadMax": "210 KMH",
+            "Versiones": [
+              {
+                "Nombre": "STYLE",
+                "RutaVideo": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/",
+                "RutaFichaTecnica": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/",
+                "Ruta360": "",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "",
+                    "Transmision": "DSG",
+                    "PrecioContado": "$439,900.00 MXN",
+                    "PrecioLista": "$439,900.00 MXN",
+                    "Iva": "60675.86",
+                    "SubTotal": "379224.13",
+                    "Total": "439900.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "7180",
+                    "Nombre": "Plata Urbano",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Style/Leon_Style_2021_Plata_Urbano.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/plataurbano_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Style/Leon_Style_2021_Plata_Urbano.png"
+                  },
+                  {
+                    "IdColor": "1129",
+                    "Nombre": "Rojo Emoción",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Style/Leon_Style_2021_Rojo_Emocion.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/rojoemocion_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Style/Leon_Style_2021_Rojo_Emocion.png"
+                  },
+                  {
+                    "IdColor": "7170",
+                    "Nombre": "Negro Medianoche",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Style/Leon_Style_2021_Negro_medianoche.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/nmedianoche_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Style/Leon_Style_2021_Negro_medianoche.png"
+                  },
+                  {
+                    "IdColor": "7705",
+                    "Nombre": "Gris Mágnetico",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Style/Leon_Style_2021_Gris_Magnetico.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/grismagnetico_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Style/Leon_Style_2021_Gris_Magnetico.png"
+                  },
+                  {
+                    "IdColor": "4354",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Style/Leon_Style_2021_Blanco_Nevada.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/blanconevada_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Style/Leon_Style_2021_Blanco_Nevada.png"
+                  }
+                ]
+              },
+              {
+                "Nombre": "FR",
+                "RutaVideo": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/",
+                "RutaFichaTecnica": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/",
+                "Ruta360": "",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "",
+                    "Transmision": "DSG",
+                    "PrecioContado": "$497,900.00 MXN",
+                    "PrecioLista": "$497,900.00 MXN",
+                    "Iva": "68675.86",
+                    "SubTotal": "429224.13",
+                    "Total": ""
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "7180",
+                    "Nombre": "Plata Urbano",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Fr/Leon_FR_2021_Plata_Urbano.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/plataurbano_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Fr/Leon_FR_2021_Plata_Urbano.png"
+                  },
+                  {
+                    "IdColor": "7170",
+                    "Nombre": "Negro Medianoche",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Fr/Leon_FR_2021_Negro_Medianoche.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/nmedianoche_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Fr/Leon_FR_2021_Negro_Medianoche.png"
+                  },
+                  {
+                    "IdColor": "7705",
+                    "Nombre": "Gris Mágnetico",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Fr/Leon_FR_2021_Gris _Magetico.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/grismagnetico_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Fr/Leon_FR_2021_Gris _Magetico.png"
+                  },
+                  {
+                    "IdColor": "4354",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Fr/Leon_FR_2021_Blanco_Nevada.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/blanconevada_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Fr/Leon_FR_2021_Blanco_Nevada.png"
+                  },
+                  {
+                    "IdColor": "6966",
+                    "Nombre": "Azul Misterio",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Fr/Leon_FR_2021_Azul_Misterio.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/azulmisterio_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Fr/Leon_FR_2021_Azul_Misterio.png"
+                  },
+                  {
+                    "IdColor": "8913",
+                    "Nombre": "Rojo Deseo",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Fr/Leon_FR_2021_Rojo_Deseo.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/rojodeseo_ibiza.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Fr/Leon_FR_2021_Rojo_Deseo.png"
+                  }
+                ]
+              }
+            ],
+            "ConsumoGasolina": [
+              {
+                "Tipo": "17.9 KML"
+              }
+            ],
+            "Transmision": [
+              {
+                "Tipo": "8 Vel. DSG."
+              }
+            ],
+            "GamaColores": [
+              {
+                "IdColor": null,
+                "Nombre": "Plata Urbano",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Fr/Leon_FR_2021_Plata_Urbano.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/plataurbano_ibiza.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Fr/Leon_FR_2021_Plata_Urbano.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Negro Medianoche",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Fr/Leon_FR_2021_Negro_Medianoche.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/nmedianoche_ibiza.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Fr/Leon_FR_2021_Negro_Medianoche.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Gris Mágnetico",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Fr/Leon_FR_2021_Gris_Magetico.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/grismagnetico_ibiza.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Fr/Leon_FR_2021_Gris_Magetico.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Blanco Nevada",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Fr/Leon_FR_2021_Blanco_Nevada.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/blanconevada_ibiza.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Fr/Leon_FR_2021_Blanco_Nevada.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Azul Misterio",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Fr/Leon_FR_2021_Azul_Misterio.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/azulmisterio_ibiza.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Fr/Leon_FR_2021_Azul_Misterio.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Rojo Deseo",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Fr/Leon_FR_2021_Rojo_Deseo.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ibiza/rojodeseo_ibiza.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Leon/Fr/Leon_FR_2021_Rojo_Deseo.png"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "IdModelo": "1236",
+        "NombreModelo": "ATECA",
+        "Anios": [
+          {
+            "Anio": "Modelo 2021",
+            "Motor": "1.4 MPI",
+            "Potencia": "150 HP",
+            "Aceleracion": "0-100 km/h\n9 Seg.",
+            "VelocidadMax": "Vel. Max.\n197 Km/h",
+            "Versiones": [
+              {
+                "Nombre": "STYLE",
+                "RutaVideo": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ateca/Style/Ateca_Style.mp4",
+                "RutaFichaTecnica": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ateca/seat-ateca-2021.pdf",
+                "Ruta360": "https://my.matterport.com/show/?m=oaYbyx3UQ1T&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "37238",
+                    "Transmision": "AUT.",
+                    "PrecioContado": "$454,900.00 MXN",
+                    "PrecioLista": "$489,900.00 MXN",
+                    "Iva": "63710.3",
+                    "SubTotal": "398189.6",
+                    "Total": "454900.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "7221",
+                    "Nombre": "Rojo Velvet",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/STYLE/ateca-style-rojo-velvet.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/rv_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/STYLE/ateca-style-rojo-velvet.png"
+                  },
+                  {
+                    "IdColor": "4354",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/STYLE/ateca-style-blanco-nevada.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/bn_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/STYLE/ateca-style-blanco-nevada.png"
+                  },
+                  {
+                    "IdColor": "5007",
+                    "Nombre": "Plata Brillante",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/STYLE/ateca-style-plata-brillante.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/pb_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/STYLE/ateca-style-plata-brillante.png"
+                  },
+                  {
+                    "IdColor": "7190",
+                    "Nombre": "Gris Rodio",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/STYLE/ateca-style-gris-rodio.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/gr_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/STYLE/ateca-style-gris-rodio.png"
+                  },
+                  {
+                    "IdColor": "8384",
+                    "Nombre": "Negro Cristal",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/STYLE/ateca-style-negro-cristal.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/nc_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/STYLE/ateca-style-negro-cristal.png"
+                  },
+                  {
+                    "IdColor": "5010",
+                    "Nombre": "Azul Lava",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/STYLE/ateca-style-azul-lava.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/al_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/STYLE/ateca-style-azul-lava.png"
+                  }
+                ]
+              },
+              {
+                "Nombre": "XPERIENCE",
+                "RutaVideo": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ateca/Xperience/Ateca_Xperience.mp4",
+                "RutaFichaTecnica": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ateca/seat-ateca-2021.pdf",
+                "Ruta360": "https://my.matterport.com/show/?m=3DrUYeXuVc7&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "37239",
+                    "Transmision": "AUT.",
+                    "PrecioContado": "$560,900.00 MXN",
+                    "PrecioLista": "$595,900.00 MXN",
+                    "Iva": "78331.0",
+                    "SubTotal": "489569",
+                    "Total": "560900.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "7221",
+                    "Nombre": "Rojo Velvet",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-rojo-velvet.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/rv_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-rojo-velvet.png"
+                  },
+                  {
+                    "IdColor": "4354",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-blanco-nevada.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/bn_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-blanco-nevada.png"
+                  },
+                  {
+                    "IdColor": "5007",
+                    "Nombre": "Plata Brillante",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-plata-brillante.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/pb_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-plata-brillante.png"
+                  },
+                  {
+                    "IdColor": "7190",
+                    "Nombre": "Gris Rodio",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-gris-rodio.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/gr_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-gris-rodio.png"
+                  },
+                  {
+                    "IdColor": "8384",
+                    "Nombre": "Negro Cristal",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-negro-cristal.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/nc_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-negro-cristal.png"
+                  },
+                  {
+                    "IdColor": "5010",
+                    "Nombre": "Azul Lava",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-azul-lava.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/al_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-azul-lava.png"
+                  },
+                  {
+                    "IdColor": "8190",
+                    "Nombre": "Camuflaje",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-camuflaje.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/c_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/XPERIENCE/ateca-xperience-camuflaje.png"
+                  }
+                ]
+              },
+              {
+                "Nombre": "FR",
+                "RutaVideo": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ateca/Fr/Ateca_FR.mp4",
+                "RutaFichaTecnica": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Ateca/seat-ateca-2021.pdf",
+                "Ruta360": "https://my.matterport.com/show/?m=3DrUYeXuVc7&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "37301",
+                    "Transmision": "AUT.",
+                    "PrecioContado": "$560,900.00 MXN",
+                    "PrecioLista": "$595,900.00 MXN",
+                    "Iva": "78331.0",
+                    "SubTotal": "489568.96",
+                    "Total": "595900.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "7221",
+                    "Nombre": "Rojo Velvet",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-rojo-velvet.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/rv_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-rojo-velvet.png"
+                  },
+                  {
+                    "IdColor": "4354",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-blanco-nevada.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/bn_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-blanco-nevada.png"
+                  },
+                  {
+                    "IdColor": "7190",
+                    "Nombre": "Gris Rodio",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-gris-rodio.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/gr_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-gris-rodio.png"
+                  },
+                  {
+                    "IdColor": "8384",
+                    "Nombre": "Negro Cristal",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-negro-cristal.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/nc_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-negro-cristal.png"
+                  },
+                  {
+                    "IdColor": "7474",
+                    "Nombre": "Azul Energía",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-azul-energia.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/ae_ateca.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-azul-energia.png"
+                  }
+                ]
+              }
+            ],
+            "GamaColores": [
+              {
+                "IdColor": null,
+                "Nombre": "Rojo Velvet",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-rojo-velvet.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/rv_ateca.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-rojo-velvet.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Blanco Nevada",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-blanco-nevada.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/bn_ateca.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-blanco-nevada.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Gris Rodio",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-gris-rodio.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/gr_ateca.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-gris-rodio.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Negro Cristal",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-negro-cristal.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/nc_ateca.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-negro-cristal.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Azul Energía",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-azul-energia.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/ae_ateca.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/ATECA/FR/ateca-fr-azul-energia.png"
+              }
+            ],
+            "ConsumoGasolina": [
+              {
+                "Tipo": "AUT. 16.8 km/l\nCombinado"
+              }
+            ],
+            "Transmision": [
+              {
+                "Tipo": "8 Vel. AUT."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "IdModelo": "1454",
+        "NombreModelo": "TARRACO",
+        "Anios": [
+          {
+            "Anio": "Modelo 2021",
+            "Motor": "1.4 MPI",
+            "Potencia": "150 HP",
+            "Aceleracion": "0-100 km/h\n9.4 Seg.",
+            "VelocidadMax": "Vel. Max.\n199 Km/h",
+            "Versiones": [
+              {
+                "Nombre": "STYLE",
+                "RutaVideo": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Tarraco/Xcellence/Tarraco_Xcellence.mp4",
+                "RutaFichaTecnica": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Tarraco/seat-tarraco-2021.pdf",
+                "Ruta360": "https://my.matterport.com/show/?m=5WDakTiZyL8&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "37023",
+                    "Transmision": "DSG.",
+                    "PrecioContado": "$536,400.00 MXN",
+                    "PrecioLista": "$536,400.00 MXN",
+                    "Iva": "73986.2",
+                    "SubTotal": "462414",
+                    "Total": "536400.00"
+                  },
+                  {
+                    "IdVersion": "37043",
+                    "Transmision": "DSG. 3RA FILA",
+                    "PrecioContado": "$548,400.00 MXN",
+                    "PrecioLista": "$548,400.00 MXN",
+                    "Iva": "75641.3",
+                    "SubTotal": "472758.6",
+                    "Total": "548400.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "8478",
+                    "Nombre": "Blanco Onix",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/STYLE/tarraco-style--blanco-onyx.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_bo.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/STYLE/tarraco-style--blanco-onyx.png"
+                  },
+                  {
+                    "IdColor": "8180",
+                    "Nombre": "Gris Indio",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/STYLE/tarraco-style-gris-indio.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_gi.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/STYLE/tarraco-style-gris-indio.png"
+                  },
+                  {
+                    "IdColor": "469",
+                    "Nombre": "Gris Urano",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/STYLE/tarraco-style-gris-urano.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_gu.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/STYLE/tarraco-style-gris-urano.png"
+                  },
+                  {
+                    "IdColor": "5007",
+                    "Nombre": "Plata Brillante",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/STYLE/tarraco-style-plata-brillante.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_pb.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/STYLE/tarraco-style-plata-brillante.png"
+                  },
+                  {
+                    "IdColor": "8179",
+                    "Nombre": "Negro Profundo",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/STYLE/tarraco-style-negro-profundo.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_np.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/STYLE/tarraco-style-negro-profundo.png"
+                  },
+                  {
+                    "IdColor": "8219",
+                    "Nombre": "Azul Atlántico",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/STYLE/tarraco-style-azul-atlantico.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_aa.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/STYLE/tarraco-style-azul-atlantico.png"
+                  }
+                ]
+              },
+              {
+                "Nombre": "XCELLENCE",
+                "RutaVideo": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Tarraco/Xcellence/Tarraco_Xcellence.mp4",
+                "RutaFichaTecnica": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Tarraco/seat-tarraco-2021.pdf",
+                "Ruta360": "https://my.matterport.com/show/?m=5WDakTiZyL8&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "0",
+                    "Transmision": "DSG.",
+                    "PrecioContado": "$611,000.00 MXN",
+                    "PrecioLista": "$611,000.00 MXN",
+                    "Iva": "84275.8",
+                    "SubTotal": "526724.13",
+                    "Total": "611000.00"
+                  },
+                  {
+                    "IdVersion": "37020",
+                    "Transmision": "DSG. PLUS",
+                    "PrecioContado": "$646,000.00 MXN",
+                    "PrecioLista": "$646,000.00 MXN",
+                    "Iva": "89103.44",
+                    "SubTotal": "556896.55",
+                    "Total": "646000.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "8478",
+                    "Nombre": "Blanco Onix",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-blanco-onyx.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_bo.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-blanco-onyx.png"
+                  },
+                  {
+                    "IdColor": "8261",
+                    "Nombre": "Beige Titanio",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-beige-titanio.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_bt.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-beige-titanio.png"
+                  },
+                  {
+                    "IdColor": "8180",
+                    "Nombre": "Gris Indio",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-gris-indio.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_gi.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-gris-indio.png"
+                  },
+                  {
+                    "IdColor": "469",
+                    "Nombre": "Gris Urano",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-gris-urano.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_gu.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-gris-urano.png"
+                  },
+                  {
+                    "IdColor": "5007",
+                    "Nombre": "Plata Brillante",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-plata-brillante.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_pb.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-plata-brillante.png"
+                  },
+                  {
+                    "IdColor": "8179",
+                    "Nombre": "Negro Profundo",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-negro-profundo.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_np.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-negro-profundo.png"
+                  },
+                  {
+                    "IdColor": "8219",
+                    "Nombre": "Azul Atlántico",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-azul-atlantico.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_aa.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-azul-atlantico.png"
+                  },
+                  {
+                    "IdColor": "8190",
+                    "Nombre": "Camuflaje",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-camuflaje.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_c.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/XCELLENCE/tarraco-xcellence-camuflaje.png"
+                  }
+                ]
+              },
+              {
+                "Nombre": "FR",
+                "RutaVideo": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Tarraco/Fr/Tarraco_FR.mp4",
+                "RutaFichaTecnica": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Seat/Tarraco/seat-tarraco-2021.pdf",
+                "Ruta360": "https://my.matterport.com/show/?m=zjEWUuvsZkk&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "37086",
+                    "Transmision": "DSG.",
+                    "PrecioContado": "$641,000.00 MXN",
+                    "PrecioLista": "$641,000.00 MXN",
+                    "Iva": "88413.8",
+                    "SubTotal": "552586.2",
+                    "Total": "641000.00"
+                  },
+                  {
+                    "IdVersion": "37093",
+                    "Transmision": "DSG. 3RA FILA",
+                    "PrecioContado": "$653,000.00 MXN",
+                    "PrecioLista": "$653,000.00 MXN",
+                    "Iva": "90069",
+                    "SubTotal": "562931.0",
+                    "Total": "653000.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "8478",
+                    "Nombre": "Blanco Onix",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-blanco-onyx.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_bo.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-blanco-onyx.png"
+                  },
+                  {
+                    "IdColor": "469",
+                    "Nombre": "Gris Urano",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-gris-urano.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_gu.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-gris-urano.png"
+                  },
+                  {
+                    "IdColor": "8179",
+                    "Nombre": "Negro Profundo",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-negro-profundo.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_np.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-negro-profundo.png"
+                  },
+                  {
+                    "IdColor": "8190",
+                    "Nombre": "Camuflaje",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-camuflaje.png",
+                    "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_c.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-camuflaje.png"
+                  }
+                ]
+              }
+            ],
+            "GamaColores": [
+              {
+                "IdColor": null,
+                "Nombre": "Blanco Onix",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-blanco-onyx.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_bo.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-blanco-onyx.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Gris Urano",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-gris-urano.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_gu.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-gris-urano.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Negro Profundo",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-negro-profundo.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_np.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-negro-profundo.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Camuflaje",
+                "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-camuflaje.png",
+                "RutaMini": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/tarraco_c.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://ws-smartit.divisionautomotriz.com/wsApiSeat/Resources/Autos/TARRACO/FR/tarraco-fr-camuflaje.png"
+              }
+            ],
+            "ConsumoGasolina": [
+              {
+                "Tipo": "15.6 km/l DSG."
+              }
+            ],
+            "Transmision": [
+              {
+                "Tipo": "6 Vel. DSG."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IdMarca": "0",
+    "Modelos": [
+      {
+        "IdModelo": "1236",
+        "NombreModelo": "Ateca",
+        "Anios": [
+          {
+            "Anio": "Modelo 2021",
+            "Motor": "2.0 TSI",
+            "Potencia": "300 HP",
+            "Aceleracion": "0-100 Km/h\n5.2 Seg.",
+            "VelocidadMax": "Vel. Max.\n249 Km/h",
+            "Versiones": [
+              {
+                "Nombre": "CUPRA Ateca 2021",
+                "RutaVideo": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca2021/ateca2021.mp4",
+                "Ruta360": "https://my.matterport.com/show/?m=o6RbyQyXe5S&lang=es&play=1&help=1",
+                "RutaFichaTecnica": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca2021/CUPRA-Ateca-2021.pdf",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "37487",
+                    "Transmision": "DSG.",
+                    "PrecioContado": "$763,300.00 MXN",
+                    "PrecioLista": "$799,900.00 MXN",
+                    "Iva": "105282.75",
+                    "SubTotal": "658017.24",
+                    "Total": "763300"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "8384",
+                    "Nombre": "Negro Cristal",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca2021/negrocristal37487.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/negrocristal36034.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca2021/negrocristal37487.png"
+                  },
+                  {
+                    "IdColor": "7221",
+                    "Nombre": "Rojo Velvet",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca2021/rojovelvet37487.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/rojovelvet36034.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca2021/rojovelvet37487.png"
+                  },
+                  {
+                    "IdColor": "4354",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca2021/blanconevada37487.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/blanconevada36034.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca2021/blanconevada37487.png"
+                  },
+                  {
+                    "IdColor": "7190",
+                    "Nombre": "Gris Rodio",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca2021/grisrodio37487.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/grisrodio36034.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca2021/grisrodio37487.png"
+                  },
+                  {
+                    "IdColor": "5007",
+                    "Nombre": "Plata Brillante",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca2021/plataBrillante37487.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/plataurbano35731.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca2021/plataBrillante37487.png"
+                  }
+                ]
+              }
+            ],
+            "GamaColores": [
+              {
+                "IdColor": "8384",
+                "Nombre": "Negro Cristal",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca2021/negrocristal37487.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/negrocristal36034.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca2021/negrocristal37487.png"
+              },
+              {
+                "IdColor": "7221",
+                "Nombre": "Rojo Velvet",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca2021/rojovelvet37487.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/rojovelvet36034.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca2021/rojovelvet37487.png"
+              },
+              {
+                "IdColor": "4354",
+                "Nombre": "Blanco Nevada",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca2021/blanconevada37487.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/blanconevada36034.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca2021/blanconevada37487.png"
+              },
+              {
+                "IdColor": "7190",
+                "Nombre": "Gris Rodio",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca2021/grisrodio37487.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/grisrodio36034.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca2021/grisrodio37487.png"
+              },
+              {
+                "IdColor": "5007",
+                "Nombre": "Plata Brillante",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca2021/plataBrillante37487.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/plataurbano35731.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca2021/plataBrillante37487.png"
+              }
+            ],
+            "ConsumoGasolina": [
+              {
+                "Tipo": "12.8 Km/l\nCombinado"
+              }
+            ],
+            "Transmision": [
+              {
+                "Tipo": "7 VEL. DSG."
+              }
+            ]
+          },
+          {
+            "Anio": "Modelo 2020",
+            "Motor": "2.0 TSI",
+            "Potencia": "300 HP",
+            "Aceleracion": "0-100 KM/H 5.2 SEG",
+            "VelocidadMax": "Vel. Max.\n247 Km/h",
+            "Versiones": [
+              {
+                "Nombre": "CUPRA Ateca",
+                "RutaVideo": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca/ateca36034.mp4",
+                "RutaFichaTecnica": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca/fichatecnica36034.pdf",
+                "Ruta360": "https://my.matterport.com/show/?m=33GkwyT4dtU&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "36034",
+                    "Transmision": "DSG.",
+                    "PrecioContado": "$719,412.00 MXN",
+                    "PrecioLista": "$755,500.00 MXN",
+                    "Iva": "99229.24",
+                    "SubTotal": "620182.76",
+                    "Total": "719412.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "7221",
+                    "Nombre": "Rojo Velvet",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca/RojoVelvet.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/rojovelvet36034.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca/RojoVelvet.png"
+                  },
+                  {
+                    "IdColor": "8384",
+                    "Nombre": "Negro Cristal",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca/NegroCristal.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/negrocristal36034.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca/NegroCristal.png"
+                  },
+                  {
+                    "IdColor": "4354",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca/BlancoNevada.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/blanconevada36034.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca/BlancoNevada.png"
+                  },
+                  {
+                    "IdColor": "7190",
+                    "Nombre": "Gris Rodio",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca/GrisRodio.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/grisrodio.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca/GrisRodio.png"
+                  },
+                  {
+                    "IdColor": "7474",
+                    "Nombre": "Azul Energía",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca/AzulEnergia.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/azulenergia36034.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/Ateca/AzulEnergia.png"
+                  }
+                ],
+                "Accesorios": [
+                  {
+                    "Id": "",
+                    "Concepto": "Rin 19' Aluminio en Copper",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/rin36034.jpg",
+                    "RutaLocal": "rin36034",
+                    "SubTotal": "8275.86",
+                    "Iva": "1324.14",
+                    "Total": "9600.00"
+                  }
+                ]
+              },
+              {
+                "Nombre": "Limited Edition",
+                "RutaVideo": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/LimitedEdition/ateca1.mp4",
+                "RutaFichaTecnica": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/LimitedEdition/fichatecnica36899.pdf",
+                "Ruta360": "https://my.matterport.com/show/?m=33GkwyT4dtU&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "36899",
+                    "Transmision": "DSG.",
+                    "PrecioContado": "$776,012.00 MNX",
+                    "PrecioLista": "$812,100.00 MNX",
+                    "Iva": "107036.13",
+                    "SubTotal": "668975.86",
+                    "Total": "776012.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "7190",
+                    "Nombre": "Gris Rodio",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/LimitedEdition/GrisRodio.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/grisrodio.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/LimitedEdition/GrisRodio.png"
+                  },
+                  {
+                    "IdColor": "8773",
+                    "Nombre": "Gris grafeno",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/LimitedEdition/GrisGafeno.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/grisgrafeno.png",
+                    "RutaLocalMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/LimitedEdition/GrisGafeno.png",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/grisgrafeno.png"
+                  }
+                ],
+                "Accesorios": [
+                  {
+                    "Id": "",
+                    "Concepto": "Rin 19' Aluminio en Copper",
+                    "Ruta": "http://ws-smartit.divisionautomotriz.com/wsApiMiAuto/Resources/Cupra/rin36034.jpg",
+                    "RutaLocal": "rin36034",
+                    "SubTotal": "8275.86",
+                    "Iva": "1324.14",
+                    "Total": "9600.00"
+                  }
+                ]
+              }
+            ],
+            "GamaColores": [
+              {
+                "IdColor": null,
+                "Nombre": "Gris Rodio",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/LimitedEdition/GrisRodio.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/grisrodio.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/LimitedEdition/GrisRodio.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Gris grafeno",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/LimitedEdition/GrisGafeno.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/grisgrafeno.png",
+                "RutaLocalMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/LimitedEdition/GrisGafeno.png",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Ateca/grisgrafeno.png"
+              }
+            ],
+            "ConsumoGasolina": [
+              {
+                "Tipo": "12.8 Km/l\nCombinado"
+              }
+            ],
+            "Transmision": [
+              {
+                "Tipo": "7 VEL. DSG."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "IdModelo": "141",
+        "NombreModelo": "León CUPRA",
+        "Anios": [
+          {
+            "Anio": "Modelo 2020",
+            "Motor": "2.0 TSI",
+            "Potencia": "290 HP",
+            "Aceleracion": "0-100 Km/h \n5.6 SEG",
+            "VelocidadMax": "Vel. Max.\n250 Km/h",
+            "Versiones": [
+              {
+                "Nombre": "León CUPRA",
+                "RutaVideo": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/Leon/leon35731.mp4",
+                "RutaFichaTecnica": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/Leon/fichatecnica35731.pdf",
+                "Ruta360": "https://my.matterport.com/show/?m=3Kc7y7ebGRr&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "35731",
+                    "Transmision": "DSG.",
+                    "PrecioContado": "$547,100.00 MNX",
+                    "PrecioLista": "$557,100.00 MXN",
+                    "Iva": "75462.06",
+                    "SubTotal": "471637.931",
+                    "Total": "547100"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "7170",
+                    "Nombre": "Negro Medianoche",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/Leon/NegromediaNoche.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/negromedianoche35731.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/Leon/NegromediaNoche.png"
+                  },
+                  {
+                    "IdColor": "4354",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/Leon/BlancoNevada.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/blanconevada35731.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/Leon/BlancoNevada.png"
+                  },
+                  {
+                    "IdColor": "7180",
+                    "Nombre": "Plata urbano",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/Leon/PlataUrbano.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/plataurbano35731.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/Leon/PlataUrbano.png"
+                  },
+                  {
+                    "IdColor": "7705",
+                    "Nombre": "Gris Magnético",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/Leon/GrisMagnetico.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/grismagnetico35731.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/Leon/GrisMagnetico.png"
+                  },
+                  {
+                    "IdColor": "6915",
+                    "Nombre": "Rojo Emoción",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/Leon/RojoEmocion.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/rojoemocion35731.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/Leon/RojoEmocion.png"
+                  },
+                  {
+                    "IdColor": "6966",
+                    "Nombre": "Azul Misterio",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/Leon/AzulMisterio.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/azulmisterio35731.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/Leon/AzulMisterio.png"
+                  },
+                  {
+                    "IdColor": "6915",
+                    "Nombre": "Rojo Deseo",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/Leon/RojoDeseo.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/rojodeseo35731.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/Leon/RojoDeseo.png"
+                  }
+                ]
+              },
+              {
+                "Nombre": "Special Edition",
+                "RutaVideo": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/SpecialEdition/leon36389.mp4",
+                "RutaFichaTecnica": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/SpecialEdition/fichatecnica36389.pdf",
+                "Ruta360": "https://my.matterport.com/show/?m=qvBWxF5WAPq&lang=es&play=1&help=1",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "36389",
+                    "Transmision": "DSG.",
+                    "PrecioContado": "$627,000.00 MXN",
+                    "PrecioLista": "$627,000.00 MXN",
+                    "Iva": "86482.75",
+                    "SubTotal": "540517.24",
+                    "Total": "627000"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "7170",
+                    "Nombre": "Negro Medianoche",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/SpecialEdition/NegroMediaNoche.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/negromedianoche36389.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/SpecialEdition/NegroMediaNoche.png"
+                  },
+                  {
+                    "IdColor": "4354",
+                    "Nombre": "Blanco Nevada",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/SpecialEdition/BlancoNevada.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/blanconevada36389.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/SpecialEdition/BlancoNevada.png"
+                  },
+                  {
+                    "IdColor": "7180",
+                    "Nombre": "Plata urbano",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/SpecialEdition/PlataUrbano.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/plataurbano36389.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/SpecialEdition/PlataUrbano.png"
+                  },
+                  {
+                    "IdColor": "7705",
+                    "Nombre": "Gris Magnético",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/SpecialEdition/GrisMagnetico.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/grismagnetico36389.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/SpecialEdition/GrisMagnetico.png"
+                  }
+                ]
+              }
+            ],
+            "GamaColores": [
+              {
+                "IdColor": null,
+                "Nombre": "Negro Medianoche",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/SpecialEdition/NegroMediaNoche.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/negromedianoche36389.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/SpecialEdition/NegroMediaNoche.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Blanco Nevada",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/SpecialEdition/BlancoNevada.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/blanconevada36389.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/SpecialEdition/BlancoNevada.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Plata urbano",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/SpecialEdition/PlataUrbano.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/plataurbano36389.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/SpecialEdition/PlataUrbano.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Gris Magnético",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/SpecialEdition/GrisMagnetico.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/grismagnetico36389.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Cupra/Leon/SpecialEdition/GrisMagnetico.png"
+              }
+            ],
+            "ConsumoGasolina": [
+              {
+                "Tipo": "15.6 Km/l\nCombinado"
+              }
+            ],
+            "Transmision": [
+              {
+                "Tipo": "6 VEL. DSG."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IdMarca": "42",
+    "Modelos": [
+      {
+        "IdModelo": "",
+        "NombreModelo": "JETTA",
+        "Anios": [
+          {
+            "Anio": "Modelo 2021",
+            "Motor": "1.4L TSI",
+            "Potencia": "150 HP",
+            "Aceleracion": "-",
+            "VelocidadMax": "-",
+            "Cajuela": "CAJUELA 510L",
+            "Versiones": [
+              {
+                "Nombre": "TRENDLINE",
+                "RutaVideo": "",
+                "RutaFichaTecnica": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/vw-ficha-tecnica-jetta-2021.pdf",
+                "Ruta360": "",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "",
+                    "Transmision": "STD.",
+                    "PrecioContado": "$351,990.00 MXN",
+                    "PrecioLista": "$351,990.00 MXN",
+                    "Iva": "48537.93",
+                    "SubTotal": "303362.06",
+                    "Total": "351990.00"
+                  },
+                  {
+                    "IdVersion": "",
+                    "Transmision": "TIP.",
+                    "PrecioContado": "$371,990.00 MXN",
+                    "PrecioLista": "$371,990.00 MXN",
+                    "Iva": "51296.55",
+                    "SubTotal": "320603.44",
+                    "Total": "371900.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "8501",
+                    "Nombre": "AZUL SEDA",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Trendline/AzulSeda.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Azul_Seda.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Trendline/AzulSeda.png"
+                  },
+                  {
+                    "IdColor": "8929",
+                    "Nombre": "PLATA PIRITA",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Trendline/PlataPirita.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/plata_pirita.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Trendline/PlataPirita.png"
+                  },
+                  {
+                    "IdColor": "8145",
+                    "Nombre": "BLANCO PURO",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Trendline/BlancoPuro.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/blanco_puro.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Trendline/BlancoPuro.png"
+                  },
+                  {
+                    "IdColor": "9086",
+                    "Nombre": "NEGRO",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Trendline/Negro.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/negro.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Trendline/Negro.png"
+                  },
+                  {
+                    "IdColor": "1785",
+                    "Nombre": "ROJO TORNADO",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Trendline/RojoTornado.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/rojo_tornado.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Trendline/RojoTornado.png"
+                  }
+                ]
+              },
+              {
+                "Nombre": "COMFORTLINE",
+                "RutaVideo": "",
+                "RutaFichaTecnica": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/vw-ficha-tecnica-jetta-2021.pdf",
+                "Ruta360": "",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "",
+                    "Transmision": "TIP.",
+                    "PrecioContado": "$416,990.00 MXN",
+                    "PrecioLista": "$416,990.00 MXN",
+                    "Iva": "57515.86",
+                    "SubTotal": "359474.13",
+                    "Total": "416,990.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "8501",
+                    "Nombre": "AZUL SEDA",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Confortline/AzulSeda.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Azul_Seda.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Confortline/AzulSeda.png"
+                  },
+                  {
+                    "IdColor": "8929",
+                    "Nombre": "PLATA PIRITA",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Confortline/PlataPirita.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/plata_pirita.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Confortline/PlataPirita.png"
+                  },
+                  {
+                    "IdColor": "8145",
+                    "Nombre": "BLANCO PURO",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Confortline/BlancoPuro.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/blanco_puro.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Confortline/BlancoPuro.png"
+                  },
+                  {
+                    "IdColor": "9086",
+                    "Nombre": "NEGRO",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Confortline/Negro.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/negro.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Confortline/Negro.png"
+                  },
+                  {
+                    "IdColor": "1785",
+                    "Nombre": "ROJO TORNADO",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Confortline/RojoTornado.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/rojo_tornado.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Confortline/RojoTornado.png"
+                  }
+                ]
+              },
+              {
+                "Nombre": "R-LINE",
+                "RutaVideo": "",
+                "RutaFichaTecnica": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/vw-ficha-tecnica-jetta-2021.pdf",
+                "Ruta360": "",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "",
+                    "Transmision": "TIP.",
+                    "PrecioContado": "$459,900.00 MXN",
+                    "PrecioLista": "$459,900.00 MXN",
+                    "Iva": "63434.48",
+                    "SubTotal": "396465.51",
+                    "Total": "459900.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "8929",
+                    "Nombre": "PLATA PIRITA",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/R/PlataPirita.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/plata_pirita.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/R/PlataPirita.png"
+                  },
+                  {
+                    "IdColor": "8145",
+                    "Nombre": "BLANCO PURO",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/R/BlancoPuro.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/blanco_puro.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/R/BlancoPuro.png"
+                  },
+                  {
+                    "IdColor": "7875",
+                    "Nombre": "NEGRO PROFUNDO",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/R/NegroProfundo.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/negro_profundo.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/R/NegroProfundo.png"
+                  },
+                  {
+                    "IdColor": "1785",
+                    "Nombre": "ROJO TORNADO",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/R/RojoTornado.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/rojo_tornado.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/R/RojoTornado.png"
+                  }
+                ]
+              },
+              {
+                "Nombre": "HIGHLINE",
+                "RutaVideo": "",
+                "RutaFichaTecnica": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/vw-ficha-tecnica-jetta-2021.pdf",
+                "Ruta360": "",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "",
+                    "Transmision": "TIP.",
+                    "PrecioContado": "$501,990.00 MXN",
+                    "PrecioLista": "$501,990.00 MXN",
+                    "Iva": "69240.00",
+                    "SubTotal": "432750.00",
+                    "Total": "501990.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "8501",
+                    "Nombre": "AZUL SEDA",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Highline/AzulSeda.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Azul_Seda.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Highline/AzulSeda.png"
+                  },
+                  {
+                    "IdColor": "8929",
+                    "Nombre": "PLATA PIRITA",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Highline/PlataPirita.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/plata_pirita.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Highline/PlataPirita.png"
+                  },
+                  {
+                    "IdColor": "8145",
+                    "Nombre": "BLANCO PURO",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Highline/BlancoPuro.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/blanco_puro.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Highline/BlancoPuro.png"
+                  },
+                  {
+                    "IdColor": "7875",
+                    "Nombre": "NEGRO PROFUNDO",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Highline/NegroProfundo.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/negro_profundo.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Highline/NegroProfundo.png"
+                  }
+                ]
+              }
+            ],
+            "GamaColores": [
+              {
+                "IdColor": null,
+                "Nombre": "AZUL SEDA",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Highline/AzulSeda.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Azul_Seda.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Highline/AzulSeda.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "PLATA PIRITA",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Highline/PlataPirita.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/plata_pirita.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Highline/PlataPirita.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "BLANCO PURO",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Highline/BlancoPuro.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/blanco_puro.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Highline/BlancoPuro.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "NEGRO PROFUNDO",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Highline/NegroProfundo.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/negro_profundo.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Vw/Jetta/Highline/NegroProfundo.png"
+              }
+            ],
+            "ConsumoGasolina": [
+              {
+                "Tipo": "19.7 KML \n 18.6 KML"
+              }
+            ],
+            "Transmision": [
+              {
+                "Tipo": "6 Vel. STD / TIP"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "IdMarca": "39",
+    "Modelos": [
+      {
+        "IdModelo": "",
+        "NombreModelo": "Audi A6",
+        "Anios": [
+          {
+            "Anio": "Modelo 2021",
+            "Motor": "2.0L TFSI \n 3.0L TFSI",
+            "Potencia": "190 HP / 24 HP \n 340 HP",
+            "Aceleracion": "7.9 SEG / 6.0 SEG \n 5.1 SEG",
+            "VelocidadMax": "250 KM/H",
+            "Cajuela": "-",
+            "Cilindros": "-",
+            "Versiones": [
+              {
+                "Nombre": "SELECT",
+                "RutaVideo": "",
+                "RutaFichaTecnica": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6.pdf",
+                "Ruta360": "",
+                "PrecioTransmision": [
+                  {
+                    "IdVersion": "",
+                    "Transmision": "S TRONIC",
+                    "PrecioContado": "$1,009,900.00 MXN",
+                    "PrecioLista": "$1,009,900.00 MXN",
+                    "Iva": "139296.55",
+                    "SubTotal": "870603.44.00",
+                    "Total": "1009900.00"
+                  }
+                ],
+                "Colores": [
+                  {
+                    "IdColor": "",
+                    "Nombre": "Blanco Ibis",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6BlancoIbis.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/BlancoIbis.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6BlancoIbis.png"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Negro Brillante",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6NegroBrillante.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/NegroBrillante.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6NegroBrillante.png"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Azul Firmamento Metalizado",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6AzulFirmamentoMetalizado.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/AzulFirmamentoMetalizado.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6AzulFirmamentoMetalizado.png"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Azul Navarra Metalizado",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6AzulNavarraMetalizado.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/AzulNavarraMetalizado.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6AzulNavarraMetalizado.png"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Beige Quilate Metalizado",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6BeigeQuilateMetalizado.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/BeigeQuilateMetalizado.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6BeigeQuilateMetalizado.png"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Blanco Glaciar Metalizado",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6BlancoGlaciarMetalizado.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/BlancoGlaciarMetalizado.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6BlancoGlaciarMetalizado.png"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Gris Tifón Metalizado",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6GrisTifonMetalizado.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/GrisTifonMetalizado.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6GrisTifonMetalizado.png"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Gris Vesubio Metalizado",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6GrisVesubioMetalizado.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/GrisVesubioMetalizado.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6GrisVesubioMetalizado.png"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Marron Soho Metalizado",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6MarronSohoMetalizado.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/MarronSohoMetalizado.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6MarronSohoMetalizado.png"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Negro Mito Metalizado",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6NegroMitoMetalizado.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/NegroMitoMetalizado.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6NegroMitoMetalizado.png"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Plata Florete Metalizado",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6PlataFloreteMetalizado.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/PlataFlor.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6PlataFloreteMetalizado.png"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Rojo Sevilla Metalizado",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6RojoSevillaMetalizado.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/RojoSevillaMetalizado.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6RojoSevillaMetalizado.png"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Rojo Tango Metalizado",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6RojoTangoMetalizado.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/RojoTangoMetalizado.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6RojoTangoMetalizado.png"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Verde Avalón Metalizado",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6VerdeAvalonMetalizado.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/VerdeAvalonMetalizado.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6VerdeAvalonMetalizado.png"
+                  },
+                  {
+                    "IdColor": "",
+                    "Nombre": "Gris Daytona Metalizado",
+                    "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6GrisDaytonaEfectoPerla.png",
+                    "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/GrisDaytonaEfectoPerla.png",
+                    "RutaLocalMini": "",
+                    "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6GrisDaytonaEfectoPerla.png"
+                  }
+                ]
+              }
+            ],
+            "GamaColores": [
+              {
+                "IdColor": null,
+                "Nombre": "Blanco Ibis",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6BlancoIbis.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/BlancoIbis.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6BlancoIbis.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Negro Brillante",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6NegroBrillante.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/NegroBrillante.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6NegroBrillante.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Azul Firmamento Metalizado",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6AzulFirmamentoMetalizado.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/AzulFirmamentoMetalizado.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6AzulFirmamentoMetalizado.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Azul Navarra Metalizado",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6AzulNavarraMetalizado.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/AzulNavarraMetalizado.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6AzulNavarraMetalizado.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Beige Quilate Metalizado",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6BeigeQuilateMetalizado.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/BeigeQuilateMetalizado.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6BeigeQuilateMetalizado.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Blanco Glaciar Metalizado",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6BlancoGlaciarMetalizado.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/BlancoGlaciarMetalizado.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6BlancoGlaciarMetalizado.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Gris Tifón Metalizado",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6GrisTifonMetalizado.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/GrisTifonMetalizado.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6GrisTifonMetalizado.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Gris Vesubio Metalizado",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6GrisVesubioMetalizado.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/GrisVesubioMetalizado.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6GrisVesubioMetalizado.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Marron Soho Metalizado",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6MarronSohoMetalizado.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/MarronSohoMetalizado.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6MarronSohoMetalizado.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Negro Mito Metalizado",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6NegroMitoMetalizado.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/NegroMitoMetalizado.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6NegroMitoMetalizado.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Plata Florete Metalizado",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6PlataFloreteMetalizado.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/PlataFlor.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6PlataFloreteMetalizado.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Rojo Sevilla Metalizado",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6RojoSevillaMetalizado.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/RojoSevillaMetalizado.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6RojoSevillaMetalizado.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Rojo Tango Metalizado",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6RojoTangoMetalizado.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/RojoTangoMetalizado.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6RojoTangoMetalizado.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Verde Avalón Metalizado",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6VerdeAvalonMetalizado.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/VerdeAvalonMetalizado.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6VerdeAvalonMetalizado.png"
+              },
+              {
+                "IdColor": null,
+                "Nombre": "Gris Daytona Metalizado",
+                "Ruta": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6/A6GrisDaytonaEfectoPerla.png",
+                "RutaMini": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/GrisDaytonaEfectoPerla.png",
+                "RutaLocalMini": "",
+                "RutaLocal": "http://10.5.16.17/wsApiVW/Resources/MarcaModelos/Audi/A6GrisDaytonaEfectoPerla.png"
+              }
+            ],
+            "ConsumoGasolina": [
+              {
+                "Tipo": "19.7 KML \n 18.6 KML"
+              }
+            ],
+            "Transmision": [
+              {
+                "Tipo": "6 Vel. STD / AUT"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

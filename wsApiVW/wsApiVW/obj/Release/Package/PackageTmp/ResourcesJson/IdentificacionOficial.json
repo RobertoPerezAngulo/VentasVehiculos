@@ -1,0 +1,126 @@
+[
+   {
+      "IdTipoPersona":"1",
+      "DescripcionTipoPersona":"FISICA",
+      "Nacionalidades":[
+         {
+            "Nacionalidad":"MEXICANA",
+            "DocumentacionRequerida":[
+               {
+                  "IdTipo":"1",
+                  "DescripcionDocumento":"Identificación oficial",
+				  "Obligatorio":"1"
+               },
+               {
+                  "IdTipo":"2",
+                  "DescripcionDocumento":"Identificación oficial reverso (sólo INE)",
+				  "Obligatorio":"0"
+               },
+               {
+                  "IdTipo":"3",
+                  "DescripcionDocumento":"Comprobante de domicilio Máx. 3 Meses",
+				  "Obligatorio":"1"
+               }
+            ]
+         },
+         {
+            "Nacionalidad":"EXTRANJERA",
+            "DocumentacionRequerida":[
+               {
+                  "IdTipo":"4",
+                  "DescripcionDocumento":"FM1-FM2",
+				  "Obligatorio":"1"
+               },
+			   {
+                  "IdTipo":"3",
+                  "DescripcionDocumento":"Comprobante de domicilio Máx. 3 Meses",
+				  "Obligatorio":"1"
+               }
+            ]
+         }
+      ]
+   },
+   
+   {
+      "IdTipoPersona":"2",
+      "DescripcionTipoPersona":"MORAL",
+      "Nacionalidades":[
+         {
+            "Nacionalidad":"MEXICANA",
+            "DocumentacionRequerida":[
+               {
+                  "IdTipo":"3",
+                  "DescripcionDocumento":"Comprobante de domicilio Máx. 3 Meses",
+				  "Obligatorio":"1"
+               },
+               {
+                  "IdTipo":"4",
+                  "DescripcionDocumento":"Acta constitutiva",
+				  "Obligatorio":"1"
+               },
+               {
+                  "IdTipo":"1",
+                  "DescripcionDocumento":"Identificación oficial representante legal",
+				  "Obligatorio":"1"
+               },
+			   {
+                  "IdTipo":"2",
+                  "DescripcionDocumento":"Identificación oficial reverso representante legal (sólo INE)",
+				  "Obligatorio":"0"
+               },
+			   {
+                  "IdTipo":"5",
+                  "DescripcionDocumento":"Comprobante de domicilio Máx. 3 Meses representante legal",
+				  "Obligatorio":"1"
+               },
+			   {
+                  "IdTipo":"8",
+                  "DescripcionDocumento":"Cédula fiscal",
+				  "Obligatorio":"1"
+               },
+			   {
+                  "IdTipo":"9",
+                  "DescripcionDocumento":"Cédula fiscal representante legal",
+				  "Obligatorio":"1"
+               }
+            ]
+         },
+         {
+            "Nacionalidad":"EXTRANJERA",
+            "DocumentacionRequerida":[
+			   {
+                  "IdTipo":"4",
+                  "DescripcionDocumento":"Acta constitutiva",
+				  "Obligatorio":"1"
+               },
+               {
+                  "IdTipo":"1",
+                  "DescripcionDocumento":"Identificación oficial representante legal",
+				  "Obligatorio":"1"
+               },
+			   {
+                  "IdTipo":"2",
+                  "DescripcionDocumento":"Identificación oficial reverso representante legal (sólo INE)",
+				  "Obligatorio":"0"
+               },
+			   {
+                  "IdTipo":"7",
+                  "DescripcionDocumento":"Documento que acredite la constitución de la empresa y sus accionistas",
+				  "Obligatorio":"1"
+               },
+			    {
+                  "IdTipo":"8",
+                  "DescripcionDocumento":"Cédula fiscal",
+				  "Obligatorio":"1"
+               },
+			   {
+                  "IdTipo":"9",
+                  "DescripcionDocumento":"Cédula fiscal representante legal",
+				  "Obligatorio":"1"
+               }
+			   
+            ]
+         }
+      ]
+   }
+]

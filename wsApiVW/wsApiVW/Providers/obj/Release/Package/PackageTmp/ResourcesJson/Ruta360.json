@@ -1,0 +1,58 @@
+﻿[
+  {
+    "IdMarca": "41",
+    "Nombre": "SEAT",
+    "Maquetas": [
+      {
+        "Nombre": "CMDX",
+        "Ruta": "https://my.matterport.com/show/?m=QT9iJxRzHtA&lang=es&play=1&help=1"
+      },
+      {
+       "Nombre": "Ibiza",
+        "Ruta": "https://my.matterport.com/show/?m=BuiAsBFXaNJ&lang=es&play=1&help=1"   
+      },
+      {
+        "Nombre": "Ateca",
+        "Ruta": "https://my.matterport.com/show/?m=3DrUYeXuVc7&lang=es&play=1&help=1"
+      },
+      {
+        "Nombre": "Tarraco",
+        "Ruta": "https://my.matterport.com/show/?m=zjEWUuvsZkk&lang=es&play=1&help=1"
+      },
+      {
+        "Nombre": "Arona",
+        "Ruta": "https://my.matterport.com/show/?m=ZE1qp6kmVqo&lang=es&play=1&help=1"
+      }
+    ]
+  },
+  {
+    "IdMarca": "0",
+    "Nombre": "CUPRA",
+    "Maquetas": [
+      {
+        "Nombre": "CMDX",
+        "Ruta": "https://my.matterport.com/show/?m=faecKU6QAQw%22"
+      },
+      {
+        "Nombre": "Ateca2021",
+        "Ruta": "https://my.matterport.com/show/?m=o6RbyQyXe5S&lang=es&play=1&help=1%22"
+      },
+      {
+        "Nombre": "Ateca",
+        "Ruta": "https://my.matterport.com/show/?m=x6oJsyEg3zm&hl=1&lang=es&play=1&help=1%22"
+      },
+      {
+        "Nombre": "Ateca Limited Edition",
+        "Ruta": "https://my.matterport.com/show/?m=6gp3Pwusp14&lang=es&play=1&help=1%22"
+      },
+      {
+        "Nombre": "León",
+        "Ruta": "https://my.matterport.com/show/?m=3Kc7y7ebGRr&lang=es&play=1&help=1%22"
+      },
+      {
+        "Nombre": "León Special Edition",
+        "Ruta": "https://my.matterport.com/show/?m=qvBWxF5WAPq&lang=es&play=1&help=1%22"
+      }
+    ]
+  }
+]

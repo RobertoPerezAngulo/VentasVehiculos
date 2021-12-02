@@ -1,0 +1,1635 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{48DC6537-3F39-463F-996B-ACEE40398EAB}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>wsApiVW</RootNamespace>
+    <AssemblyName>wsApiVW</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DVAAutosystServerClasses, Version=1.0.0.7, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\DVAAutosystServerClasses.dll</HintPath>
+    </Reference>
+    <Reference Include="DVAConstants, Version=1.0.0.7, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\DVAConstants.dll</HintPath>
+    </Reference>
+    <Reference Include="DVADB, Version=1.0.0.7, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\DVADB.dll</HintPath>
+    </Reference>
+    <Reference Include="DVAFacturacion, Version=1.2017.504.21230, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\DVAFacturacion.dll</HintPath>
+    </Reference>
+    <Reference Include="DVAIDB, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\DVAIDB.dll</HintPath>
+    </Reference>
+    <Reference Include="DVAModelsReflection, Version=1.2017.621.24089, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\DVAModelsReflection.dll</HintPath>
+    </Reference>
+    <Reference Include="DVARegistraPersona, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\DVARegistraPersona.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AI.Agent.Intercept, Version=1.2.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Agent.Intercept.1.2.1\lib\net45\Microsoft.AI.Agent.Intercept.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.DependencyCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.DependencyCollector.2.0.0\lib\net45\Microsoft.AI.DependencyCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.PerfCounterCollector, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.PerfCounterCollector.2.0.0\lib\net45\Microsoft.AI.PerfCounterCollector.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.ServerTelemetryChannel, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.2.0.0\lib\net45\Microsoft.AI.ServerTelemetryChannel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.Web, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.Web.2.0.0\lib\net45\Microsoft.AI.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AI.WindowsServer, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.WindowsServer.2.0.0\lib\net45\Microsoft.AI.WindowsServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.ApplicationInsights, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ApplicationInsights.2.0.0\lib\net45\Microsoft.ApplicationInsights.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Authorization, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Authorization.1.0.0\lib\net451\Microsoft.AspNetCore.Authorization.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Hosting.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Hosting.Abstractions.1.0.0\lib\net451\Microsoft.AspNetCore.Hosting.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Hosting.Server.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Hosting.Server.Abstractions.1.0.0\lib\net451\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Http.1.0.0\lib\net451\Microsoft.AspNetCore.Http.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Http.Abstractions.1.0.0\lib\net451\Microsoft.AspNetCore.Http.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Http.Extensions.1.0.0\lib\net451\Microsoft.AspNetCore.Http.Extensions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Features, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Http.Features.1.0.0\lib\net451\Microsoft.AspNetCore.Http.Features.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Mvc.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Mvc.Abstractions.1.0.0\lib\net451\Microsoft.AspNetCore.Mvc.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Mvc.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Mvc.Core.1.0.0\lib\net451\Microsoft.AspNetCore.Mvc.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Routing, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Routing.1.0.0\lib\net451\Microsoft.AspNetCore.Routing.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Routing.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Routing.Abstractions.1.0.0\lib\net451\Microsoft.AspNetCore.Routing.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.WebUtilities, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.WebUtilities.1.0.0\lib\net451\Microsoft.AspNetCore.WebUtilities.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.DotNet.InternalAbstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.DotNet.InternalAbstractions.1.0.0\lib\net451\Microsoft.DotNet.InternalAbstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Configuration.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Abstractions.1.0.0\lib\netstandard1.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.1.0.0\lib\netstandard1.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.DependencyModel, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.DependencyModel.1.0.0\lib\net451\Microsoft.Extensions.DependencyModel.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.FileProviders.Abstractions.1.0.0\lib\netstandard1.0\Microsoft.Extensions.FileProviders.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.1.0.0\lib\netstandard1.1\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.ObjectPool, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.ObjectPool.1.0.0\lib\net451\Microsoft.Extensions.ObjectPool.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Options.1.0.0\lib\netstandard1.0\Microsoft.Extensions.Options.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.PlatformAbstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.PlatformAbstractions.1.0.0\lib\net451\Microsoft.Extensions.PlatformAbstractions.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Primitives, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Primitives.1.0.0\lib\netstandard1.0\Microsoft.Extensions.Primitives.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Net.Http.Headers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.Headers.1.0.0\lib\netstandard1.1\Microsoft.Net.Http.Headers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="RestSharp, Version=106.11.7.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.106.11.7\lib\net452\RestSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Swashbuckle.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cd1bb07a5ac7c7bc, processorArchitecture=MSIL">
+      <HintPath>..\packages\Swashbuckle.Core.5.6.0\lib\net40\Swashbuckle.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.0.0\lib\netstandard1.1\System.Buffers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.0.0\lib\portable-net45+win8+wpa81\System.Diagnostics.DiagnosticSource.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Text.Encodings.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.4.0.0\lib\netstandard1.0\System.Text.Encodings.Web.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebActivatorEx.2.0\lib\net40\WebActivatorEx.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="WebGrease">
+      <Private>True</Private>
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <Private>True</Private>
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.0.1\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.3.0.1\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.3.0.1\lib\net45\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.3.0.1\lib\net45\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Owin.5.2.3\lib\net45\System.Web.Http.Owin.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\IdentityConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="App_Start\SwaggerConfig.cs" />
+    <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Areas\HelpPage\ApiDescriptionExtensions.cs" />
+    <Compile Include="Areas\HelpPage\App_Start\HelpPageConfig.cs" />
+    <Compile Include="Areas\HelpPage\Controllers\HelpController.cs" />
+    <Compile Include="Areas\HelpPage\HelpPageAreaRegistration.cs" />
+    <Compile Include="Areas\HelpPage\HelpPageConfigurationExtensions.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\CollectionModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ComplexTypeModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\DictionaryModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\EnumTypeModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\EnumValueDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\IModelDocumentationProvider.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\KeyValuePairModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ModelDescriptionGenerator.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ModelNameAttribute.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ModelNameHelper.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ParameterAnnotation.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\ParameterDescription.cs" />
+    <Compile Include="Areas\HelpPage\ModelDescriptions\SimpleTypeModelDescription.cs" />
+    <Compile Include="Areas\HelpPage\Models\HelpPageApiModel.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\HelpPageSampleGenerator.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\HelpPageSampleKey.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\ImageSample.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\InvalidSample.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\ObjectGenerator.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
+    <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
+    <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Bussine\AutosBussine.cs" />
+    <Compile Include="Bussine\BPedido.cs" />
+    <Compile Include="Bussine\ContactoCliente.cs" />
+    <Compile Include="Bussine\FClienteAuto.cs" />
+    <Compile Include="Bussine\ProcesoCompra.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\AgenciaController.cs" />
+    <Compile Include="Controllers\AlertasPushController.cs" />
+    <Compile Include="Controllers\AutosController.cs" />
+    <Compile Include="Controllers\DocumentosController.cs" />
+    <Compile Include="Controllers\EncuestaController.cs" />
+    <Compile Include="Controllers\FacturacionController.cs" />
+    <Compile Include="Controllers\MedioPagoController.cs" />
+    <Compile Include="Controllers\OrdenCompraController.cs" />
+    <Compile Include="Controllers\PagoElectronicoController.cs" />
+    <Compile Include="Controllers\PedidoController.cs" />
+    <Compile Include="Controllers\ServicioController.cs" />
+    <Compile Include="Controllers\SmartITController.cs" />
+    <Compile Include="Controllers\UsuarioController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccountBindingModels.cs" />
+    <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\Agregar_Autos\AtributosAutos.cs" />
+    <Compile Include="Models\Agregar_Autos\ColorAuto.cs" />
+    <Compile Include="Models\Agregar_Autos\ModeloAuto.cs" />
+    <Compile Include="Models\Agregar_Autos\TransmicionAuto.cs" />
+    <Compile Include="Models\Agregar_Autos\VersionAuto.cs" />
+    <Compile Include="Models\AlertasCompra.cs" />
+    <Compile Include="Models\Aplicaciones\CatalogoApps.cs" />
+    <Compile Include="Models\Aplicaciones\CatalogoMarca.cs" />
+    <Compile Include="Models\Aplicaciones\CatalogoPolizas.cs" />
+    <Compile Include="Models\ApuntadorDeServicio.cs" />
+    <Compile Include="Models\Asunto.cs" />
+    <Compile Include="Models\Audi\AutosAudi.cs" />
+    <Compile Include="Models\Audi\ConfiguraApartado.cs" />
+    <Compile Include="Models\Audi\EstadoProgramasEspeciales.cs" />
+    <Compile Include="Models\Audi\Noticias.cs" />
+    <Compile Include="Models\Audi\ProgEspCliente.cs" />
+    <Compile Include="Models\Audi\TipoDescuento.cs" />
+    <Compile Include="Models\Audi\TipoVehiculoAudi.cs" />
+    <Compile Include="Models\AutoModels\CompraAutoNuevo.cs" />
+    <Compile Include="Models\AutoModels\Inventario.cs" />
+    <Compile Include="Models\AutoModels\PedidoVehiculo.cs" />
+    <Compile Include="Models\AutorizacionDocumento.cs" />
+    <Compile Include="Models\Checklist.cs" />
+    <Compile Include="Models\Citas.cs" />
+    <Compile Include="Models\CorreosSoporte.cs" />
+    <Compile Include="Models\CuentaActualizar.cs" />
+    <Compile Include="Models\CuentasBancariasPorAgencia.cs" />
+    <Compile Include="Models\DocumentoComunicacion.cs" />
+    <Compile Include="Models\Encuesta.cs" />
+    <Compile Include="Models\EnviarCorreoContactoCliente.cs" />
+    <Compile Include="Models\EstadoOrdenCompra.cs" />
+    <Compile Include="Models\Factura\DatosFiscales.cs" />
+    <Compile Include="Models\Factura\Nacionalidad.cs" />
+    <Compile Include="Models\HistorialMovimientosContactoAgencia.cs" />
+    <Compile Include="Models\HistoricoComunicacionAgencia.cs" />
+    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\AutoModels\Vehiculos.cs" />
+    <Compile Include="Models\Maquetas.cs" />
+    <Compile Include="Models\MensajeNotificacion.cs" />
+    <Compile Include="Models\NotificacionXApp.cs" />
+    <Compile Include="Models\PagoElectronico\InternalPagoElectronicos.cs" />
+    <Compile Include="Models\PagoElectronico\OpenPay.cs" />
+    <Compile Include="Models\PagoElectronico\OpenPayBad.cs" />
+    <Compile Include="Models\PagoElectronico\RequestOpenPay.cs" />
+    <Compile Include="Models\PagoElectronico\VentaOpenPay.cs" />
+    <Compile Include="Models\PERSControlDeFolio.cs" />
+    <Compile Include="Models\PersonaCliente.cs" />
+    <Compile Include="Models\PersonaMoral.cs" />
+    <Compile Include="Models\PersonaTelefono.cs" />
+    <Compile Include="Models\ReferenciaBancaria.cs" />
+    <Compile Include="Models\RegistroPersonaFisica.cs" />
+    <Compile Include="Models\RespuestaPedido.cs" />
+    <Compile Include="Models\RespuestaTest.cs" />
+    <Compile Include="Models\SeleccionaSeguroCliente.cs" />
+    <Compile Include="Models\SmartIT\ActualizaCheckAgencia.cs" />
+    <Compile Include="Models\SmartIT\Alerta.cs" />
+    <Compile Include="Models\SmartIT\CheckAgencia.cs" />
+    <Compile Include="Models\SmartIT\DatoCheckAgencia.cs" />
+    <Compile Include="Models\SmartIT\DatosGestoria.cs" />
+    <Compile Include="Models\SmartIT\Documento.cs" />
+    <Compile Include="Models\SmartIT\NotificacionCompra.cs" />
+    <Compile Include="Models\SmartIT\OrdenCompraPedidoSmartIT.cs" />
+    <Compile Include="Models\SmartIT\OrdenCompraSmartIT.cs" />
+    <Compile Include="Models\SmartIT\ProcesoCompraSmartIt.cs" />
+    <Compile Include="Models\Audi\PromocionesVentas.cs" />
+    <Compile Include="Models\SmartIT\SeguimientoCompra.cs" />
+    <Compile Include="Models\SmartIT\Seguro.cs" />
+    <Compile Include="Models\SQLTransaction.cs" />
+    <Compile Include="Models\SubirArchivo.cs" />
+    <Compile Include="Models\SubirDocumentos\MetodosDocumentos.cs" />
+    <Compile Include="Models\SubirDocumentos\SubirArchivoSmartIT.cs" />
+    <Compile Include="Models\UbicacionAgencias.cs" />
+    <Compile Include="Models\User\Cuenta.cs" />
+    <Compile Include="Models\User\CuentasUsuarios.cs" />
+    <Compile Include="Models\User\Notificacion.cs" />
+    <Compile Include="Models\User\SegurosCliente.cs" />
+    <Compile Include="Models\VersionMxAuto.cs" />
+    <Compile Include="Models\VideoNosotrosXIdApps.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Providers\ApplicationOAuthProvider.cs" />
+    <Compile Include="Results\ChallengeResult.cs" />
+    <Compile Include="Services\CorreoService.cs" />
+    <Compile Include="Services\CuentaService.cs" />
+    <Compile Include="Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Areas\HelpPage\HelpPage.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="ResourcesJson\AutorizaDocumento.html" />
+    <Content Include="Resources\CorreosMarcas\Audi_NotificaAyuda.html" />
+    <Content Include="Resources\CorreosMarcas\CUPRA_NotificaAyuda.html" />
+    <Content Include="Resources\CorreosMarcas\SEAT_NotificaAyuda.html" />
+    <Content Include="Resources\CorreosMarcas\VW_NotificaAyuda.html" />
+    <Content Include="Resources\Emailing\EntregaAuto\index.html" />
+    <Content Include="Resources\Emailing\EntregaFactura\index.html" />
+    <Content Include="Resources\Emailing\TestDrive\index.html" />
+    <Content Include="Resources\Email\0_Logo_SEAT.svg" />
+    <Content Include="Resources\Email\claveActivacion.html" />
+    <Content Include="Resources\Email\Compra.html" />
+    <Content Include="Resources\Email\header.jpg" />
+    <Content Include="Resources\Guirnaldas\CITYSTORE.png" />
+    <Content Include="Resources\Guirnaldas\CLASEACAPULCO.png" />
+    <Content Include="Resources\Guirnaldas\CLASEMONTERREY.png" />
+    <Content Include="Resources\Guirnaldas\CRESTAACAPULCO.png" />
+    <Content Include="Resources\Guirnaldas\CRESTACUAUTLA.png" />
+    <Content Include="Resources\Guirnaldas\CRESTACUERNAVACA.png" />
+    <Content Include="Resources\Guirnaldas\CRESTADELVALLE.png" />
+    <Content Include="Resources\Guirnaldas\CRESTAIZTAPALAPA.png" />
+    <Content Include="Resources\Guirnaldas\CRESTANARVARTE.png" />
+    <Content Include="Resources\Guirnaldas\CRESTAZACATEPEC.png" />
+    <Content Include="Resources\Guirnaldas\CUPRAGARAGE.png" />
+    <Content Include="Resources\Guirnaldas\FURIAACAPULCO.png" />
+    <Content Include="Resources\Guirnaldas\FURIAMEXICO.png" />
+    <Content Include="Resources\Guirnaldas\FURIAMONTERREY.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A1\AmarilloPitonMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A1\AzulFirmamentoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A1\BlancoCortina.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A1\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A1\GrisFlechaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A1\GrisManhattanMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A1\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A1\RojoMisanoEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A1\VerdeTioman.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A4\A4\AzulNavarraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A4\A4\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A4\A4\BlancoIbis.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A4\A4\GrisManhattanMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A4\A4\GrisTerraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A4\A4\NegroBrillante.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A4\A4\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A4\A4\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A4\A4\RojoTangoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A4\S4\AzulNavarraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A4\S4\AzulTurbo.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A4\S4\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A4\S4\BlancoIbis.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A4\S4\GrisCuantico.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A4\S4\GrisDaytonaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A4\S4\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A4\S4\RojoTangoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A4\SELECT\AzulNavarraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A4\SELECT\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A4\SELECT\BlancoIbis.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A4\SELECT\GrisManhattanMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A4\SELECT\GrisTerraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A4\SELECT\NegroBrillante.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A4\SELECT\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A4\SELECT\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A4\SELECT\RojoTangoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A5\SELECT\AzulNavarraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A5\SELECT\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A5\SELECT\BlancoIbis.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A5\SELECT\GrisManhattanMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A5\SELECT\NegroBrillante.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A5\SELECT\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A5\SELECT\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A5\SELECT\RojoTangoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A5\SELECT\VerdeDistritoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A5\SLINE\AzulNavarraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A5\SLINE\AzulTurbo.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A5\SLINE\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A5\SLINE\BlancoIbis.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A5\SLINE\GrisCuantico.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A5\SLINE\GrisDaytonaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A5\SLINE\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A5\SLINE\RojoTangoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A5\SLINE\VerdeDistritoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\55SLINE\AzulFirmamentoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\55SLINE\AzulUltraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\55SLINE\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\55SLINE\GrisCronosMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\55SLINE\GrisDaytonaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\55SLINE\NegroBrillante.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\55SLINE\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\55SLINE\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\55SLINE\RojoTangoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\ELITE\AzulFirmamentoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\ELITE\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\ELITE\BlancoIbis.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\ELITE\GrisCronoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\ELITE\GrisManhattanMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\ELITE\MarronSohoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\ELITE\NegroBrillante.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\ELITE\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\ELITE\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\S6\AzulFirmamentoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\S6\AzulUltraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\S6\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\S6\GrisCronosMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\S6\GrisDaytonaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\S6\NegroBrillante.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\S6\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\S6\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\S6\RojoTangoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\SELECT\AzulFirmamentoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\SELECT\AzulUltraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\SELECT\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\SELECT\BlancoIbis.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\SELECT\GrisCronoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\SELECT\GrisDaytonaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\SELECT\GrisManhattanMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\SELECT\MarronSohoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\SELECT\NegroBrillante.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\SELECT\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\SELECT\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\SELECT\RojoTangoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\SLINE\AzulFirmamentoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\SLINE\AzulUltraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\SLINE\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\SLINE\GrisCronosMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\SLINE\GrisDaytonaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\SLINE\NegroBrillante.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\SLINE\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\SLINE\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\SLINE\RojoTangoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\ELITE\AzulFirmamentoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\ELITE\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\ELITE\BlancoIbis.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\ELITE\GrisCronosMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\ELITE\GrisManhattanMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\ELITE\MarronSohoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\ELITE\NegroBrillante.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\ELITE\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\ELITE\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\S7\AzulFirmamentoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\S7\AzulUltraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\S7\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\S7\GrisCronosMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\S7\GrisDaytonaEfeectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\S7\NegroBrillante.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\S7\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\S7\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\S7\RojoTangoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\SLINE\AzulFirmamentoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\SLINE\AzulUltraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\SLINE\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\SLINE\GrisCronosMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\SLINE\GrisDaytonaEfeectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\SLINE\NegroBrillante.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\SLINE\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\SLINE\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\SLINE\RojoTangoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8L\Azul Navarra Metalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8L\AzulLuzDeLunaMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8L\BeigeImpalaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8L\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8L\GrisDaytonaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8L\GrisMonzonMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8L\GrisTerraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8L\GrisVesubioMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8L\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8L\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8L\RojoSevillaMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8S\AzulLuzDeLunaMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8S\AzulNavarraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8S\BeigeImpalaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8S\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8S\GrisDaytonaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8S\GrisMonzonMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8S\GrisTerraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8S\GrisVesubioMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8S\NegroBrillante.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8S\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8S\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8S\RojoSevillaMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8\BeigeImpalaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8\GrisDaytonaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8\GrisMonzonMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8\GrisTerraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8\GrisVesubioMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8\LuzDeLunaMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8\NavarraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8\NegroBrillante.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\A8\A8\RojoSevillaMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\AmarilloPitonMetalizado.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\AmarilloVegas.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\AzulAscariMetalizado.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\AzulFirmamentoMetalizado.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\AzulGalaxiaMetalizado.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\AzulNavarraMetalizado.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\AzulTurbo.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\AzulUltraMetalizado.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\BeigeCobraMetalizado.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\BeigeQuilateMetalizado.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\BeigeVicunaMetalizado.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\BlancoCarrara.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\BlancoCortina.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\BlancoGlaciarMetalizado.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\BlancoIbis.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\GrisCronoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\GrisCronosMetalizado.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\GrisCuantico.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\GrisDaytonaEfectoPerla.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\GrisFlechaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\GrisKemoraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\GrisManhattanMetalizado.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\GrisNanoMetalizado.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\GrisNardo.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\GrisSamuraiMetalizado.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\GrisSusukaMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\GrisTerraMetalizado.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\GrisTifonMetalizado.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\GrisVesubioMetalizado.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\MarronArgusMetalizado.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\MarronBarricaMetalizado.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\MarronSohoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\NaranjaDragonMetalizado.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\NaranjaPulso.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\NegroBrillante.png" />
+    <Content Include="Resources\MarcaModelos\Audi\NegroMitoMetalizado.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\NegroOrcaMetalizado.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\NegroProfundo.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\PlataFloreteMetalizado.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\DYNAMIC\AscariblauMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\DYNAMIC\AzulNavarraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\DYNAMIC\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\DYNAMIC\BlancoIbis.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\DYNAMIC\CamouflagegrunMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\DYNAMIC\GrisFlechaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\DYNAMIC\GrisManhattanMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\DYNAMIC\GrunUni.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\DYNAMIC\KorallenorangeMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\DYNAMIC\MisanorotPerleffekt.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\DYNAMIC\NardograuUni.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\DYNAMIC\NegroBrillante.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\DYNAMIC\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\DYNAMIC\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\DYNAMIC\RojoTangoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\DYNAMIC\VegasgelbUni.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\DYNAMIC\VerdeManzanaMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SELECT\AscariblauMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SELECT\AzulNavarraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SELECT\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SELECT\BlancoIbis.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SELECT\CamouFlagegrunMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SELECT\GrisFlechaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SELECT\GrisManhattanMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SELECT\GrunUni.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SELECT\KorallenOrangeMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SELECT\MisanorotPerleffekt.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SELECT\NardograuUni.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SELECT\NegroBrillante.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SELECT\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SELECT\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SELECT\RojoTangoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SELECT\VegasgelbUni.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SELECT\VerdeManzanaMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SPORT\AscariblauMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SPORT\AzulNavarraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SPORT\AzulTurbo.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SPORT\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SPORT\BlancoIbis.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SPORT\CamouflagegrunMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SPORT\GrisDaytonaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SPORT\GrisFlechaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SPORT\GrunUni.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SPORT\KorallenOrangeMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SPORT\MisanorotPerleffekt.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SPORT\NardograuUni.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SPORT\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SPORT\RojoTangoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SPORT\VegasgelbUni.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\SPORT\VerdeManzanaMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q3\Q3\AzulNavarraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q3\Q3\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q3\Q3\BlancoIbis.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q3\Q3\GrisCronosMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q3\Q3\GrisNanoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q3\Q3\NaranjaPulso.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q3\Q3\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q3\Q3\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q3\Q3\RojoTangoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q3\Sportback\AzulNavarraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q3\Sportback\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q3\Sportback\BlancoIbis.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q3\Sportback\GrisCronosMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q3\Sportback\GrisNanoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q3\Sportback\NaranjaPulso.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q3\Sportback\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q3\Sportback\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q3\Sportback\PlataRocioMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q3\Sportback\RojoTangoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\DYNAMIC\AzulNavarraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\DYNAMIC\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\DYNAMIC\BlancoIbis.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\DYNAMIC\CuveesilberMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\DYNAMIC\GrisManhattanMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\DYNAMIC\JavagrunMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\DYNAMIC\KaratbeigeMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\DYNAMIC\NardograuUni.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\DYNAMIC\NegroBrillante.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\DYNAMIC\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\DYNAMIC\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\DYNAMIC\RojoMatadorMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\DYNAMIC\SepangbiauPerieffekt.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\DYNAMIC\SiambeigeMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\DYNAMIC\VerdeDistritoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\DYNAMIC\ZitrusgelbUni.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\ELITE\AzulNavarraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\ELITE\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\ELITE\BlancoIbis.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\ELITE\CuveesilberMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\ELITE\GrisManhattanMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\ELITE\JavagrunMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\ELITE\KaratbeigeMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\ELITE\NardograuUni.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\ELITE\NegroBrillante.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\ELITE\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\ELITE\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\ELITE\RojoMatadorMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\ELITE\SepangblauPerleffekt.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\ELITE\SiambeigeMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\ELITE\VerdeDistritoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\ELITE\ZitrusgelbUni.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SELECT\AzulNavarraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SELECT\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SELECT\BlancoIbis.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SELECT\CuveesilberMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SELECT\GrisManhattanMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SELECT\JavagrunMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SELECT\KaratbeigeMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SELECT\NardograuUni.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SELECT\NegroBrillante.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SELECT\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SELECT\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SELECT\RojoMatadorMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SELECT\SepangblauPerleffekt.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SELECT\SiambeigeMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SELECT\VerdeDistritoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SELECT\ZitrusgelbUni.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SLINE\AzulNavarraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SLINE\AzulUltraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SLINE\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SLINE\BlancoIbis.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SLINE\CuveesilberMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SLINE\GrisCuantico.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SLINE\GrisDaytonaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SLINE\JavagrunMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SLINE\KaratbeigeMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SLINE\NardograuUni.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SLINE\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SLINE\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SLINE\SepangblauPerleffekt.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SLINE\SiambeigeMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SLINE\VerdeDistritoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SLINE\ZitrusgelbUni.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SQ5\AzulNavarraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SQ5\AzulUltraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SQ5\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SQ5\BlancoIbis.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SQ5\CuveesilberMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SQ5\GrisCuantico.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SQ5\GrisDaytonaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SQ5\JavagrunMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SQ5\KaratbeigeMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SQ5\NardograuUni.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SQ5\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SQ5\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SQ5\SepangblauPerleffekt.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SQ5\SiambeigeMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SQ5\VerdeDistritoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\SQ5\ZitrusgelbUni.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\ELITE\ArgusbraunMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\ELITE\AzulGalaxiaMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\ELITE\AzulNavarraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\ELITE\BeigeVicuñaMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\ELITE\BlancoCarrara.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\ELITE\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\ELITE\GoodwoodgrunPerleffekt.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\ELITE\GrisSamuraiMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\ELITE\IpanemabraunMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\ELITE\MarronBarricaMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\ELITE\MerlinPerleffekt.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\ELITE\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\ELITE\NimbusgrauPerleffekt.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\ELITE\PalaisblauPerleffekt.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\ELITE\PfellgrauPerleffekt.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\ELITE\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\ELITE\SandbeigePerleffekt.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\ELITE\SepangblauPerleffekt.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\ELITE\TangorotMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\SLINE\ArgusbraunMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\SLINE\AzulNavarraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\SLINE\BlancoCarrara.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\SLINE\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\SLINE\GoodwoodgrunPerleffekt.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\SLINE\GrisDaytonaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\SLINE\IpanemabraunMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\SLINE\MarronBarricaMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\SLINE\MerlinPerleffekt.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\SLINE\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\SLINE\NimbusgrauPerleffekt.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\SLINE\PalaisblauPerleffekt.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\SLINE\PfellgrauPerleffekt.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\SLINE\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\SLINE\RojoMatadorMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\SLINE\SandbeigePerleffekt.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\SLINE\SepangblauPerleffekt.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\SLINE\TangorotMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\ELITE\AzulGalaxiaMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\ELITE\BeigeCobraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\ELITE\BlancoCarrara.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\ELITE\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\ELITE\GrisSamuraiMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\ELITE\MarronBarricaMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\ELITE\NaranjaDragonMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\ELITE\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\ELITE\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\ELITE\RojoMatadorMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\RS\AzulGalaxiaMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\RS\AzulNavarraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\RS\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\RS\GrisDaytonaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\RS\GrisNardo.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\RS\NaranjaDragonMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\RS\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\RS\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\RS\RojoMatadorMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\SLINE\AzulGalaxiaMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\SLINE\AzulNavarraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\SLINE\BeigeVicunaMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\SLINE\BlancoCarrara.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\SLINE\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\SLINE\GrisDaytonaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\SLINE\MarronBarricaMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\SLINE\NaranjaDragonMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\SLINE\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\SLINE\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\SLINE\RojoMatadorMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\R8\Coupe\AmarilloVegas.png" />
+    <Content Include="Resources\MarcaModelos\Audi\R8\Coupe\AzulAraEfectoCristal.png" />
+    <Content Include="Resources\MarcaModelos\Audi\R8\Coupe\BlancoIbis.png" />
+    <Content Include="Resources\MarcaModelos\Audi\R8\Coupe\GrisDaytonaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\R8\Coupe\GrisKemoraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\R8\Coupe\GrisSuzukaMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\R8\Coupe\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\R8\Coupe\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\R8\Coupe\RojoTangoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\R8\Spyder\AmarilloVegas.png" />
+    <Content Include="Resources\MarcaModelos\Audi\R8\Spyder\AzulAraEfectoCristal.png" />
+    <Content Include="Resources\MarcaModelos\Audi\R8\Spyder\AzulAscariMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\R8\Spyder\BlancoIbis.png" />
+    <Content Include="Resources\MarcaModelos\Audi\R8\Spyder\GrisDaytonaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\R8\Spyder\GrisKemoraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\R8\Spyder\GrisSuzukaMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\R8\Spyder\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\R8\Spyder\PlataFloreteMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\R8\Spyder\RojoTangoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\RojoMatadorMetalizado.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\RojoMisanoEfectoPerla.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\RojoSevillaMetalizado.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\RojoTangoMetalizado.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\RS5\AzulNavarraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\RS5\AzulTurbo.png" />
+    <Content Include="Resources\MarcaModelos\Audi\RS5\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\RS5\CatalunyarotMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\RS5\GlutorangeUni.png" />
+    <Content Include="Resources\MarcaModelos\Audi\RS5\GrisDaytonaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\RS5\GrisNardo.png" />
+    <Content Include="Resources\MarcaModelos\Audi\RS5\KumulusblauUni.png" />
+    <Content Include="Resources\MarcaModelos\Audi\RS5\MerlinPerleffekt.png" />
+    <Content Include="Resources\MarcaModelos\Audi\RS5\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\RS5\RojoTangoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\RS5\TeakbraunMetallic.png" />
+    <Content Include="Resources\MarcaModelos\Audi\RS5\VerdeDistritoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\RS5\VerdeSonomaMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\RS5\ZitrusgelbUni.png" />
+    <Content Include="Resources\MarcaModelos\Audi\TT\RS\AmarilloPitonMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\TT\RS\AzulTurbo.png" />
+    <Content Include="Resources\MarcaModelos\Audi\TT\RS\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\TT\RS\GrisDaytonaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\TT\RS\GrisNardo.png" />
+    <Content Include="Resources\MarcaModelos\Audi\TT\RS\NaranjaPulso.png" />
+    <Content Include="Resources\MarcaModelos\Audi\TT\RS\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\TT\RS\RojoTangoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\TT\RS\VerdeKyalami.png" />
+    <Content Include="Resources\MarcaModelos\Audi\TT\S\AmarilloPitonMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\TT\S\AzulNavarraMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\TT\S\AzulTurbo.png" />
+    <Content Include="Resources\MarcaModelos\Audi\TT\S\BlancoGlaciarMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\TT\S\BlancoIbis.png" />
+    <Content Include="Resources\MarcaModelos\Audi\TT\S\GrisCronosMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\TT\S\GrisDaytonaEfectoPerla.png" />
+    <Content Include="Resources\MarcaModelos\Audi\TT\S\GrisNanoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\TT\S\NaranjaPulso.png" />
+    <Content Include="Resources\MarcaModelos\Audi\TT\S\NegroMitoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\TT\S\RojoTangoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\VerdeAvalonMetalizado.jpg" />
+    <Content Include="Resources\MarcaModelos\Audi\VerdeDistritoMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\VerdeKyalami.png" />
+    <Content Include="Resources\MarcaModelos\Audi\VerdeManzanaMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\VerdeSonomaMetalizado.png" />
+    <Content Include="Resources\MarcaModelos\Audi\VerdeTioman.jpg" />
+    <Content Include="Resources\MarcaModelos\Cupra\Ateca\Ateca2021\ateca2021.mp4" />
+    <Content Include="Resources\MarcaModelos\Cupra\Ateca\Ateca2021\blanconevada37487.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Ateca\Ateca2021\grisrodio37487.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Ateca\Ateca2021\negrocristal37487.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Ateca\Ateca2021\plataBrillante37487.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Ateca\Ateca2021\rojovelvet37487.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Ateca\Ateca\ateca36034.mp4" />
+    <Content Include="Resources\MarcaModelos\Cupra\Ateca\Ateca\AzulEnergia.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Ateca\Ateca\BlancoNevada.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Ateca\Ateca\GrisRodio.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Ateca\Ateca\NegroCristal.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Ateca\Ateca\RojoVelvet.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Ateca\azulenergia36034.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Ateca\blanconevada36034.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Ateca\grisgrafeno.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Ateca\grisrodio.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Ateca\grisrodio36034.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Ateca\LimitedEdition\ateca1.mp4" />
+    <Content Include="Resources\MarcaModelos\Cupra\Ateca\negrocristal36034.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Ateca\plataurbano35731.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Ateca\rojovelvet36034.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Formentor\azulpetroleomate.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Formentor\blancocandy.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Formentor\grisgrafeno.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Formentor\grismagneticomate.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Formentor\Mid\BlancoCandy.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Formentor\Mid\GrisGrafeno.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Formentor\Mid\NegroMedianoche.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Formentor\Mid\PlataUrbano.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Formentor\Mid\RojoDeseo.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Formentor\negromedianoche.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Formentor\PinturaMate\cupraformentorazulpetroleomate.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Formentor\PinturaMate\cupraformentorgrismagneticomate.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Formentor\PituraMetalica\cupraformentorblancocandy.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Formentor\PituraMetalica\cupraformentorgrisgrafeno.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Formentor\PituraMetalica\cupraformentornegromedianoche.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Formentor\PituraMetalica\cupraformentorplataurbano.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Formentor\PituraMetalica\cupraformentorrojodeseo.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Formentor\plataurbano.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Formentor\rojodeseo.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Formentor\videocupraformentor.mp4" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\azulmisterio35731.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\blanconevada35731.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\blanconevada36389.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\CupraLeon\AzulPetroMate.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\CupraLeon\BlancoCand.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\CupraLeon\CUPRALeon.mp4" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\CupraLeon\GrisGrafe.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\CupraLeon\GrisMagnetico.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\CupraLeon\GrisMagnMate.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\CupraLeon\NegroMediano.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\CupraLeon\PlataUrba.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\CupraLeon\RojoDeseo.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\grismagnetico35731.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\grismagnetico36389.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Ateca\LimitedEdition\GrisRodio.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Ateca\LimitedEdition\GrisGafeno.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\Leon\leon35731.mp4" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\negromedianoche35731.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\negromedianoche36389.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\plataurbano35731.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\plataurbano36389.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\rojodeseo35731.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\rojoemocion35731.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\Leon\AzulMisterio.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\Leon\BlancoNevada.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\Leon\GrisMagnetico.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\Leon\NegromediaNoche.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\Leon\PlataUrbano.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\Leon\RojoDeseo.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\Leon\RojoEmocion.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\SpecialEdition\BlancoNevada.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\SpecialEdition\GrisMagnetico.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\SpecialEdition\leon36389.mp4" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\SpecialEdition\NegroMediaNoche.png" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\SpecialEdition\PlataUrbano.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\20Aniversario\Ibiza-FR-Azul-Misterio.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\20Aniversario\Ibiza-FR-Blanco-Nevada.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\20Aniversario\Ibiza-FR-Gris-Magnetico.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\20Aniversario\Ibiza-FR-Plata-Urbano.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\20Aniversario\Ibiza-FR-Rojo-Deseo.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\Fr\Tarraco-FR-Gris-Delfin.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\Tarraco-FR-GD.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\Fr\Tarraco-FR-Rojo-Merlot.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\TARRACO_RMER.png" />
+    <Content Include="Resources\MarcaModelos\Vw\AzulAtlantic.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Nosotros\ACAPULCO.jpg" />
+    <Content Include="Resources\MarcaModelos\Vw\Nosotros\CITYSTORE.jpg" />
+    <Content Include="Resources\MarcaModelos\Vw\Nosotros\CUAUTLA.jpg" />
+    <Content Include="Resources\MarcaModelos\Vw\Nosotros\CUERNAVACA.jpg" />
+    <Content Include="Resources\MarcaModelos\Vw\Nosotros\DELVALLE.jpg" />
+    <Content Include="Resources\MarcaModelos\Vw\Nosotros\IZTAPALAPA.jpg" />
+    <Content Include="Resources\MarcaModelos\Vw\Nosotros\MORELOS.jpg" />
+    <Content Include="Resources\MarcaModelos\Vw\Nosotros\NARVARTE.jpg" />
+    <Content Include="Resources\MarcaModelos\Cupra\Nosotros\VideoCupraGarage1.mp4" />
+    <Content Include="Resources\MarcaModelos\Cupra\Nosotros\VideoCupraGarage2.mp4" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\AMTG.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Arona_X_AMTN.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Arona_X_BNTG.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Arona_X_BNTN.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Arona_X_GMTN.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Arona_X_NMTG.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Arona_X_PUTN.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Arona_X_RDTG.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Arona_X_RDTN.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\AzulMisterio_ARONA.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\BlancoNevada_ARONA.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\GrisMagnetico_ARONA.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\NMedianoche_ARONA.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\PlataUrbano_ARONA.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Reference\Arona-Reference-Azul-Misterio.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Reference\Arona-Reference-Blanco-Nevada.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Reference\Arona-Reference-Gris-Magnetico.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Reference\Arona-Reference-Negro-Medianoche.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Reference\Arona-Reference-Plata-urbano.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Reference\Arona-Reference-Rojo-Deseo.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Reference\Arona-Reference-Rojo-Emocion.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\RETN.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\RojoDeseo_ARONA.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\RojoEmocion_ARONA.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Style\Arona-Style-Azul-Misterio.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Style\Arona-Style-Blanco-Nevada.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Style\Arona-Style-Gris-Magnetico.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Style\Arona-Style-Negro-Medianoche.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Style\Arona-Style-Plata-Urbano.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Style\Arona-Style-Rojo-Deseo.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Style\Arona-Style-Rojo-Emocion.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Style\AronaStyle.mp4" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Xcellence\Arona-Xcellence-Azul-Misterio-con-techo-Gris.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Xcellence\Arona-Xcellence-Azul-Misterio-con-Techo-Negro.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Xcellence\Arona-Xcellence-Blanco-Nevada-con-Techo-Gris.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Xcellence\Arona-Xcellence-Blanco-Nevada-con-Techo-Negro.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Xcellence\Arona-Xcellence-Gris-Magnetico-con-Techo-Negro.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Xcellence\Arona-Xcellence-Negro-Medianoche-con-Techo-Gris.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Xcellence\Arona-Xcellence-Plata-Urbano-con-Techo-Negro.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Xcellence\Arona-Xcellence-Rojo-Deseo-con-Techo-Gris.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Xcellence\Arona-Xcellence-Rojo-Deseo-con-Techo-Negro.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Xcellence\Arona-Xcellence-Rojo-Emocion-con-techo-Gris.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Xcellence\Arona-Xcellence-Rojo-Emocion-con-techo-Negro.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\Xcellence\Arona_Xcellence.mp4" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\AE_ATECA.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\AL_ATECA.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\BN_ATECA.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\C_ATECA.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\Fr\Ateca-FR-Azul-Energia.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\Fr\Ateca-FR-Blanco-Nevada.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\Fr\Ateca-FR-Gris-Rodio.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\Fr\Ateca-FR-Negro-Cristal.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\Fr\Ateca-FR-Rojo-Velvet.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\Fr\Ateca_FR.mp4" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\GR_ATECA.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\NC_ATECA.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\PB_ATECA.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\RV_ATECA.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\Style\Ateca-Style-Azul-Lava.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\Style\Ateca-Style-Blanco-Nevada.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\Style\Ateca-Style-Gris-Rodio.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\Style\Ateca-Style-Negro-Cristal.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\Style\Ateca-Style-Plata-Brillante.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\Style\Ateca-Style-Rojo-Velvet.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\Style\Ateca_Style.mp4" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\Xperience\Ateca-Xperience-Azul-Lava.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\Xperience\Ateca-Xperience-Blanco-Nevada.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\Xperience\Ateca-Xperience-Camuflaje.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\Xperience\Ateca-Xperience-Gris-Rodio.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\Xperience\Ateca-Xperience-Negro-Cristal.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\Xperience\Ateca-Xperience-Plata-Brillante.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\Xperience\Ateca-Xperience-Rojo-Velvet.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\Xperience\Ateca_Xperience.mp4" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\AzulMisterio_IBIZA.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\BlancoCandy_IBIZA.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\BlancoNevada_IBIZA.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Fr\Ibiza-FR-Azul-Misterio.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Fr\Ibiza-FR-Blanco-Candy.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Fr\Ibiza-FR-Blanco-Nevada.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Fr\Ibiza-FR-Gris-Magnetico.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Fr\Ibiza-FR-Negro-Medianoche.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Fr\Ibiza-FR-Plata-Urbano.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Fr\Ibiza-FR-Rojo-Deseo.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Fr\Ibiza-FR-Rojo-Emocion.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Fr\Ibiza_FR.mp4" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\GrisMagnetico_IBIZA.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\NMedianoche_IBIZA.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\PlataUrbano_IBIZA.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Reference\BlancoCandy.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Reference\Ibiza-Reference-Azul-Misterio.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Reference\Ibiza-Reference-Blanco-Nevada.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Reference\Ibiza-Reference-Gris-Magnetico.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Reference\Ibiza-Reference-Negro-Medianoche.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Reference\Ibiza-Reference-Plata-Urbano.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Reference\Ibiza-Reference-Rojo-Deseo.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Reference\Ibiza_Reference.mp4" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Reference\RojoEmocion.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\RojoDeseo_IBIZA.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\RojoEmocion_IBIZA.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Style\Ibiza-Style-Azul-Misterio.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Style\Ibiza-Style-Blanco-Candy.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Style\Ibiza-Style-Blanco-Nevada.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Style\Ibiza-Style-Gris-Magnetico.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Style\Ibiza-Style-Negro-Medianoche.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Style\Ibiza-Style-Plata-Urbano.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Style\Ibiza-Style-Rojo-Deseo.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Style\Ibiza-Style-Rojo-Emocion.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Style\Ibiza_Style.mp4" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Xcellence\Ibiza-Xcellence-Azul-Misterio.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Xcellence\Ibiza-Xcellence-Blanco-Candy.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Xcellence\Ibiza-Xcellence-Blanco-Nevada.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Xcellence\Ibiza-Xcellence-Gris-Magnetico.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Xcellence\Ibiza-Xcellence-Negro-Medianoche.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Xcellence\Ibiza-Xcellence-Plata-Urbano.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Xcellence\Ibiza-Xcellence-Rojo-Deseo.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Xcellence\Ibiza-Xcellence-Rojo-Emocion.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\Xcellence\Ibiza_Xcellence.mp4" />
+    <Content Include="Resources\MarcaModelos\Seat\Leon\Fr\Leon_FR_2021_Azul_Misterio.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Leon\Fr\Leon_FR_2021_Blanco_Nevada.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Leon\Fr\Leon_FR_2021_Gris_Magetico.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Leon\Fr\Leon_FR_2021_Negro_Medianoche.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Leon\Fr\Leon_FR_2021_Plata_Urbano.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Leon\Fr\Leon_FR_2021_Rojo_Deseo.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Leon\Leon.mp4" />
+    <Content Include="Resources\MarcaModelos\Seat\Leon\Style\Leon_Style_2021_Blanco_Nevada.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Leon\Style\Leon_Style_2021_Gris_Magnetico.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Leon\Style\Leon_Style_2021_Negro_medianoche.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Leon\Style\Leon_Style_2021_Plata_Urbano.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Leon\Style\Leon_Style_2021_Rojo_Emocion.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Nosotros\Acapulco.mp4" />
+    <Content Include="Resources\MarcaModelos\Seat\Nosotros\CDMX.mp4" />
+    <Content Include="Resources\MarcaModelos\Seat\Nosotros\Monterrey.mp4" />
+    <Content Include="Resources\MarcaModelos\Seat\Nosotros\NOSOTROS_ACAPULCO.jpg" />
+    <Content Include="Resources\MarcaModelos\Seat\Nosotros\NOSOTROS_CDMX.jpg" />
+    <Content Include="Resources\MarcaModelos\Seat\Nosotros\NOSOTROS_MONTERREY.jpg" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\Fr\Tarraco-FR-Blanco-Onyx.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\Fr\Tarraco-FR-Camuflaje.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\Fr\Tarraco-FR-Gris-Urano.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\Fr\Tarraco-FR-Negro-Profundo.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\Fr\Tarraco_FR.mp4" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\Style\Tarraco-Style--Blanco-Onyx.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\Style\Tarraco-Style-Azul-Atlantico.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\Style\Tarraco-Style-Gris-Indio.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\Style\Tarraco-Style-Gris-Urano.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\Style\Tarraco-Style-Negro-Profundo.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\Style\Tarraco-Style-Plata-Brillante.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\TARRACO_AA.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\TARRACO_BO.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\TARRACO_BT.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\TARRACO_C.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\TARRACO_GI.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\TARRACO_GU.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\TARRACO_NP.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\TARRACO_PB.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\Xcellence\Tarraco-Xcellence-Azul-Atlantico.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\Xcellence\Tarraco-Xcellence-Beige-Titanio.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\Xcellence\Tarraco-Xcellence-Blanco-Onyx.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\Xcellence\Tarraco-Xcellence-Camuflaje.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\Xcellence\Tarraco-Xcellence-Gris-Indio.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\Xcellence\Tarraco-Xcellence-Gris-Urano.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\Xcellence\Tarraco-Xcellence-Negro-Profundo.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\Xcellence\Tarraco-Xcellence-Plata-Brillante.png" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\Xcellence\Tarraco_Xcellence.mp4" />
+    <Content Include="Resources\MarcaModelos\Vw\AzulBiscay.png" />
+    <Content Include="Resources\MarcaModelos\Vw\AzulCornflower.png" />
+    <Content Include="Resources\MarcaModelos\Vw\AzulLapiz.png" />
+    <Content Include="Resources\MarcaModelos\Vw\AzulLapizConNegroProfundo.png" />
+    <Content Include="Resources\MarcaModelos\Vw\AzulNordico.png" />
+    <Content Include="Resources\MarcaModelos\Vw\AzulSeda.png" />
+    <Content Include="Resources\MarcaModelos\Vw\BlancoCandy.png" />
+    <Content Include="Resources\MarcaModelos\Vw\BlancoCandyConNegroProfundo.png" />
+    <Content Include="Resources\MarcaModelos\Vw\BlancoPuro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\BlancoPuroConNegro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\CrossSport\BlancoPuro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\CrossSport\GrisPuro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\CrossSport\NegroProfundo.png" />
+    <Content Include="Resources\MarcaModelos\Vw\CrossSport\PlataPirita.png" />
+    <Content Include="Resources\MarcaModelos\Vw\GrisCarbonSteel.png" />
+    <Content Include="Resources\MarcaModelos\Vw\GrisPlatino.png" />
+    <Content Include="Resources\MarcaModelos\Vw\GrisPuro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\GrisPuroConNegro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\Confortline\AzulSeda.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\Confortline\BlancoPuro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\Confortline\GrisPlatino.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\Confortline\Negro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\Confortline\PlataPirita.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\Confortline\RojoTornado.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\GLI\BlancoPuroConNegro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\GLI\GrisPuroConNegro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\GLI\NegroProfundo.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\GLI\PlataPiritaconNegro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\GLI\RojoTornadoConNegro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\Highline\AzulSeda.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\Highline\BlancoPuro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\Highline\GrisPlatino.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\Highline\NegroProfundo.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\Highline\PlataPirita.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\R\BlancoPuro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\R\GrisPlatino.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\R\NegroProfundo.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\R\PlataPirita.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\R\RojoTornado.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\Trendline\AzulSeda.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\Trendline\BlancoPuro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\Trendline\GrisPlatino.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\Trendline\NegroProfundo.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\Trendline\PlataPirita.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\Trendline\RojoTornado.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Negro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\NegroProfundo.png" />
+    <Content Include="Resources\MarcaModelos\Vw\PlataPirita.png" />
+    <Content Include="Resources\MarcaModelos\Vw\PlataPiritaconNegro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\PlataReflex.png" />
+    <Content Include="Resources\MarcaModelos\Vw\PlataReflexConNegroProfundo.png" />
+    <Content Include="Resources\MarcaModelos\Vw\PlataSirus.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Polo\Comfortline\AzulLapiz.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Polo\Comfortline\BlancoCandy.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Polo\Comfortline\GrisCarbonSteel.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Polo\Comfortline\PlataReflex.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Polo\Comfortline\RojoFlash.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Polo\EdicionEspecial\AzulLapizConNegroProfundo.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Polo\EdicionEspecial\BlancoCandyConNegroProfundo.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Polo\EdicionEspecial\PlataReflexConNegroProfundo.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Polo\EdicionEspecial\RojoSunsetConNegroProfundo.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Polo\Startline\AzulLapiz.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Polo\Startline\BlancoCandy.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Polo\Startline\GrisCarbonSteel.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Polo\Startline\PlataReflex.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Polo\Startline\RojoFlash.png" />
+    <Content Include="Resources\MarcaModelos\Vw\RojoAuroraChroma.png" />
+    <Content Include="Resources\MarcaModelos\Vw\RojoCrimson.png" />
+    <Content Include="Resources\MarcaModelos\Vw\RojoFlash.png" />
+    <Content Include="Resources\MarcaModelos\Vw\RojoRey.png" />
+    <Content Include="Resources\MarcaModelos\Vw\RojoSunset.png" />
+    <Content Include="Resources\MarcaModelos\Vw\RojoSunsetConNegroProfundo.png" />
+    <Content Include="Resources\MarcaModelos\Vw\RojoTornado.png" />
+    <Content Include="Resources\MarcaModelos\Vw\RojoTornadoConNegro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\RubyRedMetalico.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Saveiro\BlancoCandy.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Saveiro\Negro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Saveiro\PlataSirus.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Saveiro\RojoFlash.png" />
+    <Content Include="Resources\MarcaModelos\Vw\T-Cross\Comfortline\AzulNordico.png" />
+    <Content Include="Resources\MarcaModelos\Vw\T-Cross\Comfortline\BlancoPuro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\T-Cross\Comfortline\GrisPlatino.png" />
+    <Content Include="Resources\MarcaModelos\Vw\T-Cross\Comfortline\Negro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\T-Cross\Comfortline\PlataReflex.png" />
+    <Content Include="Resources\MarcaModelos\Vw\T-Cross\Highline\AzulNordico.png" />
+    <Content Include="Resources\MarcaModelos\Vw\T-Cross\Highline\BlancoPuro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\T-Cross\Highline\GrisPlatino.png" />
+    <Content Include="Resources\MarcaModelos\Vw\T-Cross\Highline\Negro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\T-Cross\Highline\PlataReflex.png" />
+    <Content Include="Resources\MarcaModelos\Vw\T-Cross\Highline\RojoCrimson.png" />
+    <Content Include="Resources\MarcaModelos\Vw\T-Cross\Trendline\AzulNordico.png" />
+    <Content Include="Resources\MarcaModelos\Vw\T-Cross\Trendline\BlancoPuro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\T-Cross\Trendline\GrisPlatino.png" />
+    <Content Include="Resources\MarcaModelos\Vw\T-Cross\Trendline\Negro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\T-Cross\Trendline\PlataReflex.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Taos\Comfortline\AzulCornflower.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Taos\Comfortline\BlancoPuro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Taos\Comfortline\GrisPlatino.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Taos\Comfortline\GrisPuro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Taos\Comfortline\NegroProfundo.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Taos\Comfortline\RojoRey.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Taos\Highline\AzulCornflower.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Taos\Highline\BlancoPuro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Taos\Highline\GrisPlatino.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Taos\Highline\GrisPuro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Taos\Highline\NegroProfundo.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Taos\Highline\RojoRey.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Taos\Trendline\AzulCornflower.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Taos\Trendline\BlancoPuro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Taos\Trendline\GrisPlatino.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Taos\Trendline\NegroProfundo.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Teramont\Comfortline\BlancoPuro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Teramont\Comfortline\GrisPlatino.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Teramont\Comfortline\NegroProfundo.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Teramont\Comfortline\PlataPirita.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Teramont\Comfortline\RojoAuroraChroma.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Teramont\Highline\BlancoPuro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Teramont\Highline\GrisPlatino.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Teramont\Highline\NegroProfundo.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Teramont\Highline\PlataPirita.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Teramont\Trendline\BlancoPuro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Teramont\Trendline\GrisPlatino.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Teramont\Trendline\PlataPirita.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Teramont\Trendline\RojoAuroraChroma.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Tiguan\Confortline\AzulAtlantic.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Tiguan\Confortline\BlancoPuro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Tiguan\Confortline\GrisPlatino.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Tiguan\Confortline\NegroProfundo.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Tiguan\Confortline\PlataPirita.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Tiguan\Confortline\RojoRey.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Tiguan\Highline\AzulSeda.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Tiguan\Highline\BlancoPuro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Tiguan\Highline\GrisPlatino.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Tiguan\Highline\NegroProfundo.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Tiguan\Highline\PlataPirita.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Tiguan\R-Line\BlancoPuro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Tiguan\R-Line\GrisPlatino.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Tiguan\R-Line\NegroProfundo.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Tiguan\R-Line\PlataPirita.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Tiguan\Trendline\AzulAtlantic.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Tiguan\Trendline\BlancoPuro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Tiguan\Trendline\GrisPlatino.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Tiguan\Trendline\NegroProfundo.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Tiguan\Trendline\PlataPirita.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Tiguan\Trendline\RojoRey.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Vento\Comfortline\BlancoCandy.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Vento\Comfortline\GrisCarbonSteel.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Vento\Comfortline\PlataReflex.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Vento\Comfortline\RojoSunset.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Vento\Startline\BlancoCandy.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Vento\Startline\GrisCarbonSteel.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Vento\Startline\PlataReflex.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Vento\Startline\RojoSunset.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Virtus\1.6L\AzulBiscay.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Virtus\1.6L\BlancoCandy.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Virtus\1.6L\GrisPlatino.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Virtus\1.6L\Negro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Virtus\1.6L\PlataSirus.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Virtus\1.6L\RojoTornado.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Virtus\AzulBiscay.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Virtus\BlancoCandy.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Virtus\GrisPlatino.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Virtus\Negro.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Virtus\PlataSirus.png" />
+    <Content Include="Resources\MarcaModelos\Vw\Virtus\RojoTornado.png" />
+    <Content Include="Scripts\ai.0.22.9-build00167.js" />
+    <Content Include="Scripts\ai.0.22.9-build00167.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Areas\HelpPage\Views\Web.config" />
+    <Content Include="Areas\HelpPage\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\ResourceModel.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\Index.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\TextSample.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\SimpleTypeModelDescription.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\Samples.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\Parameters.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ModelDescriptionLink.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\KeyValuePairModelDescription.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\InvalidSample.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ImageSample.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\HelpPageApiModel.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\EnumTypeModelDescription.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\DictionaryModelDescription.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ComplexTypeModelDescription.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\CollectionModelDescription.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
+    <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
+    <Content Include="ApplicationInsights.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Properties\PublishProfiles\Pcc.pubxml" />
+    <Content Include="Resources\Politicas\Acapulco\politicasAcapulco.pdf" />
+    <Content Include="Resources\Politicas\CDMX\politicasCDMX.pdf" />
+    <Content Include="Resources\Politicas\Monterrey\politicasMonterrey.pdf" />
+    <Content Include="ResourcesJson\Versiones.json" />
+    <Content Include="ResourcesJson\Ruta360.json" />
+    <Content Include="ResourcesJson\Ubicacion.json" />
+    <Content Include="Resources\MarcaModelos\Cupra\Ateca\Ateca\fichatecnica36034.pdf" />
+    <Content Include="Resources\MarcaModelos\Cupra\Ateca\LimitedEdition\fichatecnica36899.pdf" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\Leon\fichatecnica35731.pdf" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\SpecialEdition\fichatecnica36389.pdf" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\SEAT-Ibiza-2020.pdf" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\SEAT-Ateca-2021.pdf" />
+    <Content Include="Resources\MarcaModelos\Seat\Tarraco\SEAT-Tarraco-2021.pdf" />
+    <Content Include="Resources\MarcaModelos\Seat\Ateca\SEAT-Ateca-2020.pdf" />
+    <Content Include="Resources\MarcaModelos\Seat\Ibiza\SEAT-Ibiza-2021.pdf" />
+    <Content Include="Resources\MarcaModelos\Seat\Arona\SEAT-Arona-2021.pdf" />
+    <Content Include="Resources\MarcaModelos\Cupra\Ateca\Ateca2021\CUPRA-Ateca-2021.pdf" />
+    <Content Include="ResourcesJson\Nacionalidad.json" />
+    <Content Include="ResourcesJson\UsosCfdi.json" />
+    <Content Include="ResourcesJson\Ocupacion.json" />
+    <Content Include="ResourcesJson\IdentificacionOficial.json" />
+    <Content Include="Resources\CuentasBancarias.json" />
+    <Content Include="ResourcesJson\DocumentosDeCliente.json" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\jetta.pdf" />
+    <Content Include="ResourcesJson\Asunto.json" />
+    <Content Include="ResourcesJson\Mensaje.json" />
+    <Content Include="Resources\MarcaModelos\Cupra\Formentor\fichatecnicacupraformentor.pdf" />
+    <Content Include="ResourcesJson\TerminosCondicionesXMarca.json" />
+    <Content Include="ResourcesJson\NotificacionXApp.json" />
+    <Content Include="Resources\Politicas\Monterrey\politicasMonterreyCupra.pdf" />
+    <Content Include="Resources\Politicas\CDMX\politicasCDMXCupra.pdf" />
+    <Content Include="Resources\Politicas\Acapulco\politicasAcapulcoCupra.pdf" />
+    <Content Include="ResourcesJson\VideoNosotrosXIdApps.json" />
+    <Content Include="Resources\MarcaModelos\Seat\Leon\FichaLeon.pdf" />
+    <Content Include="Resources\Politicas\TerminosYCondiciones\AvisoPrivacidad.pdf" />
+    <Content Include="Resources\Politicas\TerminosYCondiciones\TerminoYCondiciones.pdf" />
+    <Content Include="Resources\Politicas\Cuatla\CRESTA_CUAUTLA_Politicas_TerminosLegales_App.pdf" />
+    <Content Include="Resources\Politicas\CDMX\CRESTA_DEL_VALLE_Politicas_TerminosLegales_App.pdf" />
+    <Content Include="Resources\Politicas\CDMX\CRESTA_IZTAPALAPA_Politicas_TerminosLegales_App.pdf" />
+    <Content Include="Resources\Politicas\CDMX\CRESTA_NARVARTE_Politicas_TerminosLegales_App.pdf" />
+    <Content Include="Resources\Politicas\Acapulco\CRESTA_FURIA_ACAPULCO_Politicas_TerminosLegales_App.pdf" />
+    <Content Include="Resources\Politicas\Morelos\CRESTA_CUERNAVACA_Politicas_TerminosLegales_App.pdf" />
+    <Content Include="Resources\Politicas\Morelos\CRESTA_MORELOS_Politicas_TerminosLegales_App.pdf" />
+    <Content Include="Resources\MarcaModelos\Vw\Saveiro\Saveiro.pdf" />
+    <Content Include="Resources\MarcaModelos\Vw\Taos\Taos.pdf" />
+    <Content Include="Resources\MarcaModelos\Vw\T-Cross\T-CROSS.pdf" />
+    <Content Include="Resources\MarcaModelos\Vw\Teramont\Teramont.pdf" />
+    <Content Include="Resources\MarcaModelos\Vw\Virtus\Virtus.pdf" />
+    <Content Include="Resources\MarcaModelos\Cupra\Leon\CupraLeon\CupraLeon.pdf" />
+    <Content Include="Resources\MarcaModelos\Vw\Polo\Polo.pdf" />
+    <Content Include="Resources\MarcaModelos\Vw\Jetta\JettaGLI.pdf" />
+    <Content Include="Resources\MarcaModelos\Vw\Vento\Vento.pdf" />
+    <Content Include="Resources\MarcaModelos\Vw\CrossSport\CrossSport.pdf" />
+    <Content Include="Resources\MarcaModelos\Audi\TT\RS\TT-RS.pdf" />
+    <Content Include="Resources\MarcaModelos\Audi\TT\S\TT-S.pdf" />
+    <Content Include="Resources\Politicas\TerminosYCondiciones\TerminosYCondicionesVW.pdf" />
+    <Content Include="Resources\MarcaModelos\Vw\Saveiro\Saveiro22.pdf" />
+    <Content Include="Resources\MarcaModelos\Vw\Virtus\Virtus22.pdf" />
+    <Content Include="Resources\Legales\avisoPrivacidad-Acapulco.pdf" />
+    <Content Include="Resources\Legales\avisoPrivacidad-CDMX.pdf" />
+    <Content Include="Resources\Legales\avisoPrivacidad-Monterrey.pdf" />
+    <Content Include="Resources\Legales\avisoPrivacidad.pdf" />
+    <Content Include="Resources\Legales\terminosCondiciones-Acapulco.pdf" />
+    <Content Include="Resources\Legales\terminosCondiciones-CDMX.pdf" />
+    <Content Include="Resources\Legales\terminosCondiciones-Monterrey.pdf" />
+    <Content Include="Resources\Legales\terminosCondiciones.pdf" />
+    <Content Include="Resources\MarcaModelos\Vw\Tiguan\Tiguan.pdf" />
+    <Content Include="RecursosAudi\Versiones.json" />
+    <Content Include="RecursosAudi\TipoVehiculo.json" />
+    <Content Include="RecursosAudi\TipoDescuento.json" />
+    <Content Include="ResourcesJson\CorreosSoporteApp.json" />
+    <Content Include="Resources\MarcaModelos\Audi\A1\A1.pdf" />
+    <Content Include="Resources\MarcaModelos\Audi\A4\A4.pdf" />
+    <Content Include="Resources\MarcaModelos\Audi\A5\A5Coupe.pdf" />
+    <Content Include="Resources\MarcaModelos\Audi\A5\A5Sportback.pdf" />
+    <Content Include="Resources\MarcaModelos\Audi\A6\A6.pdf" />
+    <Content Include="Resources\MarcaModelos\Audi\A7\A7.pdf" />
+    <Content Include="Resources\MarcaModelos\Audi\RS5\RS.pdf" />
+    <Content Include="Resources\MarcaModelos\Audi\Q2\Q2.pdf" />
+    <Content Include="Resources\MarcaModelos\Audi\Q5\Q5.pdf" />
+    <Content Include="Resources\MarcaModelos\Audi\Q7\Q7.pdf" />
+    <Content Include="Resources\MarcaModelos\Audi\Q8\Q8.pdf" />
+    <Content Include="Resources\MarcaModelos\Audi\R8\R8.pdf" />
+    <Content Include="Resources\MarcaModelos\Audi\TT\TTS.pdf" />
+    <Content Include="Resources\Politicas\Monterrey\PoliticasMonterryAudi.pdf" />
+    <Content Include="Resources\Politicas\Acapulco\PoliticasAcapulcoAudi.pdf" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Areas\HelpPage\Views\_ViewStart.cshtml" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Shared\Error.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Compras\ComprobantePagos\" />
+    <Folder Include="Compras\ComunicacionAgencia\" />
+    <Folder Include="Compras\Documentacion\" />
+    <Folder Include="Cuentas\FotoPerfil\" />
+    <Folder Include="Noticias\" />
+    <Folder Include="ProgramasEspeciales\Documentos\" />
+    <Folder Include="Resources\Facturas\" />
+    <Folder Include="Resources\Polizas\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="packages.config" />
+    <None Include="Project_Readme.html" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>25123</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:25174/wsApiVW</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.0.0\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

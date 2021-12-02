@@ -1,0 +1,14 @@
+[
+{
+"ClaveUsoFiscal" : "G03",
+"Descripcion" : "GASTOS EN GENERAL"
+},
+{
+"ClaveUsoFiscal" : "I03",
+"Descripcion" : "EQUIPO DE TRANSPORTE"
+},
+{
+"ClaveUsoFiscal" : "P01",
+"Descripcion" : "POR DEFINIR"
+}
+]

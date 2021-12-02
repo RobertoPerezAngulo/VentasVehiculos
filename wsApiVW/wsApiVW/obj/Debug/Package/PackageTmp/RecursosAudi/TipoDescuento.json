@@ -1,0 +1,10 @@
+﻿[
+  {
+    "Id": "1",
+    "Nombre": "Porcentaje (%)"
+  },
+  {
+    "Id": "2",
+    "Nombre" :  "Monto ($)"
+  }
+]

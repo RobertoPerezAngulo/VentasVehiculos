@@ -1,0 +1,30 @@
+DB2 - DB2 192.192.192.2 - PROD
+#define
+
+09:25:38.45   CurrentProcessId: 21932
+ 
+new DB2(DB2, 192.192.192.2, , )
+
+09:25:39.45   CurrentProcessId: 21932	JobName:835636/QUSER/QZDASOINIT     
+ 
+INSERT INTO PRODAPPS.APEDVPOL
+                    (
+                       FIAPIDAPPS
+                      ,FIAPIDSPOL   /*CONSECUTIVO*/
+                      ,FIAPIDCOMP   /*ID COMPRA*/
+                      ,FIAPIDCUEN   /*ID CUENTA*/
+                      ,FSAPNOASEG   /*NOMBRE DE ASEGURADORA*/
+                      ,FSAPCOBERT   /*COBERTURA*/
+                      ,FDAPCANTID   /*TOTAL*/
+                      ,FIAPIDTIPO   /*TIPO*/
+                      ,FSAPDOCUME   /*NOMBRE DOCUMENTO*/
+                      ,FSAPRUTDOC   /*RUTA*/
+                      ,FIAPSELECT   /*SELECCIONADO*/
+                      ,FIAPSTATUS   /*ESTATUS*/
+                      ,USERCREAT    /*USUARIO DE CREACION*/
+                      ,DATECREAT    /*FECHA DE CREACION*/
+                      ,TIMECREAT    /*HORA DE CREACION*/
+                      ,PROGCREAT    /*PROGRAMA DE CREACION*/
+
+                   ) VALUES(1, 1, 218 , 1,'HDI','NORMAL',10000,1 , 'CHISPITA ','http://ws-smartit.divisionautomotriz.com/wsApiVW/Resources/Polizas/1_218_1_1.pdf' , 0 , 1 , 'APP' , CURRENT DATE , CURRENT TIME , 'APP')
+
